@@ -1,4 +1,20 @@
 
+## v0.8.1
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v0.8.0...v0.8.1)
+
+### 🐞 Исправления
+
+- Удаление `typescript-eslint` из зависимостей ([2bbcda0](https://github.com/ExEr7um/eslint-config/commit/2bbcda0))
+
+### 📖 Документация
+
+- Обновление бейджей в `README` ([ce195dc](https://github.com/ExEr7um/eslint-config/commit/ce195dc))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v0.8.0
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v0.7.1...v0.8.0)
