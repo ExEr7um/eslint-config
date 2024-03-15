@@ -1,4 +1,16 @@
 
+## v0.8.2
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v0.8.1...v0.8.2)
+
+### 🐞 Исправления
+
+- Замена правила `perfectionist` на `vue/attributes-order` ([5bacf28](https://github.com/ExEr7um/eslint-config/commit/5bacf28))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v0.8.1
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v0.8.0...v0.8.1)
