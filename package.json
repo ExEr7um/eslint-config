@@ -2,9 +2,18 @@
   "name": "@exer7um/eslint-config",
   "version": "0.7.1",
   "description": "Конфигурация ESLint",
+  "keywords": [
+    "eslint-config",
+    "eslint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ExEr7um/eslint-config.git"
+  },
+  "author": {
+    "name": "Vasily Kuzin",
+    "email": "work@exer7um.com",
+    "url": "https://github.com/ExEr7um/prettier-config"
   },
   "main": "index.js",
   "scripts": {},
