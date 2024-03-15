@@ -1,4 +1,33 @@
 
+## v0.8.0
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v0.7.1...v0.8.0)
+
+### 🚀 Улучшения
+
+- ⚠️  Добавление плагина `eslint-plugin-perfectionist` ([7054489](https://github.com/ExEr7um/eslint-config/commit/7054489))
+
+### 📖 Документация
+
+- Обновление документации ([ccc88a6](https://github.com/ExEr7um/eslint-config/commit/ccc88a6))
+
+### 🏡 Другие изменения
+
+- Переход на Bun ([7110a76](https://github.com/ExEr7um/eslint-config/commit/7110a76))
+- Замена упоминаний `Pacific Agency` на `ExEr7um` ([2c99a10](https://github.com/ExEr7um/eslint-config/commit/2c99a10))
+- Подготовка к публикации на npm ([af33571](https://github.com/ExEr7um/eslint-config/commit/af33571))
+- Обновление скриптов релиза ([4c6c4b6](https://github.com/ExEr7um/eslint-config/commit/4c6c4b6))
+- Добавление информации в `package.json` ([95e0d63](https://github.com/ExEr7um/eslint-config/commit/95e0d63))
+- Добавление лицензии ([f70bb9e](https://github.com/ExEr7um/eslint-config/commit/f70bb9e))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Добавление плагина `eslint-plugin-perfectionist` ([7054489](https://github.com/ExEr7um/eslint-config/commit/7054489))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v0.7.1
 
 [compare changes](https://github.com/Pacific-Agency/eslint-config/compare/v0.7.0...v0.7.1)
