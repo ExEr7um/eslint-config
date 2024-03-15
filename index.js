@@ -27,12 +27,7 @@ module.exports = {
     parser: "@typescript-eslint/parser",
     sourceType: "module",
   },
-  plugins: [
-    "@typescript-eslint",
-    "jsdoc",
-    "perfectionist",
-    "vue",
-  ],
+  plugins: ["@typescript-eslint", "jsdoc", "perfectionist", "vue"],
   root: true,
   rules: {
     "@intlify/vue-i18n/no-duplicate-keys-in-locale": "error",

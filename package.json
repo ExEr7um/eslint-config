@@ -4,10 +4,10 @@
   "description": "Конфигурация ESLint",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pacific-Agency/eslint-config"
+    "url": "https://github.com/ExEr7um/eslint-config"
   },
   "main": "index.js",
-  "prettier": "@pacific-agency/prettier-config",
+  "prettier": "@exer7um/prettier-config",
   "dependencies": {
     "@intlify/eslint-plugin-vue-i18n": "next",
     "@nuxt/eslint-config": "~0.2.0",
