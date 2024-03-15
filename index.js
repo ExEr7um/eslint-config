@@ -7,10 +7,10 @@ module.exports = {
   },
   extends: [
     "plugin:@typescript-eslint/recommended",
-    "plugin:typescript-sort-keys/recommended",
     "plugin:jsdoc/recommended",
     "plugin:jsonc/recommended-with-json",
     "plugin:jsonc/prettier",
+    "plugin:perfectionist/recommended-natural",
     "plugin:@intlify/vue-i18n/recommended",
     "@nuxt/eslint-config",
     "prettier",
@@ -29,11 +29,8 @@ module.exports = {
   },
   plugins: [
     "@typescript-eslint",
-    "eslint-plugin-tsdoc",
-    "sort-destructure-keys",
-    "sort-keys-fix",
-    "typescript-sort-keys",
     "jsdoc",
+    "perfectionist",
     "vue",
   ],
   root: true,
@@ -56,15 +53,6 @@ module.exports = {
       },
     ],
     "jsonc/sort-keys": ["error", "asc"],
-    "sort-destructure-keys/sort-destructure-keys": "error",
-    "sort-keys-fix/sort-keys-fix": "error",
-    "tsdoc/syntax": "error",
-    "vue/attributes-order": [
-      "error",
-      {
-        alphabetical: true,
-      },
-    ],
     "vue/block-lang": [
       "error",
       {
