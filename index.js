@@ -48,6 +48,13 @@ module.exports = {
       },
     ],
     "jsonc/sort-keys": ["error", "asc"],
+    "perfectionist/sort-vue-attributes": "off",
+    "vue/attributes-order": [
+      "error",
+      {
+        alphabetical: true,
+      },
+    ],
     "vue/block-lang": [
       "error",
       {
