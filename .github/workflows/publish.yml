@@ -1,4 +1,4 @@
-name: Публикация на GitHub Packages
+name: Публикация на npm
 
 on:
   workflow_run:
@@ -7,19 +7,6 @@ on:
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
-    permissions:
-      packages: write
-      contents: read
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Настройка NodeJS
-        uses: actions/setup-node@v3
-        with:
-          registry-url: https://npm.pkg.github.com/
-
-      - name: Публикация
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ github.token }}
+    uses: ExEr7um/workflows/.github/workflows/publish.yml@v0.6.0
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

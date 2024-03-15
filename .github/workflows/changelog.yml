@@ -10,9 +10,9 @@ on:
 
 jobs:
   changelog:
-    uses: Pacific-Agency/workflows/.github/workflows/changelog.yml@v0.3.0
+    uses: ExEr7um/workflows/.github/workflows/changelog.yml@v0.6.0
     with:
       version: ${{ inputs.version }}
     secrets:
-      BOT_ACCESS_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
       GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+      PASSPHRASE: ${{ secrets.PASSPHRASE }}
