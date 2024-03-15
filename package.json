@@ -1,5 +1,5 @@
 {
-  "name": "@pacific-agency/eslint-config",
+  "name": "@exer7um/eslint-config",
   "version": "0.7.1",
   "description": "Конфигурация ESLint",
   "repository": {
@@ -11,18 +11,17 @@
   "dependencies": {
     "@intlify/eslint-plugin-vue-i18n": "next",
     "@nuxt/eslint-config": "~0.2.0",
-    "eslint": "~8.48.0",
-    "eslint-config-prettier": "~9.0.0",
-    "eslint-plugin-jsdoc": "~46.5.1",
-    "eslint-plugin-jsonc": "~2.9.0",
-    "eslint-plugin-sort-destructure-keys": "~1.5.0",
-    "eslint-plugin-sort-keys-fix": "~1.1.2",
-    "eslint-plugin-tsdoc": "~0.2.17",
-    "eslint-plugin-typescript-sort-keys": "~3.0.0",
-    "eslint-plugin-vue": "~9.17.0"
+    "@typescript-eslint/eslint-plugin": "~7.2.0",
+    "@typescript-eslint/parser": "~7.2.0",
+    "eslint": "~8.57.0",
+    "eslint-config-prettier": "~9.1.0",
+    "eslint-plugin-jsdoc": "~48.2.1",
+    "eslint-plugin-jsonc": "~2.13.0",
+    "eslint-plugin-perfectionist": "~2.7.0",
+    "eslint-plugin-vue": "~9.23.0",
+    "typescript": "~5.4.2"
   },
   "devDependencies": {
-    "@pacific-agency/prettier-config": "0.3.0"
-  },
-  "packageManager": "pnpm@8.7.0"
+    "@exer7um/prettier-config": "0.4.1"
+  }
 }
