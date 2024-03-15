@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/ExEr7um/eslint-config.git"
   },
+  "license": "MIT",
   "author": {
     "name": "Vasily Kuzin",
     "email": "work@exer7um.com",
