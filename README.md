@@ -1,19 +1,23 @@
 # Конфигурация ESLint
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/pacific-agency/eslint-config?colorA=18181B&colorB=AAC811&label=%D0%A0%D0%B5%D0%BB%D0%B8%D0%B7)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/exer7um/eslint-config?color=%232563EB&label=%D0%A0%D0%B5%D0%BB%D0%B8%D0%B7)
 
 ## Установка
 
 ```bash
-pnpm i -D @pacific-agency/eslint-config
+bun add -D @exer7um/eslint-config
 ```
 
 ```bash
-npm i -D @pacific-agency/eslint-config
+pnpm i -D @exer7um/eslint-config
 ```
 
 ```bash
-yarn add -D @pacific-agency/eslint-config
+npm i -D @exer7um/eslint-config
+```
+
+```bash
+yarn add -D @exer7um/eslint-config
 ```
 
 ## Использование
@@ -22,7 +26,7 @@ yarn add -D @pacific-agency/eslint-config
 
 ```json
 {
-  "extends": "@pacific-agency"
+  "extends": "@exer7um"
 }
 ```
 
@@ -32,11 +36,9 @@ yarn add -D @pacific-agency/eslint-config
 {
   "eslint.validate": [
     "javascript",
-    "javascriptreact",
     "json",
     "vue",
     "typescript",
-    "typescriptreact"
   ],
 }
 ```
