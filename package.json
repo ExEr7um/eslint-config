@@ -4,9 +4,10 @@
   "description": "Конфигурация ESLint",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ExEr7um/eslint-config"
+    "url": "git+https://github.com/ExEr7um/eslint-config.git"
   },
   "main": "index.js",
+  "scripts": {},
   "prettier": "@exer7um/prettier-config",
   "dependencies": {
     "@intlify/eslint-plugin-vue-i18n": "next",

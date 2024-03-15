@@ -34,12 +34,7 @@ yarn add -D @exer7um/eslint-config
 
 ```json
 {
-  "eslint.validate": [
-    "javascript",
-    "json",
-    "vue",
-    "typescript",
-  ],
+  "eslint.validate": ["javascript", "json", "vue", "typescript"]
 }
 ```
 
