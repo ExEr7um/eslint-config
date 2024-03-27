@@ -23,36 +23,38 @@ yarn add -D @exer7um/eslint-config
 
 ## Использование
 
-Для использования нужно создать файл `.eslintrc` с содержимым:
+Для использования нужно создать файл `eslint.config.mjs` с содержимым:
 
-```json
-{
-  "extends": "@exer7um"
-}
+```js
+import exer7umConfig from "@exer7um/eslint-config"
+
+import withNuxt from "./.nuxt/eslint.config.mjs"
+
+export default withNuxt(exer7umConfig)
+```
+
+Добавить в файл `nuxt.config.ts` модуль `@nuxt/eslint`:
+
+```ts
+export default defineNuxtConfig({
+  modules: ["@nuxt/eslint"]
+})
 ```
 
 Добавить в файл `.vscode/settings.json`:
 
 ```json
 {
+  "eslint.experimental.useFlatConfig": true,
   "eslint.validate": ["javascript", "json", "vue", "typescript"]
 }
 ```
 
-## Проект с i18n
-
-Для использования плагина с `i18n` необходимо добавить в файл `.eslintrc`:
+Добавить команды для запуска в `package.json`:
 
 ```json
 {
-  "rules": {
-    "@intlify/vue-i18n/no-raw-text": "error",
-    "@intlify/vue-i18n/no-unused-keys": [
-      "error",
-      {
-        "enableFix": true
-      }
-    ]
-  }
+  "eslint": "eslint . --max-warnings=0",
+  "eslint:fix": "eslint . --max-warnings=0 --fix"
 }
 ```
