@@ -7,6 +7,6 @@ on:
 
 jobs:
   publish:
-    uses: ExEr7um/workflows/.github/workflows/publish.yml@v0.6.0
+    uses: ExEr7um/workflows/.github/workflows/publish.yml@v0.6.2
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
