@@ -1,4 +1,30 @@
 
+## v1.0.0
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v0.8.2...v1.0.0)
+
+### 🚀 Улучшения
+
+- ⚠️  Миграция на `Flat`-конфиг ([#3](https://github.com/ExEr7um/eslint-config/pull/3))
+- ⚠️  Обновление правил Vue ([#4](https://github.com/ExEr7um/eslint-config/pull/4))
+
+### 📖 Документация
+
+- Обновление инструкции использования ([7c8d0c7](https://github.com/ExEr7um/eslint-config/commit/7c8d0c7))
+
+### 🏡 Другие изменения
+
+- Обновление версии `ExEr7um/workflows` ([94b32f4](https://github.com/ExEr7um/eslint-config/commit/94b32f4))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Миграция на `Flat`-конфиг ([#3](https://github.com/ExEr7um/eslint-config/pull/3))
+- ⚠️  Обновление правил Vue ([#4](https://github.com/ExEr7um/eslint-config/pull/4))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v0.8.2
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v0.8.1...v0.8.2)
