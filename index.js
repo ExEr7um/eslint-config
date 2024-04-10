@@ -12,6 +12,7 @@ export default [
   ...jsoncConfigs["flat/recommended-with-json"],
   ...jsoncConfigs["flat/prettier"],
   {
+    name: "json/sort-keys",
     files: [
       "*.json",
       "**/*.json",
@@ -38,7 +39,7 @@ export default [
 
   // Base
   {
-    name: "base",
+    name: "general/base",
     rules: {
       "jsdoc/check-indentation": "warn",
       "jsdoc/require-param-type": "off",
@@ -62,7 +63,7 @@ export default [
 
   // Vue
   {
-    name: "vue",
+    name: "vue/base",
     files: ["**/*.vue"],
     rules: {
       "perfectionist/sort-vue-attributes": "off",
