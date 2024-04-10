@@ -1,4 +1,20 @@
 
+## v1.0.1
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.0.0...v1.0.1)
+
+### 🐞 Исправления
+
+- Обновление названий конфигов ([8c394b4](https://github.com/ExEr7um/eslint-config/commit/8c394b4))
+
+### 🏡 Другие изменения
+
+- Обновление зависимостей ([86195e6](https://github.com/ExEr7um/eslint-config/commit/86195e6))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.0.0
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v0.8.2...v1.0.0)
