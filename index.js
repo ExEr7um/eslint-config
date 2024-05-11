@@ -20,6 +20,7 @@ export default [
       "**/*.json5",
       "*.jsonc",
       "**/*.jsonc",
+      "**/*.vue",
     ],
     ignores: [
       "**/.nuxt",
@@ -39,7 +40,7 @@ export default [
   ...ymlConfigs["flat/standard"],
   ...ymlConfigs["flat/prettier"],
   {
-    files: ["*.yaml", "**/*.yaml", "*.yml", "**/*.yml"],
+    files: ["*.yaml", "**/*.yaml", "*.yml", "**/*.yml", "**/*.vue"],
     ignores: [".github/**"],
     name: "yml/sort-keys",
     rules: {
