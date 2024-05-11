@@ -1,4 +1,20 @@
 
+## v1.1.1
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.1.0...v1.1.1)
+
+### 🐞 Исправления
+
+- Добавление файлов `**/*.vue` для JSONC и YAML ([ede28e7](https://github.com/ExEr7um/eslint-config/commit/ede28e7))
+
+### 🏡 Другие изменения
+
+- Добавление настроек VSCode ([3379d6b](https://github.com/ExEr7um/eslint-config/commit/3379d6b))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.1.0
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.0.1...v1.1.0)
