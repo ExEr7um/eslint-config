@@ -13,7 +13,6 @@ export default [
   ...jsoncConfigs["flat/recommended-with-json"],
   ...jsoncConfigs["flat/prettier"],
   {
-    name: "json/sort-keys",
     files: [
       "*.json",
       "**/*.json",
@@ -22,9 +21,6 @@ export default [
       "*.jsonc",
       "**/*.jsonc",
     ],
-    rules: {
-      "jsonc/sort-keys": ["error", "asc"],
-    },
     ignores: [
       "**/.nuxt",
       "**/.output",
@@ -33,6 +29,10 @@ export default [
       "coverage/**",
       "package.json",
     ],
+    name: "json/sort-keys",
+    rules: {
+      "jsonc/sort-keys": ["error", "asc"],
+    },
   },
 
   // YAML
@@ -40,8 +40,8 @@ export default [
   ...ymlConfigs["flat/prettier"],
   {
     files: ["*.yaml", "**/*.yaml", "*.yml", "**/*.yml"],
-    name: "yml/sort-keys",
     ignores: [".github/**"],
+    name: "yml/sort-keys",
     rules: {
       "yml/sort-keys": ["error", "asc"],
     },
@@ -76,8 +76,8 @@ export default [
 
   // Vue
   {
-    name: "vue/base",
     files: ["**/*.vue"],
+    name: "vue/base",
     rules: {
       "perfectionist/sort-vue-attributes": "off",
       "vue/attributes-order": [
@@ -106,8 +106,8 @@ export default [
       "vue/define-macros-order": [
         "error",
         {
-          order: ["defineProps", "defineEmits", "defineModel"],
           defineExposeLast: true,
+          order: ["defineProps", "defineEmits", "defineModel"],
         },
       ],
       "vue/define-props-declaration": "error",

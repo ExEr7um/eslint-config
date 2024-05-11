@@ -18,7 +18,10 @@
   },
   "type": "module",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "eslint": "eslint . --max-warnings=0",
+    "eslint:fix": "eslint . --max-warnings=0 --fix",
+  },
   "prettier": "@exer7um/prettier-config",
   "dependencies": {
     "@nuxt/eslint": "~0.3.12",
