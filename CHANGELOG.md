@@ -1,4 +1,22 @@
 
+## v1.1.0
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.0.1...v1.1.0)
+
+### 🚀 Улучшения
+
+- Плагин `eslint-plugin-yml` ([3a065d3](https://github.com/ExEr7um/eslint-config/commit/3a065d3))
+
+### 🏡 Другие изменения
+
+- Обновление зависимостей ([623f539](https://github.com/ExEr7um/eslint-config/commit/623f539))
+- Настройка ESLint ([e96df89](https://github.com/ExEr7um/eslint-config/commit/e96df89))
+- Настройка Prettier ([ee609bc](https://github.com/ExEr7um/eslint-config/commit/ee609bc))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.0.1
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.0.0...v1.0.1)
