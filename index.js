@@ -2,6 +2,7 @@ import eslintConfigPrettier from "eslint-config-prettier"
 import jsdoc from "eslint-plugin-jsdoc"
 import { configs as jsoncConfigs } from "eslint-plugin-jsonc"
 import perfectionistNatural from "eslint-plugin-perfectionist/configs/recommended-natural"
+import { configs as ymlConfigs } from "eslint-plugin-yml"
 
 /** @type {import('eslint').Linter.FlatConfig} */
 export default [
@@ -32,6 +33,18 @@ export default [
       "coverage/**",
       "package.json",
     ],
+  },
+
+  // YAML
+  ...ymlConfigs["flat/standard"],
+  ...ymlConfigs["flat/prettier"],
+  {
+    files: ["*.yaml", "**/*.yaml", "*.yml", "**/*.yml"],
+    name: "yml/sort-keys",
+    ignores: [".github/**"],
+    rules: {
+      "yml/sort-keys": ["error", "asc"],
+    },
   },
 
   // Perfectionist
