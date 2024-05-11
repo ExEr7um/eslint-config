@@ -37,7 +37,7 @@ export default withNuxt(exer7umConfig)
 
 ```ts
 export default defineNuxtConfig({
-  modules: ["@nuxt/eslint"]
+  modules: ["@nuxt/eslint"],
 })
 ```
 

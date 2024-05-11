@@ -1,0 +1,21 @@
+bun.lockb
+bunfig.toml
+CHANGELOG.md
+LICENSE
+
+# Перенесено из .gitignore
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+node_modules
+logs
+*.log
+.DS_Store
+.fleet
+.idea
+.env
+.env.*
+!.env.example
