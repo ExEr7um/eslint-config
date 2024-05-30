@@ -1,4 +1,16 @@
 
+## v1.1.2
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.1.1...v1.1.2)
+
+### 🐞 Исправления
+
+- Добавление `pnpm-lock.yaml` в игнорируемые ([bf13a95](https://github.com/ExEr7um/eslint-config/commit/bf13a95))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.1.1
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.1.0...v1.1.1)
