@@ -41,7 +41,7 @@ export default [
   ...ymlConfigs["flat/prettier"],
   {
     files: ["*.yaml", "**/*.yaml", "*.yml", "**/*.yml", "**/*.vue"],
-    ignores: [".github/**"],
+    ignores: [".github/**", "pnpm-lock.yaml"],
     name: "yml/sort-keys",
     rules: {
       "yml/sort-keys": ["error", "asc"],
