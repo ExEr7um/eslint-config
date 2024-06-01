@@ -6,6 +6,11 @@ import { configs as ymlConfigs } from "eslint-plugin-yml"
 
 /** @type {import('eslint').Linter.FlatConfig} */
 export default [
+  {
+    ignores: ["pnpm-lock.yaml"],
+    name: "ignore/global",
+  },
+
   // JSDoc
   jsdoc.configs["flat/recommended"],
 
@@ -41,7 +46,7 @@ export default [
   ...ymlConfigs["flat/prettier"],
   {
     files: ["*.yaml", "**/*.yaml", "*.yml", "**/*.yml", "**/*.vue"],
-    ignores: [".github/**", "pnpm-lock.yaml"],
+    ignores: [".github/**"],
     name: "yml/sort-keys",
     rules: {
       "yml/sort-keys": ["error", "asc"],
