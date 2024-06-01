@@ -1,4 +1,16 @@
 
+## v1.1.3
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.1.2...v1.1.3)
+
+### 🐞 Исправления
+
+- Перенос `pnpm-lock.yaml` в глобальный паттерн игнора ([c1c7dea](https://github.com/ExEr7um/eslint-config/commit/c1c7dea))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.1.2
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.1.1...v1.1.2)
