@@ -1,3 +1,4 @@
+import gitignore from "eslint-config-flat-gitignore"
 import eslintConfigPrettier from "eslint-config-prettier"
 import jsdoc from "eslint-plugin-jsdoc"
 import { configs as jsoncConfigs } from "eslint-plugin-jsonc"
@@ -6,6 +7,9 @@ import { configs as ymlConfigs } from "eslint-plugin-yml"
 
 /** @type {import('eslint').Linter.FlatConfig} */
 export default [
+  gitignore({
+    root: true,
+  }),
   {
     ignores: ["pnpm-lock.yaml"],
     name: "ignore/global",
