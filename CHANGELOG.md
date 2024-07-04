@@ -1,4 +1,20 @@
 
+## v1.1.4
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.1.3...v1.1.4)
+
+### 🐞 Исправления
+
+- Добавление `eslint-config-flat-gitignore` ([b35dc04](https://github.com/ExEr7um/eslint-config/commit/b35dc04))
+
+### 🏡 Другие изменения
+
+- Обновление зависимостей ([8708661](https://github.com/ExEr7um/eslint-config/commit/8708661))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.1.3
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.1.2...v1.1.3)
