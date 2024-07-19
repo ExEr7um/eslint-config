@@ -26,14 +26,14 @@
   },
   "prettier": "@exer7um/prettier-config",
   "dependencies": {
-    "@nuxt/eslint": "~0.3.13",
-    "eslint": "~9.6.0",
-    "eslint-config-flat-gitignore": "~0.1.5",
-    "eslint-config-prettier": "~9.1.0",
-    "eslint-plugin-jsdoc": "~48.5.0",
-    "eslint-plugin-jsonc": "~2.16.0",
-    "eslint-plugin-perfectionist": "~2.11.0",
-    "eslint-plugin-yml": "~1.14.0"
+    "@nuxt/eslint": "^0.3.13",
+    "eslint": "^9.7.0",
+    "eslint-config-flat-gitignore": "^0.1.8",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jsdoc": "^48.7.0",
+    "eslint-plugin-jsonc": "^2.16.0",
+    "eslint-plugin-perfectionist": "^2.11.0",
+    "eslint-plugin-yml": "^1.14.0"
   },
   "devDependencies": {
     "@exer7um/prettier-config": "0.4.3"
