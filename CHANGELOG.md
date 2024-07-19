@@ -1,4 +1,25 @@
 
+## v1.2.0
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.1.4...v1.2.0)
+
+### 🚀 Улучшения
+
+- Распределение конфигов по файлам ([3fbbd43](https://github.com/ExEr7um/eslint-config/commit/3fbbd43))
+- Плагин `eslint-plugin-depend` ([81281bd](https://github.com/ExEr7um/eslint-config/commit/81281bd))
+
+### 🐞 Исправления
+
+- Обновление зависимостей ([58a29f0](https://github.com/ExEr7um/eslint-config/commit/58a29f0))
+
+### 🏡 Другие изменения
+
+- Обновление зависимостей ([ece408a](https://github.com/ExEr7um/eslint-config/commit/ece408a))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.1.4
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.1.3...v1.1.4)
