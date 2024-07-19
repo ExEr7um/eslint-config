@@ -2,6 +2,7 @@ import eslintConfigPrettier from "eslint-config-prettier"
 import perfectionistNatural from "eslint-plugin-perfectionist/configs/recommended-natural"
 
 import base from "./configs/base.js"
+import depend from "./configs/depend.js"
 import ignore from "./configs/ignore.js"
 import jsdoc from "./configs/jsdoc.js"
 import jsonc from "./configs/jsonc.js"
@@ -30,6 +31,9 @@ export default [
 
   // Vue
   ...vue,
+
+  // Depend
+  ...depend,
 
   // Prettier
   eslintConfigPrettier,
