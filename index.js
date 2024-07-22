@@ -1,5 +1,5 @@
 import eslintConfigPrettier from "eslint-config-prettier"
-import perfectionistNatural from "eslint-plugin-perfectionist/configs/recommended-natural"
+import perfectionist from "eslint-plugin-perfectionist"
 
 import base from "./configs/base.js"
 import depend from "./configs/depend.js"
@@ -24,7 +24,7 @@ export default [
   ...yaml,
 
   // Perfectionist
-  perfectionistNatural,
+  perfectionist.configs["recommended-natural"],
 
   // Base
   ...base,
