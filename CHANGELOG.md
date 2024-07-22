@@ -1,4 +1,16 @@
 
+## v1.2.1
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.2.0...v1.2.1)
+
+### 🐞 Исправления
+
+- Обновление `eslint-plugin-perfectionist` до `v3` ([ca9b007](https://github.com/ExEr7um/eslint-config/commit/ca9b007))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.2.0
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.1.4...v1.2.0)
