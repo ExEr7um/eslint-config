@@ -8,6 +8,7 @@ export default [
     rules: {
       "tailwindcss/classnames-order": "off",
       "tailwindcss/migration-from-tailwind-2": "off",
+      "tailwindcss/no-custom-classname": "off",
     },
   },
 ]
