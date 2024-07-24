@@ -1,4 +1,5 @@
 {
+  "cSpell.words": ["sonarjs"],
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
