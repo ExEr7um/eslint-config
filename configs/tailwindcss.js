@@ -1,9 +1,10 @@
-import { configs as tailwindConfigs } from "eslint-plugin-tailwindcss"
+import tailwind from "eslint-plugin-tailwindcss"
 
 export default [
-  ...tailwindConfigs["flat/recommended"],
+  ...tailwind.configs["flat/recommended"],
 
   {
+    name: "tailwindcss/base",
     rules: {
       "tailwindcss/classnames-order": "off",
       "tailwindcss/migration-from-tailwind-2": "off",
