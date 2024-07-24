@@ -6,6 +6,7 @@ import depend from "./configs/depend.js"
 import ignore from "./configs/ignore.js"
 import jsdoc from "./configs/jsdoc.js"
 import jsonc from "./configs/jsonc.js"
+import tailwindcss from "./configs/tailwindcss.js"
 import vue from "./configs/vue.js"
 import yaml from "./configs/yaml.js"
 
@@ -34,6 +35,9 @@ export default [
 
   // Depend
   ...depend,
+
+  // Tailwind CSS
+  ...tailwindcss,
 
   // Prettier
   eslintConfigPrettier,
