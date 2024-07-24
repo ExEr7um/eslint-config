@@ -1,4 +1,17 @@
 
+## v1.3.1
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.3.0...v1.3.1)
+
+### 🐞 Исправления
+
+- Отключение `vuejs-accessibility/media-has-caption` ([4e8966a](https://github.com/ExEr7um/eslint-config/commit/4e8966a))
+- Отключение `tailwindcss/no-custom-classname` ([c4161dc](https://github.com/ExEr7um/eslint-config/commit/c4161dc))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.3.0
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.2.1...v1.3.0)
