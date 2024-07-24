@@ -1,6 +1,7 @@
 import eslintConfigPrettier from "eslint-config-prettier"
 import perfectionist from "eslint-plugin-perfectionist"
 
+import accessibility from "./configs/accessibility.js"
 import base from "./configs/base.js"
 import depend from "./configs/depend.js"
 import ignore from "./configs/ignore.js"
@@ -38,6 +39,9 @@ export default [
 
   // Tailwind CSS
   ...tailwindcss,
+
+  // Accessibility
+  ...accessibility,
 
   // Prettier
   eslintConfigPrettier,
