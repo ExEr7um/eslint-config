@@ -24,6 +24,7 @@ export default [
           required: "id",
         },
       ],
+      "vuejs-accessibility/media-has-caption": "off",
     },
   },
 ]
