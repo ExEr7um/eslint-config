@@ -41,6 +41,7 @@ export default [
       "vue/html-comment-content-spacing": "error",
       "vue/html-comment-indent": "error",
       "vue/multi-word-component-names": "off",
+      "vue/no-empty-component-block": "error",
       "vue/no-ref-object-reactivity-loss": "error",
       "vue/no-setup-props-reactivity-loss": "error",
       "vue/no-unused-refs": "error",
