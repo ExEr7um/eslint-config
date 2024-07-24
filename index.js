@@ -9,6 +9,7 @@ import jsdoc from "./configs/jsdoc.js"
 import jsonc from "./configs/jsonc.js"
 import sonar from "./configs/sonar.js"
 import tailwindcss from "./configs/tailwindcss.js"
+import unicorn from "./configs/unicorn.js"
 import vue from "./configs/vue.js"
 import yaml from "./configs/yaml.js"
 
@@ -46,6 +47,9 @@ export default [
 
   // Sonar
   ...sonar,
+
+  // Unicorn
+  ...unicorn,
 
   // Prettier
   eslintConfigPrettier,
