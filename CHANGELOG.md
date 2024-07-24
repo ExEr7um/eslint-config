@@ -1,4 +1,28 @@
 
+## v1.3.0
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.2.1...v1.3.0)
+
+### 🚀 Улучшения
+
+- Плагин `eslint-plugin-tailwindcss` ([9c4a55e](https://github.com/ExEr7um/eslint-config/commit/9c4a55e))
+- Плагин `eslint-plugin-vuejs-accessibility` ([ee562a8](https://github.com/ExEr7um/eslint-config/commit/ee562a8))
+- Плагин `eslint-plugin-sonarjs` ([5a25a92](https://github.com/ExEr7um/eslint-config/commit/5a25a92))
+- Плагин `eslint-plugin-unicorn` ([4e30799](https://github.com/ExEr7um/eslint-config/commit/4e30799))
+
+### 🐞 Исправления
+
+- Исправление работы `eslint-plugin-tailwindcss` ([9564051](https://github.com/ExEr7um/eslint-config/commit/9564051))
+- Добавление правила `vue/no-empty-component-block` ([8f22ee2](https://github.com/ExEr7um/eslint-config/commit/8f22ee2))
+
+### 🏡 Другие изменения
+
+- Добавление `.gitattributes` ([cfe8398](https://github.com/ExEr7um/eslint-config/commit/cfe8398))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.2.1
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.2.0...v1.2.1)
