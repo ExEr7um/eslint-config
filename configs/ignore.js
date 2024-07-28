@@ -7,7 +7,7 @@ export default [
   }),
 
   {
-    ignores: ["pnpm-lock.yaml"],
+    ignores: ["package-lock.json", "pnpm-lock.yaml", "yarn.lock"],
     name: "general/ignore",
   },
 ]
