@@ -1,4 +1,16 @@
 
+## v1.3.2
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.3.1...v1.3.2)
+
+### 🐞 Исправления
+
+- Добавление игнорирования lock-файлов ([982698b](https://github.com/ExEr7um/eslint-config/commit/982698b))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.3.1
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.3.0...v1.3.1)
