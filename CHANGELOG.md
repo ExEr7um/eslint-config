@@ -1,4 +1,16 @@
 
+## v1.3.3
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.3.2...v1.3.3)
+
+### 🐞 Исправления
+
+- Обновление зависимостей ([d14ca26](https://github.com/ExEr7um/eslint-config/commit/d14ca26))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.3.2
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.3.1...v1.3.2)
