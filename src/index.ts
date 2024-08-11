@@ -11,6 +11,7 @@ import jsonc from "./configs/jsonc"
 import sonar from "./configs/sonar"
 import tailwindcss from "./configs/tailwindcss"
 import unicorn from "./configs/unicorn"
+import vitest from "./configs/vitest"
 import vue from "./configs/vue"
 import yaml from "./configs/yaml"
 
@@ -52,6 +53,9 @@ export default [
 
   // Unicorn
   ...unicorn,
+
+  // Vitest
+  ...vitest,
 
   // Prettier
   eslintConfigPrettier,

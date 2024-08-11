@@ -30,6 +30,7 @@
   "prettier": "@exer7um/prettier-config",
   "dependencies": {
     "@nuxt/eslint": "^0.5.0",
+    "@vitest/eslint-plugin": "^1.0.1",
     "eslint": "^9.9.0",
     "eslint-config-flat-gitignore": "^0.1.8",
     "eslint-config-prettier": "^9.1.0",
