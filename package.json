@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "@exer7um/prettier-config": "0.4.4",
-    "@types/bun": "latest",
+    "tsup": "8.2.4",
     "typescript": "5.5.4"
   }
 }
