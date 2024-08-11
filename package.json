@@ -17,12 +17,15 @@
     "url": "https://github.com/ExEr7um/prettier-config"
   },
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "eslint": "eslint . --max-warnings=0",
-    "eslint:fix": "eslint . --max-warnings=0 --fix",
+    "eslint": "eslint . --max-warnings=0 --flag unstable_ts_config",
+    "eslint:fix": "eslint . --max-warnings=0 --fix --flag unstable_ts_config",
+    "prepack": "tsup",
     "prettier": "prettier --check --ignore-unknown --no-error-on-unmatched-pattern *",
-    "prettier:write": "prettier --write --ignore-unknown --no-error-on-unmatched-pattern *"
+    "prettier:write": "prettier --write --ignore-unknown --no-error-on-unmatched-pattern *",
+    "typecheck": "tsc --noEmit"
   },
   "prettier": "@exer7um/prettier-config",
   "dependencies": {
@@ -41,6 +44,8 @@
     "eslint-plugin-yml": "^1.14.0"
   },
   "devDependencies": {
-    "@exer7um/prettier-config": "0.4.4"
+    "@exer7um/prettier-config": "0.4.4",
+    "@types/bun": "latest",
+    "typescript": "5.5.4"
   }
 }

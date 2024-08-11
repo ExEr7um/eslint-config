@@ -1,6 +1,6 @@
 import jsdoc from "eslint-plugin-jsdoc"
+import type { Linter } from "eslint"
 
-/** @type {import('eslint').Linter.FlatConfig} */
 export default [
   jsdoc.configs["flat/recommended"],
 
@@ -20,4 +20,4 @@ export default [
       ],
     },
   },
-]
+] as const satisfies Linter.Config[]

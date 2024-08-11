@@ -1,4 +1,5 @@
 import { configs as unicornConfigs } from "eslint-plugin-unicorn"
+import type { Linter } from "eslint"
 
 export default [
   unicornConfigs["flat/recommended"],
@@ -15,4 +16,4 @@ export default [
       "unicorn/switch-case-braces": ["error", "avoid"],
     },
   },
-]
+] as const satisfies Linter.Config[]

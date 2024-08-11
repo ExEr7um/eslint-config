@@ -1,4 +1,6 @@
+// @ts-expect-error - нет типизации
 import tailwind from "eslint-plugin-tailwindcss"
+import type { Linter } from "eslint"
 
 export default [
   ...tailwind.configs["flat/recommended"],
@@ -11,4 +13,4 @@ export default [
       "tailwindcss/no-custom-classname": "off",
     },
   },
-]
+] as const satisfies Linter.Config[]

@@ -1,6 +1,6 @@
 import * as depend from "eslint-plugin-depend"
+import type { Linter } from "eslint"
 
-/** @type {import('eslint').Linter.FlatConfig} */
 export default [
   depend.configs["flat/recommended"],
 
@@ -11,4 +11,4 @@ export default [
       "depend/ban-dependencies": "error",
     },
   },
-]
+] as const satisfies Linter.Config[]

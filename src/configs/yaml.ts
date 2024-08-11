@@ -1,4 +1,5 @@
 import { configs as ymlConfigs } from "eslint-plugin-yml"
+import type { Linter } from "eslint"
 
 /** @type {import('eslint').Linter.FlatConfig} */
 export default [
@@ -13,4 +14,4 @@ export default [
       "yml/sort-keys": ["error", "asc"],
     },
   },
-]
+] as const satisfies Linter.Config[]
