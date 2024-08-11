@@ -45,7 +45,7 @@ export default defineNuxtConfig({
 
 ```json
 {
-  "eslint.experimental.useFlatConfig": true,
+  "eslint.useFlatConfig": true,
   "eslint.validate": ["javascript", "json", "vue", "typescript", "yaml"]
 }
 ```
