@@ -19,6 +19,11 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "eslint": "eslint . --max-warnings=0 --flag unstable_ts_config",
