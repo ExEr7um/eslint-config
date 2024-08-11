@@ -1,6 +1,6 @@
 import { configs as jsoncConfigs } from "eslint-plugin-jsonc"
+import type { Linter } from "eslint"
 
-/** @type {import('eslint').Linter.FlatConfig} */
 export default [
   ...jsoncConfigs["flat/recommended-with-json"],
   ...jsoncConfigs["flat/prettier"],
@@ -28,4 +28,4 @@ export default [
       "jsonc/sort-keys": ["error", "asc"],
     },
   },
-]
+] as const satisfies Linter.Config[]

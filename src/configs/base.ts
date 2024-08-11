@@ -1,4 +1,5 @@
-/** @type {import('eslint').Linter.FlatConfig} */
+import type { Linter } from "eslint"
+
 export default [
   {
     name: "general/base",
@@ -9,4 +10,4 @@ export default [
       },
     },
   },
-]
+] as const satisfies Linter.Config[]

@@ -1,4 +1,5 @@
-/** @type {import('eslint').Linter.FlatConfig} */
+import type { Linter } from "eslint"
+
 export default [
   {
     files: ["**/*.vue"],
@@ -64,4 +65,4 @@ export default [
       "vue/v-for-delimiter-style": "error",
     },
   },
-]
+] as const satisfies Linter.Config[]

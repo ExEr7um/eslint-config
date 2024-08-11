@@ -1,19 +1,21 @@
+// @ts-expect-error - нет типизации
 import eslintConfigPrettier from "eslint-config-prettier"
 import perfectionist from "eslint-plugin-perfectionist"
 
-import accessibility from "./configs/accessibility.js"
-import base from "./configs/base.js"
-import depend from "./configs/depend.js"
-import ignore from "./configs/ignore.js"
-import jsdoc from "./configs/jsdoc.js"
-import jsonc from "./configs/jsonc.js"
-import sonar from "./configs/sonar.js"
-import tailwindcss from "./configs/tailwindcss.js"
-import unicorn from "./configs/unicorn.js"
-import vue from "./configs/vue.js"
-import yaml from "./configs/yaml.js"
+import accessibility from "./configs/accessibility"
+import base from "./configs/base"
+import depend from "./configs/depend"
+import ignore from "./configs/ignore"
+import jsdoc from "./configs/jsdoc"
+import jsonc from "./configs/jsonc"
+import sonar from "./configs/sonar"
+import tailwindcss from "./configs/tailwindcss"
+import unicorn from "./configs/unicorn"
+import vue from "./configs/vue"
+import yaml from "./configs/yaml"
 
-/** @type {import('eslint').Linter.FlatConfig} */
+import type { Linter } from "eslint"
+
 export default [
   // Игнорируемые файлы
   ...ignore,
@@ -53,4 +55,4 @@ export default [
 
   // Prettier
   eslintConfigPrettier,
-]
+] as const satisfies Linter.Config[]

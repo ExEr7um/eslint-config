@@ -1,4 +1,5 @@
 import pluginVueA11y from "eslint-plugin-vuejs-accessibility"
+import type { Linter } from "eslint"
 
 export default [
   ...pluginVueA11y.configs["flat/recommended"],
@@ -27,4 +28,4 @@ export default [
       "vuejs-accessibility/media-has-caption": "off",
     },
   },
-]
+] as const satisfies Linter.Config[]

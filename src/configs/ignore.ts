@@ -1,6 +1,6 @@
 import gitignore from "eslint-config-flat-gitignore"
+import type { Linter } from "eslint"
 
-/** @type {import('eslint').Linter.FlatConfig} */
 export default [
   gitignore({
     root: true,
@@ -10,4 +10,4 @@ export default [
     ignores: ["package-lock.json", "pnpm-lock.yaml", "yarn.lock"],
     name: "general/ignore",
   },
-]
+] as const satisfies Linter.Config[]
