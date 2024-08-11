@@ -1,4 +1,30 @@
 
+## v1.4.1
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.3.3...v1.4.1)
+
+### 🚀 Улучшения
+
+- Плагин `eslint-plugin-vitest` ([#9](https://github.com/ExEr7um/eslint-config/pull/9))
+
+### 💅 Рефактор кода
+
+- Использование TS для конфигураций ([#7](https://github.com/ExEr7um/eslint-config/pull/7))
+
+### 📖 Документация
+
+- Исправление параметра `useFlatConfig` ([7e93616](https://github.com/ExEr7um/eslint-config/commit/7e93616))
+
+### 🏡 Другие изменения
+
+- Обновление зависимостей ([af9a2ef](https://github.com/ExEr7um/eslint-config/commit/af9a2ef))
+- Настройка CI ([#8](https://github.com/ExEr7um/eslint-config/pull/8))
+- Добавление сборки проекта ([1e09a8e](https://github.com/ExEr7um/eslint-config/commit/1e09a8e))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.3.3
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.3.2...v1.3.3)
