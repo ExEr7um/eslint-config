@@ -20,9 +20,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsup",
     "eslint": "eslint . --max-warnings=0 --flag unstable_ts_config",
     "eslint:fix": "eslint . --max-warnings=0 --fix --flag unstable_ts_config",
-    "prepack": "tsup",
     "prettier": "prettier --check --ignore-unknown --no-error-on-unmatched-pattern *",
     "prettier:write": "prettier --write --ignore-unknown --no-error-on-unmatched-pattern *",
     "typecheck": "tsc --noEmit"
