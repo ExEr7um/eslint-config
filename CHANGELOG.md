@@ -1,4 +1,20 @@
 
+## v1.4.2
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.4.1...v1.4.2)
+
+### 🐞 Исправления
+
+- Добавление поля `files` для npm ([42ae416](https://github.com/ExEr7um/eslint-config/commit/42ae416))
+
+### 🏡 Другие изменения
+
+- Обновление зависимостей ([ee4e9c2](https://github.com/ExEr7um/eslint-config/commit/ee4e9c2))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.4.1
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.3.3...v1.4.1)
