@@ -1,4 +1,17 @@
 
+## v1.4.3
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.4.2...v1.4.3)
+
+### 🐞 Исправления
+
+- Правило `jsdoc/require-template` ([2ee2712](https://github.com/ExEr7um/eslint-config/commit/2ee2712))
+- **deps:** Обновление зависимостей ([446f67e](https://github.com/ExEr7um/eslint-config/commit/446f67e))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.4.2
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.4.1...v1.4.2)
