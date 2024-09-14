@@ -2,7 +2,6 @@ import { configs as sonarConfigs } from "eslint-plugin-sonarjs"
 import type { Linter } from "eslint"
 
 export default [
-  // @ts-expect-error - неправильная типизация
   sonarConfigs.recommended,
 
   {
