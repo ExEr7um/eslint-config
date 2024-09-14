@@ -1,4 +1,16 @@
 
+## v1.4.4
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.4.3...v1.4.4)
+
+### 🐞 Исправления
+
+- Откат обновления `sonarjs` ([85a55a6](https://github.com/ExEr7um/eslint-config/commit/85a55a6))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.4.3
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.4.2...v1.4.3)
