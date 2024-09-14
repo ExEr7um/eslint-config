@@ -10,6 +10,7 @@ export default [
       "jsdoc/check-indentation": "warn",
       "jsdoc/require-param-type": "off",
       "jsdoc/require-returns-type": "off",
+      "jsdoc/require-template": "warn",
       "jsdoc/sort-tags": "warn",
       "jsdoc/tag-lines": [
         "warn",
