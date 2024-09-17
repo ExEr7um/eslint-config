@@ -21,7 +21,7 @@ export default [
       "**/dist",
       "**/node_modules",
       "coverage/**",
-      "package.json",
+      "**/package.json",
     ],
     name: "json/sort-keys",
     rules: {
