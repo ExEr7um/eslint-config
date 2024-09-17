@@ -1,4 +1,16 @@
 
+## v1.4.5
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.4.4...v1.4.5)
+
+### 🐞 Исправления
+
+- Игнорирование вложенных `package.json` и lock-файлов ([ec018e3](https://github.com/ExEr7um/eslint-config/commit/ec018e3))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.4.4
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.4.3...v1.4.4)
