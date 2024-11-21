@@ -48,6 +48,7 @@ export default [
       "vue/no-unused-refs": "error",
       "vue/padding-line-between-blocks": "error",
       "vue/prefer-true-attribute-shorthand": "error",
+      "vue/prefer-use-template-ref": "error",
       "vue/require-prop-comment": [
         "error",
         {
