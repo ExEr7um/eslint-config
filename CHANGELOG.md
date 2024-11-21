@@ -1,4 +1,8 @@
 
+## v1.4.7
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.4.6...v1.4.7)
+
 ## v1.4.6
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.4.5...v1.4.6)
