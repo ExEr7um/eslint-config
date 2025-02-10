@@ -1,6 +1,7 @@
 // @ts-expect-error - нет типизации
 import eslintConfigPrettier from "eslint-config-prettier"
 import perfectionist from "eslint-plugin-perfectionist"
+import deMorgan from "eslint-plugin-de-morgan"
 
 import accessibility from "./configs/accessibility"
 import base from "./configs/base"
@@ -32,6 +33,9 @@ export default [
 
   // Perfectionist
   perfectionist.configs["recommended-natural"],
+
+  // deMorgan
+  deMorgan.configs.recommended,
 
   // Base
   ...base,

@@ -9,6 +9,7 @@
         "eslint": "^9.20.0",
         "eslint-config-flat-gitignore": "^2.0.0",
         "eslint-config-prettier": "^10.0.1",
+        "eslint-plugin-de-morgan": "^1.0.0",
         "eslint-plugin-depend": "^0.12.0",
         "eslint-plugin-jsdoc": "^50.6.3",
         "eslint-plugin-jsonc": "^2.19.1",
@@ -420,6 +421,8 @@
     "eslint-json-compat-utils": ["eslint-json-compat-utils@0.2.1", "", { "dependencies": { "esquery": "^1.6.0" }, "peerDependencies": { "eslint": "*", "jsonc-eslint-parser": "^2.4.0" } }, "sha512-YzEodbDyW8DX8bImKhAcCeu/L31Dd/70Bidx2Qex9OFUtgzXLqtfWL4Hr5fM/aCCB8QUZLuJur0S9k6UfgFkfg=="],
 
     "eslint-merge-processors": ["eslint-merge-processors@1.0.0", "", { "peerDependencies": { "eslint": "*" } }, "sha512-4GybyHmhXtT7/W8RAouQzNM0791sYasJCTYHIAYjuiJvbNFY0jMKkoESREhX+mjX37dxiN6v4EqhZ1nc0tJF7A=="],
+
+    "eslint-plugin-de-morgan": ["eslint-plugin-de-morgan@1.0.0", "", { "peerDependencies": { "eslint": ">=8.0.0" } }, "sha512-MpaG9bTiiu0kvOskZPKvKguynFFC81nyynnY3czHOZvfhvsWFgfRG6ufQmSlzlDbWIf6u7fuEHp4+1uUfWdrvg=="],
 
     "eslint-plugin-depend": ["eslint-plugin-depend@0.12.0", "", { "dependencies": { "fd-package-json": "^1.2.0", "module-replacements": "^2.1.0", "semver": "^7.6.3" } }, "sha512-bS5ESnC3eXDJPNv0RKkzRbLO45hRRLR/dleAUdbysXChWz1bAxa4MRh14EtDREn7fZieueqz4L7TfQQbzvdYHA=="],
 
