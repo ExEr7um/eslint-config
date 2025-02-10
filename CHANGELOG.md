@@ -1,4 +1,16 @@
 
+## v1.5.0
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.4.7...v1.5.0)
+
+### 🚀 Улучшения
+
+- Плагин `eslint-plugin-de-morgan` ([471d0f1](https://github.com/ExEr7um/eslint-config/commit/471d0f1))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v1.4.7
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.4.6...v1.4.7)
