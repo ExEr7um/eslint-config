@@ -1,10 +1,11 @@
-import vitest from "@vitest/eslint-plugin"
 import type { Linter } from "eslint"
+
+import vitest from "@vitest/eslint-plugin"
 
 export default [
   {
-    name: "vitest/base",
     files: ["**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts}"],
+    name: "vitest/base",
     plugins: {
       vitest,
     },

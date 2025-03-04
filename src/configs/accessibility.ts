@@ -1,5 +1,6 @@
-import pluginVueA11y from "eslint-plugin-vuejs-accessibility"
 import type { Linter } from "eslint"
+
+import pluginVueA11y from "eslint-plugin-vuejs-accessibility"
 
 export default [
   ...pluginVueA11y.configs["flat/recommended"],

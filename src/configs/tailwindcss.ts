@@ -1,6 +1,7 @@
+import type { Linter } from "eslint"
+
 // @ts-expect-error - нет типизации
 import tailwind from "eslint-plugin-tailwindcss"
-import type { Linter } from "eslint"
 
 export default [
   ...tailwind.configs["flat/recommended"],

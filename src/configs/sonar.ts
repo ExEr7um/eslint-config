@@ -1,5 +1,6 @@
-import { configs as sonarConfigs } from "eslint-plugin-sonarjs"
 import type { Linter } from "eslint"
+
+import { configs as sonarConfigs } from "eslint-plugin-sonarjs"
 
 export default [
   // @ts-expect-error - неправильная типизация

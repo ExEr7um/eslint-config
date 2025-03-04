@@ -1,7 +1,10 @@
+import type { Linter } from "eslint"
+
+import { createConfigForNuxt } from "@nuxt/eslint-config"
 // @ts-expect-error - нет типизации
 import eslintConfigPrettier from "eslint-config-prettier"
-import perfectionist from "eslint-plugin-perfectionist"
 import deMorgan from "eslint-plugin-de-morgan"
+import perfectionist from "eslint-plugin-perfectionist"
 
 import accessibility from "./configs/accessibility"
 import base from "./configs/base"
@@ -16,9 +19,7 @@ import vitest from "./configs/vitest"
 import vue from "./configs/vue"
 import yaml from "./configs/yaml"
 
-import type { Linter } from "eslint"
-
-export default [
+const ESLintConfig = [
   // Игнорируемые файлы
   ...ignore,
 
@@ -64,3 +65,5 @@ export default [
   // Prettier
   eslintConfigPrettier,
 ] as const satisfies Linter.Config[]
+
+export default createConfigForNuxt({}, ESLintConfig)
