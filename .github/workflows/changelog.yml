@@ -10,6 +10,6 @@ on:
 
 jobs:
   changelog:
-    uses: ExEr7um/workflows/.github/workflows/changelog.yml@v0.7.1
+    uses: ExEr7um/workflows/.github/workflows/changelog.yml@v0.7.3
     with:
       version: ${{ inputs.version }}
