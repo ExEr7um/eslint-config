@@ -8,7 +8,12 @@ export default [
   }),
 
   {
-    ignores: ["**/package-lock.json", "**/pnpm-lock.yaml", "**/yarn.lock"],
+    ignores: [
+      "**/package-lock.json",
+      "**/pnpm-lock.yaml",
+      "**/yarn.lock",
+      "**/bun.lock",
+    ],
     name: "general/ignore",
   },
 ] as const satisfies Linter.Config[]
