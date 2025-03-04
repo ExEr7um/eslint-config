@@ -6,26 +6,9 @@ export default [
     name: "vue/base",
     rules: {
       "perfectionist/sort-vue-attributes": "off",
-      "vue/attributes-order": [
-        "error",
-        {
-          alphabetical: true,
-        },
-      ],
-      "vue/block-lang": [
-        "error",
-        {
-          script: {
-            lang: "ts",
-          },
-        },
-      ],
-      "vue/block-order": [
-        "error",
-        {
-          order: ["script", "template", "style"],
-        },
-      ],
+      "vue/attributes-order": ["error", { alphabetical: true }],
+      "vue/block-lang": ["error", { script: { lang: "ts" } }],
+      "vue/block-order": ["error", { order: ["script", "template", "style"] }],
       "vue/block-tag-newline": "error",
       "vue/component-api-style": ["error", ["script-setup"]],
       "vue/define-emits-declaration": "error",
@@ -49,19 +32,12 @@ export default [
       "vue/padding-line-between-blocks": "error",
       "vue/prefer-true-attribute-shorthand": "error",
       "vue/prefer-use-template-ref": "error",
-      "vue/require-prop-comment": [
-        "error",
-        {
-          type: "JSDoc",
-        },
-      ],
+      "vue/require-prop-comment": ["error", { type: "JSDoc" }],
       "vue/require-typed-ref": "error",
       "vue/v-bind-style": [
         "error",
         "shorthand",
-        {
-          sameNameShorthand: "always",
-        },
+        { sameNameShorthand: "always" },
       ],
       "vue/v-for-delimiter-style": "error",
     },

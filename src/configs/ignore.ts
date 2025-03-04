@@ -3,9 +3,7 @@ import type { Linter } from "eslint"
 import gitignore from "eslint-config-flat-gitignore"
 
 export default [
-  gitignore({
-    root: true,
-  }),
+  gitignore({ root: true }),
 
   {
     ignores: [

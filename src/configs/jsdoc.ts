@@ -13,13 +13,7 @@ export default [
       "jsdoc/require-returns-type": "off",
       "jsdoc/require-template": "warn",
       "jsdoc/sort-tags": "warn",
-      "jsdoc/tag-lines": [
-        "warn",
-        "any",
-        {
-          startLines: 1,
-        },
-      ],
+      "jsdoc/tag-lines": ["warn", "any", { startLines: 1 }],
     },
   },
 ] as const satisfies Linter.Config[]

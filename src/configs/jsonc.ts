@@ -25,8 +25,6 @@ export default [
       "**/package.json",
     ],
     name: "json/sort-keys",
-    rules: {
-      "jsonc/sort-keys": ["error", "asc"],
-    },
+    rules: { "jsonc/sort-keys": ["error", "asc"] },
   },
 ] as const satisfies Linter.Config[]

@@ -32,9 +32,7 @@ export { default } from "@exer7um/eslint-config"
 Добавить в файл `.vscode/settings.json`:
 
 ```json
-{
-  "eslint.validate": ["javascript", "json", "vue", "typescript", "yaml"]
-}
+{ "eslint.validate": ["javascript", "json", "vue", "typescript", "yaml"] }
 ```
 
 Добавить команды для запуска в `package.json`:

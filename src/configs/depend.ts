@@ -8,8 +8,6 @@ export default [
   {
     files: ["package.json"],
     name: "depend/package-json",
-    rules: {
-      "depend/ban-dependencies": "error",
-    },
+    rules: { "depend/ban-dependencies": "error" },
   },
 ] as const satisfies Linter.Config[]

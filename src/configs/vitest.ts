@@ -6,23 +6,14 @@ export default [
   {
     files: ["**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts}"],
     name: "vitest/base",
-    plugins: {
-      vitest,
-    },
+    plugins: { vitest },
     rules: {
       ...vitest.configs.recommended.rules,
       "vitest/consistent-test-filename": [
         "error",
-        {
-          pattern: String.raw`.*\.spec\.ts`,
-        },
+        { pattern: String.raw`.*\.spec\.ts` },
       ],
-      "vitest/consistent-test-it": [
-        "error",
-        {
-          fn: "test",
-        },
-      ],
+      "vitest/consistent-test-it": ["error", { fn: "test" }],
       "vitest/no-alias-methods": "error",
       "vitest/no-conditional-expect": "error",
       "vitest/no-conditional-in-test": "error",
