@@ -1,4 +1,40 @@
 
+## v2.0.0
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.5.0...v2.0.0)
+
+### 🚀 Улучшения
+
+- ⚠️  Использование `@nuxt/eslint-config` для создания конфигурации ([#14](https://github.com/ExEr7um/eslint-config/pull/14))
+- Использование плагинов из `@nuxt/eslint-config` ([#16](https://github.com/ExEr7um/eslint-config/pull/16))
+- Включение `minify` и `treeshake` для сборки ([857d691](https://github.com/ExEr7um/eslint-config/commit/857d691))
+- Обновление `eslint-plugin-sonarjs` до `v3` ([#17](https://github.com/ExEr7um/eslint-config/pull/17))
+
+### 🐞 Исправления
+
+- Добавление `bun.lock` в игнорируемые файлы ([665b2e6](https://github.com/ExEr7um/eslint-config/commit/665b2e6))
+- Возврат `eslint-plugin-jsdoc` в `package.json` ([cccaa8b](https://github.com/ExEr7um/eslint-config/commit/cccaa8b))
+
+### 📖 Документация
+
+- ⚠️  Обновление гайда установки ([#15](https://github.com/ExEr7um/eslint-config/pull/15))
+
+### 🏡 Другие изменения
+
+- Удаление `.` из скриптов ESLint ([d50930e](https://github.com/ExEr7um/eslint-config/commit/d50930e))
+- Добавление ветки `next` в CI ([6ab6e0c](https://github.com/ExEr7um/eslint-config/commit/6ab6e0c))
+- Удаление `@nuxt/eslint` из зависимостей ([8f4e063](https://github.com/ExEr7um/eslint-config/commit/8f4e063))
+- Обновление версии `ExEr7um/workflows` до `v0.7.3` ([b857650](https://github.com/ExEr7um/eslint-config/commit/b857650))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Использование `@nuxt/eslint-config` для создания конфигурации ([#14](https://github.com/ExEr7um/eslint-config/pull/14))
+- ⚠️  Обновление гайда установки ([#15](https://github.com/ExEr7um/eslint-config/pull/15))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v1.5.0
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.4.7...v1.5.0)
