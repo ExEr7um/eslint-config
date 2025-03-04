@@ -23,29 +23,16 @@ yarn add -D @exer7um/eslint-config
 
 ## Использование
 
-Для использования нужно создать файл `eslint.config.mjs` с содержимым:
-
-```js
-import exer7umConfig from "@exer7um/eslint-config"
-
-import withNuxt from "./.nuxt/eslint.config.mjs"
-
-export default withNuxt(exer7umConfig)
-```
-
-Добавить в файл `nuxt.config.ts` модуль `@nuxt/eslint`:
+Для использования нужно создать файл `eslint.config.mjs` или `eslint.config.ts` с содержимым:
 
 ```ts
-export default defineNuxtConfig({
-  modules: ["@nuxt/eslint"],
-})
+export { default } from "@exer7um/eslint-config"
 ```
 
 Добавить в файл `.vscode/settings.json`:
 
 ```json
 {
-  "eslint.useFlatConfig": true,
   "eslint.validate": ["javascript", "json", "vue", "typescript", "yaml"]
 }
 ```
@@ -54,7 +41,7 @@ export default defineNuxtConfig({
 
 ```json
 {
-  "eslint": "eslint . --max-warnings=0",
-  "eslint:fix": "eslint . --max-warnings=0 --fix"
+  "eslint": "eslint --max-warnings=0",
+  "eslint:fix": "eslint --max-warnings=0 --fix"
 }
 ```
