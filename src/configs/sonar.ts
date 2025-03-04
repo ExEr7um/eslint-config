@@ -8,9 +8,9 @@ export default [
   {
     name: "sonar/base",
     rules: {
+      "sonarjs/fixme-tag": "off",
       "sonarjs/no-duplicate-string": "off",
       "sonarjs/todo-tag": "off",
-      "sonarjs/fixme-tag": "off",
     },
   },
 ] as const satisfies Linter.Config[]
