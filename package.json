@@ -34,7 +34,6 @@
   },
   "prettier": "@exer7um/prettier-config",
   "dependencies": {
-    "@nuxt/eslint": "^1.1.0",
     "@nuxt/eslint-config": "^1.1.0",
     "@vitest/eslint-plugin": "^1.1.36",
     "eslint": "^9.21.0",
