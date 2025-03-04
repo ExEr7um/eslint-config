@@ -66,4 +66,11 @@ const ESLintConfig = [
   eslintConfigPrettier,
 ] as const satisfies Linter.Config[]
 
-export default createConfigForNuxt({}, ESLintConfig)
+export default createConfigForNuxt(
+  {
+    features: {
+      tooling: true,
+    },
+  },
+  ESLintConfig,
+)
