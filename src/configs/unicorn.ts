@@ -1,5 +1,6 @@
-import { configs as unicornConfigs } from "eslint-plugin-unicorn"
 import type { Linter } from "eslint"
+
+import { configs as unicornConfigs } from "eslint-plugin-unicorn"
 
 export default [
   unicornConfigs["flat/recommended"],

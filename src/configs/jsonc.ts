@@ -1,5 +1,6 @@
-import { configs as jsoncConfigs } from "eslint-plugin-jsonc"
 import type { Linter } from "eslint"
+
+import { configs as jsoncConfigs } from "eslint-plugin-jsonc"
 
 export default [
   ...jsoncConfigs["flat/recommended-with-json"],

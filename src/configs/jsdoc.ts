@@ -1,5 +1,6 @@
-import jsdoc from "eslint-plugin-jsdoc"
 import type { Linter } from "eslint"
+
+import jsdoc from "eslint-plugin-jsdoc"
 
 export default [
   jsdoc.configs["flat/recommended"],

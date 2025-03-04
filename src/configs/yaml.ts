@@ -1,5 +1,6 @@
-import { configs as ymlConfigs } from "eslint-plugin-yml"
 import type { Linter } from "eslint"
+
+import { configs as ymlConfigs } from "eslint-plugin-yml"
 
 /** @type {import('eslint').Linter.FlatConfig} */
 export default [

@@ -1,5 +1,6 @@
-import gitignore from "eslint-config-flat-gitignore"
 import type { Linter } from "eslint"
+
+import gitignore from "eslint-config-flat-gitignore"
 
 export default [
   gitignore({

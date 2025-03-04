@@ -1,5 +1,6 @@
-import * as depend from "eslint-plugin-depend"
 import type { Linter } from "eslint"
+
+import * as depend from "eslint-plugin-depend"
 
 export default [
   depend.configs["flat/recommended"],
