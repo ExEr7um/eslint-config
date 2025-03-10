@@ -67,6 +67,6 @@ const ESLintConfig = [
 ] as const satisfies Linter.Config[]
 
 export default createConfigForNuxt(
-  { features: { tooling: true } },
+  { features: { tooling: { unicorn: false } } },
   ESLintConfig,
 )
