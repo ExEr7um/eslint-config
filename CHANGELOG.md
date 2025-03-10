@@ -1,4 +1,16 @@
 
+## v2.0.1
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.0.0...v2.0.1)
+
+### 🐞 Исправления
+
+- Возвращение кастомного конфига `eslint-plugin-unicorn` ([31423f4](https://github.com/ExEr7um/eslint-config/commit/31423f4))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.0.0
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v1.5.0...v2.0.0)
