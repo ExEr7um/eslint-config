@@ -1,4 +1,5 @@
 import type { Linter } from "eslint"
+
 import eslintPluginUnicorn from "eslint-plugin-unicorn"
 
 export default [

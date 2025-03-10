@@ -1,7 +1,6 @@
 import type { Linter } from "eslint"
 
 import { createConfigForNuxt } from "@nuxt/eslint-config"
-// @ts-expect-error - нет типизации
 import eslintConfigPrettier from "eslint-config-prettier"
 import deMorgan from "eslint-plugin-de-morgan"
 import perfectionist from "eslint-plugin-perfectionist"
