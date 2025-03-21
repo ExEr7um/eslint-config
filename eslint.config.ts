@@ -1,1 +1,3 @@
-export { default } from "./src/index"
+import createESLintConfig from "./src/index"
+
+export default createESLintConfig()
