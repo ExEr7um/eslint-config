@@ -36,6 +36,7 @@
   "dependencies": {
     "@nuxt/eslint-config": "^1.2.0",
     "@vitest/eslint-plugin": "^1.1.36",
+    "defu": "^6.1.4",
     "eslint": "^9.22.0",
     "eslint-config-flat-gitignore": "^2.1.0",
     "eslint-config-prettier": "^10.1.1",

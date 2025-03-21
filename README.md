@@ -26,7 +26,9 @@ yarn add -D @exer7um/eslint-config
 Для использования нужно создать файл `eslint.config.mjs` или `eslint.config.ts` с содержимым:
 
 ```ts
-export { default } from "@exer7um/eslint-config"
+import createESLintConfig from "@exer7um/eslint-config"
+
+export default createESLintConfig()
 ```
 
 Добавить в файл `.vscode/settings.json`:
@@ -42,4 +44,14 @@ export { default } from "@exer7um/eslint-config"
   "eslint": "eslint --max-warnings=0",
   "eslint:fix": "eslint --max-warnings=0 --fix"
 }
+```
+
+## Конфигурация
+
+В функцию `createESLintConfig` можно передавать параметры для включения/отключения плагинов:
+
+```ts
+import createESLintConfig from "@exer7um/eslint-config"
+
+export default createESLintConfig({ plugins: { tailwindcss: false } })
 ```
