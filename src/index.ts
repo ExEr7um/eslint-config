@@ -1,9 +1,12 @@
 import type { Linter } from "eslint"
 
 import { createConfigForNuxt } from "@nuxt/eslint-config"
+import { defu } from "defu"
 import eslintConfigPrettier from "eslint-config-prettier"
 import deMorgan from "eslint-plugin-de-morgan"
 import perfectionist from "eslint-plugin-perfectionist"
+
+import type { ESLintConfigOptions } from "./types"
 
 import accessibility from "./configs/accessibility"
 import base from "./configs/base"
@@ -18,54 +21,64 @@ import vitest from "./configs/vitest"
 import vue from "./configs/vue"
 import yaml from "./configs/yaml"
 
-const ESLintConfig = [
-  // Игнорируемые файлы
-  ...ignore,
+/**
+ * Функция для создания конфигурации ESLint
+ *
+ * @param options - Параметры конфигурации
+ * @returns Конфигурация ESLint
+ */
+export default function createESLintConfig(options?: ESLintConfigOptions) {
+  /** Конфигурация по умолчанию */
+  const defaultOptions = {
+    plugins: {
+      accessibility: true,
+      deMorgan: true,
+      depend: true,
+      jsdoc: true,
+      jsonc: true,
+      perfectionist: true,
+      prettier: true,
+      sonar: true,
+      tailwindcss: true,
+      unicorn: true,
+      vitest: true,
+      vue: true,
+      yaml: true,
+    },
+  } as const satisfies ESLintConfigOptions
 
-  // JSDoc
-  ...jsdoc,
+  /** Объединение конфигураций */
+  const mergedOptions = defu(options, defaultOptions)
 
-  // JSONC
-  ...jsonc,
+  /** Конфигурация ESLint */
+  const ESLintConfig: Linter.Config[] = [...ignore, ...base]
 
-  // YAML
-  ...yaml,
+  /** Конфигурация плагинов */
+  const pluginConfigs = {
+    accessibility: accessibility,
+    deMorgan: [deMorgan.configs.recommended],
+    depend: depend,
+    jsdoc: jsdoc,
+    jsonc: jsonc,
+    perfectionist: [perfectionist.configs["recommended-natural"]],
+    prettier: [eslintConfigPrettier],
+    sonar: sonar,
+    tailwindcss: tailwindcss,
+    unicorn: unicorn,
+    vitest: vitest,
+    vue: vue,
+    yaml: yaml,
+  }
 
-  // Perfectionist
-  perfectionist.configs["recommended-natural"],
+  // Добавление включенных плагинов в конфигурацию
+  for (const [plugin, config] of Object.entries(pluginConfigs)) {
+    if (mergedOptions.plugins[plugin as keyof typeof mergedOptions.plugins]) {
+      ESLintConfig.push(...config)
+    }
+  }
 
-  // deMorgan
-  deMorgan.configs.recommended,
-
-  // Base
-  ...base,
-
-  // Vue
-  ...vue,
-
-  // Depend
-  ...depend,
-
-  // Tailwind CSS
-  ...tailwindcss,
-
-  // Accessibility
-  ...accessibility,
-
-  // Sonar
-  ...sonar,
-
-  // Unicorn
-  ...unicorn,
-
-  // Vitest
-  ...vitest,
-
-  // Prettier
-  eslintConfigPrettier,
-] as const satisfies Linter.Config[]
-
-export default createConfigForNuxt(
-  { features: { tooling: { unicorn: false } } },
-  ESLintConfig,
-)
+  return createConfigForNuxt(
+    { features: { tooling: { unicorn: false } } },
+    ESLintConfig,
+  )
+}
