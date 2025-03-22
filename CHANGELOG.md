@@ -1,4 +1,17 @@
 
+## v2.1.0
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.0.1...v2.1.0)
+
+### 🚀 Улучшения
+
+- Возможность выбора плагинов для использования ([#20](https://github.com/ExEr7um/eslint-config/pull/20))
+- Возможность передачи параметров для `@nuxt/eslint-config` ([5584702](https://github.com/ExEr7um/eslint-config/commit/5584702))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.0.1
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.0.0...v2.0.1)
