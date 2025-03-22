@@ -1,3 +1,4 @@
+import type { NuxtESLintConfigOptions } from "@nuxt/eslint-config"
 import type { Linter } from "eslint"
 
 import { createConfigForNuxt } from "@nuxt/eslint-config"
@@ -20,14 +21,19 @@ import unicorn from "./configs/unicorn"
 import vitest from "./configs/vitest"
 import vue from "./configs/vue"
 import yaml from "./configs/yaml"
+import createNuxtOptions from "./nuxtOptions"
 
 /**
  * Функция для создания конфигурации ESLint
  *
  * @param options - Параметры конфигурации
+ * @param nuxtOptions - Параметры конфигурации для `@nuxt/eslint-config`
  * @returns Конфигурация ESLint
  */
-export default function createESLintConfig(options?: ESLintConfigOptions) {
+export default function createESLintConfig(
+  options?: ESLintConfigOptions,
+  nuxtOptions?: NuxtESLintConfigOptions,
+) {
   /** Конфигурация по умолчанию */
   const defaultOptions = {
     plugins: {
@@ -77,8 +83,5 @@ export default function createESLintConfig(options?: ESLintConfigOptions) {
     }
   }
 
-  return createConfigForNuxt(
-    { features: { tooling: { unicorn: false } } },
-    ESLintConfig,
-  )
+  return createConfigForNuxt(createNuxtOptions(nuxtOptions), ESLintConfig)
 }
