@@ -1,4 +1,16 @@
 
+## v2.1.1
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.1.0...v2.1.1)
+
+### 🐞 Исправления
+
+- Динамический импорт плагинов ([98aff63](https://github.com/ExEr7um/eslint-config/commit/98aff63))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.1.0
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.0.1...v2.1.0)
