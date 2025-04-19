@@ -1,4 +1,16 @@
 
+## v2.1.2
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.1.1...v2.1.2)
+
+### 🏡 Другие изменения
+
+- Переход на `tsdown` ([d19844a](https://github.com/ExEr7um/eslint-config/commit/d19844a))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.1.1
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.1.0...v2.1.1)
