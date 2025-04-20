@@ -1,4 +1,16 @@
 
+## v2.1.3
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.1.2...v2.1.3)
+
+### 🏡 Другие изменения
+
+- Возвращение на `tsup` ([7b0af51](https://github.com/ExEr7um/eslint-config/commit/7b0af51))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.1.2
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.1.1...v2.1.2)
