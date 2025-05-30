@@ -7,7 +7,7 @@ on:
 
 jobs:
   publish:
-    uses: ExEr7um/workflows/.github/workflows/publish-npm.yml@v0.7.3
+    uses: ExEr7um/workflows/.github/workflows/publish-npm.yml@v0.8.0
     with:
       build: true
     secrets:
