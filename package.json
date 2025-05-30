@@ -52,7 +52,7 @@
     "eslint-plugin-yml": "^1.18.0"
   },
   "devDependencies": {
-    "@exer7um/prettier-config": "0.6.0",
+    "@exer7um/prettier-config": "0.7.0",
     "tsup": "8.5.0",
     "typescript": "5.8.3"
   }
