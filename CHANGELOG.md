@@ -1,4 +1,16 @@
 
+## v2.1.5
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.1.4...v2.1.5)
+
+### 🐞 Исправления
+
+- Отключение правила `vue/require-default-prop` ([d8f4310](https://github.com/ExEr7um/eslint-config/commit/d8f4310))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.1.4
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.1.3...v2.1.4)
