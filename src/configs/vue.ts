@@ -32,6 +32,7 @@ export default [
       "vue/padding-line-between-blocks": "error",
       "vue/prefer-true-attribute-shorthand": "error",
       "vue/prefer-use-template-ref": "error",
+      "vue/require-default-prop": "off",
       "vue/require-prop-comment": ["error", { type: "JSDoc" }],
       "vue/require-typed-ref": "error",
       "vue/v-bind-style": [
