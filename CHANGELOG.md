@@ -1,4 +1,16 @@
 
+## v2.1.4
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.1.3...v2.1.4)
+
+### 🏡 Другие изменения
+
+- Обновление `ExEr7um/workflows` до `v0.8.0` ([ac494d9](https://github.com/ExEr7um/eslint-config/commit/ac494d9))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.1.3
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.1.2...v2.1.3)
