@@ -1,6 +1,6 @@
 {
   "name": "@exer7um/eslint-config",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "Конфигурация ESLint",
   "keywords": [
     "eslint-config",
