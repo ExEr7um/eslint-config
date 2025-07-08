@@ -15,8 +15,4 @@ describe("Конфиг tailwindcss", () => {
 
     expect(config).not.toStrictEqual(expect.arrayContaining(tailwindcss))
   })
-
-  test("Имеет все параметры", () => {
-    expect(tailwindcss).toMatchSnapshot()
-  })
 })

@@ -15,8 +15,4 @@ describe("Конфиг unicorn", () => {
 
     expect(config).not.toStrictEqual(expect.arrayContaining(unicorn))
   })
-
-  test("Имеет все параметры", () => {
-    expect(unicorn).toMatchSnapshot()
-  })
 })

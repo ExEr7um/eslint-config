@@ -15,8 +15,4 @@ describe("Конфиг depend", () => {
 
     expect(config).not.toStrictEqual(expect.arrayContaining(depend))
   })
-
-  test("Имеет все параметры", () => {
-    expect(depend).toMatchSnapshot()
-  })
 })

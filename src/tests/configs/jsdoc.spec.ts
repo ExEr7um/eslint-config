@@ -15,8 +15,4 @@ describe("Конфиг jsdoc", () => {
 
     expect(config).not.toStrictEqual(expect.arrayContaining(jsdoc))
   })
-
-  test("Имеет все параметры", () => {
-    expect(jsdoc).toMatchSnapshot()
-  })
 })

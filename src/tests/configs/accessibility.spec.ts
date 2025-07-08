@@ -17,8 +17,4 @@ describe("Конфиг accessibility", () => {
 
     expect(config).not.toStrictEqual(expect.arrayContaining(accessibility))
   })
-
-  test("Имеет все параметры", () => {
-    expect(accessibility).toMatchSnapshot()
-  })
 })

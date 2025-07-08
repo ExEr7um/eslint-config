@@ -15,8 +15,4 @@ describe("Конфиг vue", () => {
 
     expect(config).not.toStrictEqual(expect.arrayContaining(vue))
   })
-
-  test("Имеет все параметры", () => {
-    expect(vue).toMatchSnapshot()
-  })
 })

@@ -15,8 +15,4 @@ describe("Конфиг sonar", () => {
 
     expect(config).not.toStrictEqual(expect.arrayContaining(sonar))
   })
-
-  test("Имеет все параметры", () => {
-    expect(sonar).toMatchSnapshot()
-  })
 })

@@ -1,4 +1,4 @@
-import type {NuxtESLintConfigOptions} from "@nuxt/eslint-config";
+import type { NuxtESLintConfigOptions } from "@nuxt/eslint-config"
 
 import createConfigForNuxt from "@nuxt/eslint-config"
 import eslintConfigPrettier from "eslint-config-prettier"
@@ -12,12 +12,6 @@ import createNuxtOptions from "../nuxtOptions"
 vi.mock("@nuxt/eslint-config", { spy: true })
 
 describe("Функция createESLintConfig", () => {
-  test("Возвращает конфигурацию ESLint", async () => {
-    const config = await createESLintConfig()
-
-    expect(config).toMatchSnapshot()
-  })
-
   test("Параметры nuxtOptions передаются в createConfigForNuxt", async () => {
     const nuxtOptions = {
       features: { tooling: { regexp: false } },

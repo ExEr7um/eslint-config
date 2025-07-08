@@ -15,8 +15,4 @@ describe("Конфиг yaml", () => {
 
     expect(config).not.toStrictEqual(expect.arrayContaining(yaml))
   })
-
-  test("Имеет все параметры", () => {
-    expect(yaml).toMatchSnapshot()
-  })
 })

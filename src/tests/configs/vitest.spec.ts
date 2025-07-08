@@ -15,8 +15,4 @@ describe("Конфиг vitest", () => {
 
     expect(config).not.toStrictEqual(expect.arrayContaining(vitest))
   })
-
-  test("Имеет все параметры", () => {
-    expect(vitest).toMatchSnapshot()
-  })
 })

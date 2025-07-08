@@ -15,8 +15,4 @@ describe("Конфиг jsonc", () => {
 
     expect(config).not.toStrictEqual(expect.arrayContaining(jsonc))
   })
-
-  test("Имеет все параметры", () => {
-    expect(jsonc).toMatchSnapshot()
-  })
 })

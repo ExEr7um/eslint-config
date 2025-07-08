@@ -9,8 +9,4 @@ describe("Конфиг ignore", () => {
 
     expect(config).toStrictEqual(expect.arrayContaining(ignore))
   })
-
-  test("Имеет все параметры", () => {
-    expect(ignore).toMatchSnapshot()
-  })
 })

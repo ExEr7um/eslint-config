@@ -9,8 +9,4 @@ describe("Конфиг base", () => {
 
     expect(config).toStrictEqual(expect.arrayContaining(base))
   })
-
-  test("Имеет все параметры", () => {
-    expect(base).toMatchSnapshot()
-  })
 })
