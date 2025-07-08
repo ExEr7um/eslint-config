@@ -48,10 +48,20 @@ export default createESLintConfig()
 
 ## Конфигурация
 
-В функцию `createESLintConfig` можно передавать параметры для включения/отключения плагинов:
+В функцию `createESLintConfig` можно передавать параметры для включения/отключения плагинов, а также для управления правилами.
+
+### Плагины
 
 ```ts
 import createESLintConfig from "@exer7um/eslint-config"
 
 export default createESLintConfig({ plugins: { tailwindcss: false } })
+```
+
+### Правила
+
+```ts
+import createESLintConfig from "@exer7um/eslint-config"
+
+export default createESLintConfig({ rules: { "no-console": "off" } })
 ```
