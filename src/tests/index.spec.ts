@@ -1,12 +1,12 @@
-import { describe, expect, test, vi } from "vitest"
+import type {NuxtESLintConfigOptions} from "@nuxt/eslint-config";
+
+import createConfigForNuxt from "@nuxt/eslint-config"
 import eslintConfigPrettier from "eslint-config-prettier"
 import deMorgan from "eslint-plugin-de-morgan"
 import perfectionist from "eslint-plugin-perfectionist"
+import { describe, expect, test, vi } from "vitest"
 
 import createESLintConfig from "../index"
-import createConfigForNuxt, {
-  type NuxtESLintConfigOptions,
-} from "@nuxt/eslint-config"
 import createNuxtOptions from "../nuxtOptions"
 
 vi.mock("@nuxt/eslint-config", { spy: true })
