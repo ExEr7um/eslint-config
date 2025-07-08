@@ -1,4 +1,5 @@
 import type { NuxtESLintConfigOptions } from "@nuxt/eslint-config"
+import type { Linter } from "eslint"
 
 import createConfigForNuxt from "@nuxt/eslint-config"
 import eslintConfigPrettier from "eslint-config-prettier"
@@ -66,5 +67,12 @@ describe("Функция createESLintConfig", () => {
         expect.arrayContaining([eslintConfigPrettier]),
       )
     })
+  })
+
+  test("Переопределение правил ESLint", async () => {
+    const rules = { "no-console": "off" } as const satisfies Linter.RulesRecord
+    const config = await createESLintConfig({ rules })
+
+    expect(config).toStrictEqual(expect.arrayContaining([{ rules }]))
   })
 })
