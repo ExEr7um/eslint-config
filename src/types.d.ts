@@ -1,9 +1,13 @@
+import type { Linter } from "eslint"
+
 /**
  * Конфигурация для ESLint
  */
 export interface ESLintConfigOptions {
   /**
-   * Конфигурация плагинов
+   * Конфигурация плагинов ESLint.
+   *
+   * В ней можно отключить плагины, которые установлены в проекте.
    */
   plugins?: {
     /**
@@ -85,4 +89,10 @@ export interface ESLintConfigOptions {
      */
     yaml?: boolean
   }
+  /**
+   * Конфигурация правил ESLint.
+   *
+   * В ней можно переопределить конкретные правила, которые установлены в проекте.
+   */
+  rules?: Linter.RulesRecord
 }
