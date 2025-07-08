@@ -1,0 +1,83 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Конфиг depend > Имеет все параметры 1`] = `
+[
+  {
+    "plugins": {
+      "depend": {
+        "configs": {
+          "flat/recommended": [Circular],
+          "recommended": {
+            "plugins": [
+              "depend",
+            ],
+            "rules": {
+              "depend/ban-dependencies": "error",
+            },
+          },
+        },
+        "meta": {
+          "name": "eslint-plugin-depend",
+          "version": "1.2.0",
+        },
+        "rules": {
+          "ban-dependencies": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Bans a list of dependencies from being used",
+                "url": "https://github.com/es-tooling/eslint-plugin-depend/blob/main/docs/rules/ban-dependencies.md",
+              },
+              "messages": {
+                "documentedReplacement": ""{{name}}" should be replaced with an alternative package. Read more here: {{url}}",
+                "nativeReplacement": ""{{name}}" should be replaced with native functionality. You can instead use {{replacement}}. Read more here: {{url}}",
+                "noneReplacement": ""{{name}}" is a banned dependency. An alternative should be used.",
+                "simpleReplacement": ""{{name}}" should be replaced with inline/local logic.{{replacement}}",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "allowed": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "modules": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "presets": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+        },
+      },
+    },
+    "rules": {
+      "depend/ban-dependencies": "error",
+    },
+  },
+  {
+    "files": [
+      "package.json",
+    ],
+    "name": "depend/package-json",
+    "rules": {
+      "depend/ban-dependencies": "error",
+    },
+  },
+]
+`;

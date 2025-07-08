@@ -1,0 +1,522 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Конфиг tailwindcss > Имеет все параметры 1`] = `
+[
+  {
+    "languageOptions": {
+      "parserOptions": {
+        "ecmaFeatures": {
+          "jsx": true,
+        },
+      },
+    },
+    "name": "tailwindcss:base",
+    "plugins": {
+      "tailwindcss": {
+        "configs": {
+          "flat/recommended": [
+            [Circular],
+            {
+              "name": "tailwindcss:rules",
+              "rules": {
+                "tailwindcss/classnames-order": "warn",
+                "tailwindcss/enforces-negative-arbitrary-values": "warn",
+                "tailwindcss/enforces-shorthand": "warn",
+                "tailwindcss/migration-from-tailwind-2": "warn",
+                "tailwindcss/no-arbitrary-value": "off",
+                "tailwindcss/no-contradicting-classname": "error",
+                "tailwindcss/no-custom-classname": "warn",
+                "tailwindcss/no-unnecessary-arbitrary-value": "warn",
+              },
+            },
+          ],
+          "recommended": {
+            "parserOptions": {
+              "ecmaFeatures": {
+                "jsx": true,
+              },
+            },
+            "plugins": [
+              "tailwindcss",
+            ],
+            "rules": {
+              "tailwindcss/classnames-order": "warn",
+              "tailwindcss/enforces-negative-arbitrary-values": "warn",
+              "tailwindcss/enforces-shorthand": "warn",
+              "tailwindcss/migration-from-tailwind-2": "warn",
+              "tailwindcss/no-arbitrary-value": "off",
+              "tailwindcss/no-contradicting-classname": "error",
+              "tailwindcss/no-custom-classname": "warn",
+              "tailwindcss/no-unnecessary-arbitrary-value": "warn",
+            },
+          },
+        },
+        "rules": {
+          "classnames-order": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "category": "Stylistic Issues",
+                "description": "Enforce a consistent and logical order of the Tailwind CSS classnames",
+                "recommended": false,
+                "url": "https://github.com/francoismassart/eslint-plugin-tailwindcss/tree/master/docs/rules/classnames-order.md",
+              },
+              "fixable": "code",
+              "messages": {
+                "invalidOrder": "Invalid Tailwind CSS classnames order",
+              },
+              "schema": [
+                {
+                  "properties": {
+                    "callees": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "config": {
+                      "type": [
+                        "string",
+                        "object",
+                      ],
+                    },
+                    "ignoredKeys": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "removeDuplicates": {
+                      "type": "boolean",
+                    },
+                    "tags": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+            },
+          },
+          "enforces-negative-arbitrary-values": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "category": "Best Practices",
+                "description": "Warns about dash prefixed classnames using arbitrary values",
+                "recommended": true,
+                "url": "https://github.com/francoismassart/eslint-plugin-tailwindcss/tree/master/docs/rules/enforces-negative-arbitrary-values.md",
+              },
+              "fixable": null,
+              "messages": {
+                "negativeArbitraryValue": "Arbitrary value classname '{{classname}}' should not start with a dash (-)",
+              },
+              "schema": [
+                {
+                  "properties": {
+                    "callees": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "config": {
+                      "type": [
+                        "string",
+                        "object",
+                      ],
+                    },
+                    "ignoredKeys": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "tags": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+            },
+          },
+          "enforces-shorthand": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "category": "Best Practices",
+                "description": "Enforces the usage of shorthand Tailwind CSS classnames",
+                "recommended": true,
+                "url": "https://github.com/francoismassart/eslint-plugin-tailwindcss/tree/master/docs/rules/enforces-shorthand.md",
+              },
+              "fixable": "code",
+              "messages": {
+                "shorthandCandidateDetected": "Classnames '{{classnames}}' could be replaced by the '{{shorthand}}' shorthand!",
+              },
+              "schema": [
+                {
+                  "properties": {
+                    "callees": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "config": {
+                      "type": [
+                        "string",
+                        "object",
+                      ],
+                    },
+                    "ignoredKeys": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "tags": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+            },
+          },
+          "migration-from-tailwind-2": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "category": "Possible Errors",
+                "description": "Detect obsolete classnames when upgrading to Tailwind CSS v3",
+                "recommended": true,
+                "url": "https://github.com/francoismassart/eslint-plugin-tailwindcss/tree/master/docs/rules/migration-from-tailwind-2.md",
+              },
+              "fixable": "code",
+              "messages": {
+                "classnameChanged": "Classname '{{deprecated}}' should be updated to '{{updated}}' in Tailwind CSS v3!",
+                "classnameNotNeeded": "Classname '{{classnames}}' is not needed in Tailwind CSS v3!",
+                "classnameOpacityDeprecated": "Classname '{{classname}}' should be replaced by an opacity suffix (eg. '/{{value}}')",
+                "classnamesNotNeeded": "Classnames '{{classnames}}' are not needed in Tailwind CSS v3!",
+              },
+              "schema": [
+                {
+                  "properties": {
+                    "callees": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "config": {
+                      "type": [
+                        "string",
+                        "object",
+                      ],
+                    },
+                    "ignoredKeys": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "tags": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+            },
+          },
+          "no-arbitrary-value": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "category": "Best Practices",
+                "description": "Forbid using arbitrary values in classnames",
+                "recommended": false,
+                "url": "https://github.com/francoismassart/eslint-plugin-tailwindcss/tree/master/docs/rules/no-arbitrary-value.md",
+              },
+              "fixable": null,
+              "messages": {
+                "arbitraryValueDetected": "Arbitrary value detected in '{{classname}}'",
+              },
+              "schema": [
+                {
+                  "properties": {
+                    "callees": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "config": {
+                      "type": [
+                        "string",
+                        "object",
+                      ],
+                    },
+                    "ignoredKeys": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "tags": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+            },
+          },
+          "no-contradicting-classname": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "category": "Possible Errors",
+                "description": "Avoid contradicting Tailwind CSS classnames (e.g. "w-3 w-5")",
+                "recommended": true,
+                "url": "https://github.com/francoismassart/eslint-plugin-tailwindcss/tree/master/docs/rules/no-contradicting-classname.md",
+              },
+              "fixable": null,
+              "messages": {
+                "conflictingClassnames": "Classnames {{classnames}} are conflicting!",
+              },
+              "schema": [
+                {
+                  "properties": {
+                    "callees": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "config": {
+                      "type": [
+                        "string",
+                        "object",
+                      ],
+                    },
+                    "ignoredKeys": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "tags": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+            },
+          },
+          "no-custom-classname": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "category": "Best Practices",
+                "description": "Detect classnames which do not belong to Tailwind CSS",
+                "recommended": false,
+                "url": "https://github.com/francoismassart/eslint-plugin-tailwindcss/tree/master/docs/rules/no-custom-classname.md",
+              },
+              "fixable": null,
+              "messages": {
+                "customClassnameDetected": "Classname '{{classname}}' is not a Tailwind CSS class!",
+              },
+              "schema": [
+                {
+                  "properties": {
+                    "callees": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "config": {
+                      "type": [
+                        "string",
+                        "object",
+                      ],
+                    },
+                    "cssFiles": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "cssFilesRefreshRate": {
+                      "type": "number",
+                    },
+                    "ignoredKeys": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "tags": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "whitelist": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+            },
+          },
+          "no-unnecessary-arbitrary-value": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "category": "Best Practices",
+                "description": "Forbid using arbitrary values in classnames when an equivalent preset exists",
+                "recommended": true,
+                "url": "https://github.com/francoismassart/eslint-plugin-tailwindcss/tree/master/docs/rules/no-unnecessary-arbitrary-value.md",
+              },
+              "fixable": "code",
+              "messages": {
+                "unnecessaryArbitraryValueDetected": "The arbitrary class '{{classname}}' could be replaced by '{{presets}}'",
+              },
+              "schema": [
+                {
+                  "properties": {
+                    "callees": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "config": {
+                      "type": [
+                        "string",
+                        "object",
+                      ],
+                    },
+                    "ignoredKeys": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                    "tags": {
+                      "items": {
+                        "minLength": 0,
+                        "type": "string",
+                      },
+                      "type": "array",
+                      "uniqueItems": true,
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+            },
+          },
+        },
+      },
+    },
+  },
+  {
+    "name": "tailwindcss:rules",
+    "rules": {
+      "tailwindcss/classnames-order": "warn",
+      "tailwindcss/enforces-negative-arbitrary-values": "warn",
+      "tailwindcss/enforces-shorthand": "warn",
+      "tailwindcss/migration-from-tailwind-2": "warn",
+      "tailwindcss/no-arbitrary-value": "off",
+      "tailwindcss/no-contradicting-classname": "error",
+      "tailwindcss/no-custom-classname": "warn",
+      "tailwindcss/no-unnecessary-arbitrary-value": "warn",
+    },
+  },
+  {
+    "name": "tailwindcss/base",
+    "rules": {
+      "tailwindcss/classnames-order": "off",
+      "tailwindcss/migration-from-tailwind-2": "off",
+      "tailwindcss/no-custom-classname": "off",
+    },
+  },
+]
+`;

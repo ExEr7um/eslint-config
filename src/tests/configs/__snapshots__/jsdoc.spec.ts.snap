@@ -1,0 +1,3856 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Конфиг jsdoc > Имеет все параметры 1`] = `
+[
+  {
+    "name": "jsdoc/flat/recommended",
+    "plugins": {
+      "jsdoc": {
+        "configs": {
+          "default-expressions": [
+            {
+              "files": [
+                "**/*.js",
+              ],
+              "name": "jsdoc/default-expressions/processor",
+              "plugins": {
+                "examples": {
+                  "meta": {
+                    "name": "eslint-plugin-jsdoc/processor",
+                    "version": "51.3.4",
+                  },
+                  "processors": {
+                    "examples": {
+                      "meta": {
+                        "name": "eslint-plugin-jsdoc/preprocessor",
+                        "version": "51.3.4",
+                      },
+                      "postprocess": [Function],
+                      "preprocess": [Function],
+                      "supportsAutofix": false,
+                    },
+                  },
+                },
+              },
+              "processor": "examples/examples",
+            },
+            {
+              "files": [
+                "**/*.jsdoc-defaults",
+                "**/*.jsdoc-params",
+                "**/*.jsdoc-properties",
+              ],
+              "name": "jsdoc/default-expressions/rules",
+              "rules": {
+                "chai-friendly/no-unused-expressions": 0,
+                "eol-last": 0,
+                "import/no-unresolved": 0,
+                "import/unambiguous": 0,
+                "jsdoc/require-file-overview": 0,
+                "jsdoc/require-jsdoc": 0,
+                "no-console": 0,
+                "no-empty-function": 0,
+                "no-multiple-empty-lines": 0,
+                "no-new": 0,
+                "no-undef": 0,
+                "no-unused-expressions": 0,
+                "no-unused-vars": 0,
+                "node/no-missing-import": 0,
+                "node/no-missing-require": 0,
+                "padded-blocks": 0,
+                "quotes": [
+                  "error",
+                  "double",
+                ],
+                "semi": [
+                  "error",
+                  "never",
+                ],
+                "strict": 0,
+              },
+            },
+          ],
+          "examples": [
+            {
+              "files": [
+                "**/*.js",
+              ],
+              "name": "jsdoc/examples/processor",
+              "plugins": {
+                "examples": {
+                  "meta": {
+                    "name": "eslint-plugin-jsdoc/processor",
+                    "version": "51.3.4",
+                  },
+                  "processors": {
+                    "examples": {
+                      "meta": {
+                        "name": "eslint-plugin-jsdoc/preprocessor",
+                        "version": "51.3.4",
+                      },
+                      "postprocess": [Function],
+                      "preprocess": [Function],
+                      "supportsAutofix": false,
+                    },
+                  },
+                },
+              },
+              "processor": "examples/examples",
+            },
+            {
+              "files": [
+                "**/*.md/*.js",
+              ],
+              "name": "jsdoc/examples/rules",
+              "rules": {
+                "eol-last": 0,
+                "import/no-unresolved": 0,
+                "import/unambiguous": 0,
+                "jsdoc/require-file-overview": 0,
+                "jsdoc/require-jsdoc": 0,
+                "no-console": 0,
+                "no-multiple-empty-lines": 0,
+                "no-undef": 0,
+                "no-unused-vars": 0,
+                "node/no-missing-import": 0,
+                "node/no-missing-require": 0,
+                "padded-blocks": 0,
+              },
+            },
+          ],
+          "examples-and-default-expressions": [
+            {
+              "name": "jsdoc/examples-and-default-expressions",
+              "plugins": {
+                "examples": {
+                  "meta": {
+                    "name": "eslint-plugin-jsdoc/processor",
+                    "version": "51.3.4",
+                  },
+                  "processors": {
+                    "examples": {
+                      "meta": {
+                        "name": "eslint-plugin-jsdoc/preprocessor",
+                        "version": "51.3.4",
+                      },
+                      "postprocess": [Function],
+                      "preprocess": [Function],
+                      "supportsAutofix": false,
+                    },
+                  },
+                },
+              },
+            },
+            {
+              "files": [
+                "**/*.js",
+              ],
+              "name": "jsdoc/examples/processor",
+              "plugins": {},
+              "processor": "examples/examples",
+            },
+            {
+              "files": [
+                "**/*.md/*.js",
+              ],
+              "name": "jsdoc/examples/rules",
+              "plugins": {},
+              "rules": {
+                "eol-last": 0,
+                "import/no-unresolved": 0,
+                "import/unambiguous": 0,
+                "jsdoc/require-file-overview": 0,
+                "jsdoc/require-jsdoc": 0,
+                "no-console": 0,
+                "no-multiple-empty-lines": 0,
+                "no-undef": 0,
+                "no-unused-vars": 0,
+                "node/no-missing-import": 0,
+                "node/no-missing-require": 0,
+                "padded-blocks": 0,
+              },
+            },
+            {
+              "files": [
+                "**/*.js",
+              ],
+              "name": "jsdoc/default-expressions/processor",
+              "plugins": {},
+              "processor": "examples/examples",
+            },
+            {
+              "files": [
+                "**/*.jsdoc-defaults",
+                "**/*.jsdoc-params",
+                "**/*.jsdoc-properties",
+              ],
+              "name": "jsdoc/default-expressions/rules",
+              "plugins": {},
+              "rules": {
+                "chai-friendly/no-unused-expressions": 0,
+                "eol-last": 0,
+                "import/no-unresolved": 0,
+                "import/unambiguous": 0,
+                "jsdoc/require-file-overview": 0,
+                "jsdoc/require-jsdoc": 0,
+                "no-console": 0,
+                "no-empty-function": 0,
+                "no-multiple-empty-lines": 0,
+                "no-new": 0,
+                "no-undef": 0,
+                "no-unused-expressions": 0,
+                "no-unused-vars": 0,
+                "node/no-missing-import": 0,
+                "node/no-missing-require": 0,
+                "padded-blocks": 0,
+                "quotes": [
+                  "error",
+                  "double",
+                ],
+                "semi": [
+                  "error",
+                  "never",
+                ],
+                "strict": 0,
+              },
+            },
+          ],
+          "flat/contents-typescript": {
+            "name": "jsdoc/flat/contents-typescript",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/informative-docs": "warn",
+              "jsdoc/match-description": "warn",
+              "jsdoc/no-blank-block-descriptions": "warn",
+              "jsdoc/no-blank-blocks": "warn",
+              "jsdoc/text-escaping": [
+                "warn",
+                {
+                  "escapeHTML": true,
+                },
+              ],
+            },
+          },
+          "flat/contents-typescript-error": {
+            "name": "jsdoc/flat/contents-typescript-error",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/informative-docs": "error",
+              "jsdoc/match-description": "error",
+              "jsdoc/no-blank-block-descriptions": "error",
+              "jsdoc/no-blank-blocks": "error",
+              "jsdoc/text-escaping": [
+                "error",
+                {
+                  "escapeHTML": true,
+                },
+              ],
+            },
+          },
+          "flat/contents-typescript-flavor": {
+            "name": "jsdoc/flat/contents-typescript-flavor",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/informative-docs": "warn",
+              "jsdoc/match-description": "warn",
+              "jsdoc/no-blank-block-descriptions": "warn",
+              "jsdoc/no-blank-blocks": "warn",
+              "jsdoc/text-escaping": [
+                "warn",
+                {
+                  "escapeHTML": true,
+                },
+              ],
+            },
+          },
+          "flat/contents-typescript-flavor-error": {
+            "name": "jsdoc/flat/contents-typescript-error-flavor",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/informative-docs": "error",
+              "jsdoc/match-description": "error",
+              "jsdoc/no-blank-block-descriptions": "error",
+              "jsdoc/no-blank-blocks": "error",
+              "jsdoc/text-escaping": [
+                "error",
+                {
+                  "escapeHTML": true,
+                },
+              ],
+            },
+          },
+          "flat/logical-typescript": {
+            "name": "jsdoc/flat/logical-typescript",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/check-access": "warn",
+              "jsdoc/check-param-names": "warn",
+              "jsdoc/check-property-names": "warn",
+              "jsdoc/check-syntax": "warn",
+              "jsdoc/check-tag-names": "warn",
+              "jsdoc/check-template-names": "warn",
+              "jsdoc/check-types": "warn",
+              "jsdoc/check-values": "warn",
+              "jsdoc/empty-tags": "warn",
+              "jsdoc/implements-on-classes": "warn",
+              "jsdoc/no-bad-blocks": "warn",
+              "jsdoc/no-defaults": "warn",
+              "jsdoc/no-types": "warn",
+              "jsdoc/no-undefined-types": "warn",
+              "jsdoc/require-returns-check": "warn",
+              "jsdoc/require-yields-check": "warn",
+              "jsdoc/valid-types": "warn",
+            },
+          },
+          "flat/logical-typescript-error": {
+            "name": "jsdoc/flat/logical-typescript-error",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/check-access": "error",
+              "jsdoc/check-param-names": "error",
+              "jsdoc/check-property-names": "error",
+              "jsdoc/check-syntax": "error",
+              "jsdoc/check-tag-names": "error",
+              "jsdoc/check-template-names": "error",
+              "jsdoc/check-types": "error",
+              "jsdoc/check-values": "error",
+              "jsdoc/empty-tags": "error",
+              "jsdoc/implements-on-classes": "error",
+              "jsdoc/no-bad-blocks": "error",
+              "jsdoc/no-defaults": "error",
+              "jsdoc/no-types": "error",
+              "jsdoc/no-undefined-types": "error",
+              "jsdoc/require-returns-check": "error",
+              "jsdoc/require-yields-check": "error",
+              "jsdoc/valid-types": "error",
+            },
+          },
+          "flat/logical-typescript-flavor": {
+            "name": "jsdoc/flat/logical-typescript-flavor",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/check-access": "warn",
+              "jsdoc/check-param-names": "warn",
+              "jsdoc/check-property-names": "warn",
+              "jsdoc/check-syntax": "warn",
+              "jsdoc/check-tag-names": "warn",
+              "jsdoc/check-template-names": "warn",
+              "jsdoc/check-types": "warn",
+              "jsdoc/check-values": "warn",
+              "jsdoc/empty-tags": "warn",
+              "jsdoc/implements-on-classes": "warn",
+              "jsdoc/no-bad-blocks": "warn",
+              "jsdoc/no-defaults": "warn",
+              "jsdoc/no-types": "warn",
+              "jsdoc/no-undefined-types": "warn",
+              "jsdoc/require-returns-check": "warn",
+              "jsdoc/require-yields-check": "warn",
+              "jsdoc/valid-types": "warn",
+            },
+          },
+          "flat/logical-typescript-flavor-error": {
+            "name": "jsdoc/flat/logical-typescript-error-flavor",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/check-access": "error",
+              "jsdoc/check-param-names": "error",
+              "jsdoc/check-property-names": "error",
+              "jsdoc/check-syntax": "error",
+              "jsdoc/check-tag-names": "error",
+              "jsdoc/check-template-names": "error",
+              "jsdoc/check-types": "error",
+              "jsdoc/check-values": "error",
+              "jsdoc/empty-tags": "error",
+              "jsdoc/implements-on-classes": "error",
+              "jsdoc/no-bad-blocks": "error",
+              "jsdoc/no-defaults": "error",
+              "jsdoc/no-types": "error",
+              "jsdoc/no-undefined-types": "error",
+              "jsdoc/require-returns-check": "error",
+              "jsdoc/require-yields-check": "error",
+              "jsdoc/valid-types": "error",
+            },
+          },
+          "flat/recommended": [Circular],
+          "flat/recommended-error": {
+            "name": "jsdoc/flat/recommended-error",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/check-access": "error",
+              "jsdoc/check-alignment": "error",
+              "jsdoc/check-examples": "off",
+              "jsdoc/check-indentation": "off",
+              "jsdoc/check-line-alignment": "off",
+              "jsdoc/check-param-names": "error",
+              "jsdoc/check-property-names": "error",
+              "jsdoc/check-syntax": "off",
+              "jsdoc/check-tag-names": "error",
+              "jsdoc/check-template-names": "off",
+              "jsdoc/check-types": "error",
+              "jsdoc/check-values": "error",
+              "jsdoc/convert-to-jsdoc-comments": "off",
+              "jsdoc/empty-tags": "error",
+              "jsdoc/implements-on-classes": "error",
+              "jsdoc/imports-as-dependencies": "off",
+              "jsdoc/informative-docs": "off",
+              "jsdoc/lines-before-block": "off",
+              "jsdoc/match-description": "off",
+              "jsdoc/match-name": "off",
+              "jsdoc/multiline-blocks": "error",
+              "jsdoc/no-bad-blocks": "off",
+              "jsdoc/no-blank-block-descriptions": "off",
+              "jsdoc/no-blank-blocks": "off",
+              "jsdoc/no-defaults": "error",
+              "jsdoc/no-missing-syntax": "off",
+              "jsdoc/no-multi-asterisks": "error",
+              "jsdoc/no-restricted-syntax": "off",
+              "jsdoc/no-types": "off",
+              "jsdoc/no-undefined-types": "error",
+              "jsdoc/require-asterisk-prefix": "off",
+              "jsdoc/require-description": "off",
+              "jsdoc/require-description-complete-sentence": "off",
+              "jsdoc/require-example": "off",
+              "jsdoc/require-file-overview": "off",
+              "jsdoc/require-hyphen-before-param-description": "off",
+              "jsdoc/require-jsdoc": "error",
+              "jsdoc/require-param": "error",
+              "jsdoc/require-param-description": "error",
+              "jsdoc/require-param-name": "error",
+              "jsdoc/require-param-type": "error",
+              "jsdoc/require-property": "error",
+              "jsdoc/require-property-description": "error",
+              "jsdoc/require-property-name": "error",
+              "jsdoc/require-property-type": "error",
+              "jsdoc/require-returns": "error",
+              "jsdoc/require-returns-check": "error",
+              "jsdoc/require-returns-description": "error",
+              "jsdoc/require-returns-type": "error",
+              "jsdoc/require-template": "off",
+              "jsdoc/require-throws": "off",
+              "jsdoc/require-yields": "error",
+              "jsdoc/require-yields-check": "error",
+              "jsdoc/sort-tags": "off",
+              "jsdoc/tag-lines": "error",
+              "jsdoc/text-escaping": "off",
+              "jsdoc/valid-types": "error",
+            },
+          },
+          "flat/recommended-typescript": {
+            "name": "jsdoc/flat/recommended-typescript",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/check-access": "warn",
+              "jsdoc/check-alignment": "warn",
+              "jsdoc/check-examples": "off",
+              "jsdoc/check-indentation": "off",
+              "jsdoc/check-line-alignment": "off",
+              "jsdoc/check-param-names": "warn",
+              "jsdoc/check-property-names": "warn",
+              "jsdoc/check-syntax": "off",
+              "jsdoc/check-tag-names": [
+                "warn",
+                {
+                  "typed": true,
+                },
+              ],
+              "jsdoc/check-template-names": "off",
+              "jsdoc/check-types": "warn",
+              "jsdoc/check-values": "warn",
+              "jsdoc/convert-to-jsdoc-comments": "off",
+              "jsdoc/empty-tags": "warn",
+              "jsdoc/implements-on-classes": "warn",
+              "jsdoc/imports-as-dependencies": "off",
+              "jsdoc/informative-docs": "off",
+              "jsdoc/lines-before-block": "off",
+              "jsdoc/match-description": "off",
+              "jsdoc/match-name": "off",
+              "jsdoc/multiline-blocks": "warn",
+              "jsdoc/no-bad-blocks": "off",
+              "jsdoc/no-blank-block-descriptions": "off",
+              "jsdoc/no-blank-blocks": "off",
+              "jsdoc/no-defaults": "warn",
+              "jsdoc/no-missing-syntax": "off",
+              "jsdoc/no-multi-asterisks": "warn",
+              "jsdoc/no-restricted-syntax": "off",
+              "jsdoc/no-types": "warn",
+              "jsdoc/no-undefined-types": "off",
+              "jsdoc/require-asterisk-prefix": "off",
+              "jsdoc/require-description": "off",
+              "jsdoc/require-description-complete-sentence": "off",
+              "jsdoc/require-example": "off",
+              "jsdoc/require-file-overview": "off",
+              "jsdoc/require-hyphen-before-param-description": "off",
+              "jsdoc/require-jsdoc": "warn",
+              "jsdoc/require-param": "warn",
+              "jsdoc/require-param-description": "warn",
+              "jsdoc/require-param-name": "warn",
+              "jsdoc/require-param-type": "off",
+              "jsdoc/require-property": "warn",
+              "jsdoc/require-property-description": "warn",
+              "jsdoc/require-property-name": "warn",
+              "jsdoc/require-property-type": "off",
+              "jsdoc/require-returns": "warn",
+              "jsdoc/require-returns-check": "warn",
+              "jsdoc/require-returns-description": "warn",
+              "jsdoc/require-returns-type": "off",
+              "jsdoc/require-template": "off",
+              "jsdoc/require-throws": "off",
+              "jsdoc/require-yields": "warn",
+              "jsdoc/require-yields-check": "warn",
+              "jsdoc/sort-tags": "off",
+              "jsdoc/tag-lines": "warn",
+              "jsdoc/text-escaping": "off",
+              "jsdoc/valid-types": "warn",
+            },
+          },
+          "flat/recommended-typescript-error": {
+            "name": "jsdoc/flat/recommended-typescript-error",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/check-access": "error",
+              "jsdoc/check-alignment": "error",
+              "jsdoc/check-examples": "off",
+              "jsdoc/check-indentation": "off",
+              "jsdoc/check-line-alignment": "off",
+              "jsdoc/check-param-names": "error",
+              "jsdoc/check-property-names": "error",
+              "jsdoc/check-syntax": "off",
+              "jsdoc/check-tag-names": [
+                "error",
+                {
+                  "typed": true,
+                },
+              ],
+              "jsdoc/check-template-names": "off",
+              "jsdoc/check-types": "error",
+              "jsdoc/check-values": "error",
+              "jsdoc/convert-to-jsdoc-comments": "off",
+              "jsdoc/empty-tags": "error",
+              "jsdoc/implements-on-classes": "error",
+              "jsdoc/imports-as-dependencies": "off",
+              "jsdoc/informative-docs": "off",
+              "jsdoc/lines-before-block": "off",
+              "jsdoc/match-description": "off",
+              "jsdoc/match-name": "off",
+              "jsdoc/multiline-blocks": "error",
+              "jsdoc/no-bad-blocks": "off",
+              "jsdoc/no-blank-block-descriptions": "off",
+              "jsdoc/no-blank-blocks": "off",
+              "jsdoc/no-defaults": "error",
+              "jsdoc/no-missing-syntax": "off",
+              "jsdoc/no-multi-asterisks": "error",
+              "jsdoc/no-restricted-syntax": "off",
+              "jsdoc/no-types": "error",
+              "jsdoc/no-undefined-types": "off",
+              "jsdoc/require-asterisk-prefix": "off",
+              "jsdoc/require-description": "off",
+              "jsdoc/require-description-complete-sentence": "off",
+              "jsdoc/require-example": "off",
+              "jsdoc/require-file-overview": "off",
+              "jsdoc/require-hyphen-before-param-description": "off",
+              "jsdoc/require-jsdoc": "error",
+              "jsdoc/require-param": "error",
+              "jsdoc/require-param-description": "error",
+              "jsdoc/require-param-name": "error",
+              "jsdoc/require-param-type": "off",
+              "jsdoc/require-property": "error",
+              "jsdoc/require-property-description": "error",
+              "jsdoc/require-property-name": "error",
+              "jsdoc/require-property-type": "off",
+              "jsdoc/require-returns": "error",
+              "jsdoc/require-returns-check": "error",
+              "jsdoc/require-returns-description": "error",
+              "jsdoc/require-returns-type": "off",
+              "jsdoc/require-template": "off",
+              "jsdoc/require-throws": "off",
+              "jsdoc/require-yields": "error",
+              "jsdoc/require-yields-check": "error",
+              "jsdoc/sort-tags": "off",
+              "jsdoc/tag-lines": "error",
+              "jsdoc/text-escaping": "off",
+              "jsdoc/valid-types": "error",
+            },
+          },
+          "flat/recommended-typescript-flavor": {
+            "name": "jsdoc/flat/recommended-typescript-flavor",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/check-access": "warn",
+              "jsdoc/check-alignment": "warn",
+              "jsdoc/check-examples": "off",
+              "jsdoc/check-indentation": "off",
+              "jsdoc/check-line-alignment": "off",
+              "jsdoc/check-param-names": "warn",
+              "jsdoc/check-property-names": "warn",
+              "jsdoc/check-syntax": "off",
+              "jsdoc/check-tag-names": "warn",
+              "jsdoc/check-template-names": "off",
+              "jsdoc/check-types": "warn",
+              "jsdoc/check-values": "warn",
+              "jsdoc/convert-to-jsdoc-comments": "off",
+              "jsdoc/empty-tags": "warn",
+              "jsdoc/implements-on-classes": "warn",
+              "jsdoc/imports-as-dependencies": "off",
+              "jsdoc/informative-docs": "off",
+              "jsdoc/lines-before-block": "off",
+              "jsdoc/match-description": "off",
+              "jsdoc/match-name": "off",
+              "jsdoc/multiline-blocks": "warn",
+              "jsdoc/no-bad-blocks": "off",
+              "jsdoc/no-blank-block-descriptions": "off",
+              "jsdoc/no-blank-blocks": "off",
+              "jsdoc/no-defaults": "warn",
+              "jsdoc/no-missing-syntax": "off",
+              "jsdoc/no-multi-asterisks": "warn",
+              "jsdoc/no-restricted-syntax": "off",
+              "jsdoc/no-types": "off",
+              "jsdoc/no-undefined-types": "off",
+              "jsdoc/require-asterisk-prefix": "off",
+              "jsdoc/require-description": "off",
+              "jsdoc/require-description-complete-sentence": "off",
+              "jsdoc/require-example": "off",
+              "jsdoc/require-file-overview": "off",
+              "jsdoc/require-hyphen-before-param-description": "off",
+              "jsdoc/require-jsdoc": "warn",
+              "jsdoc/require-param": "warn",
+              "jsdoc/require-param-description": "warn",
+              "jsdoc/require-param-name": "warn",
+              "jsdoc/require-param-type": "warn",
+              "jsdoc/require-property": "warn",
+              "jsdoc/require-property-description": "warn",
+              "jsdoc/require-property-name": "warn",
+              "jsdoc/require-property-type": "warn",
+              "jsdoc/require-returns": "warn",
+              "jsdoc/require-returns-check": "warn",
+              "jsdoc/require-returns-description": "warn",
+              "jsdoc/require-returns-type": "warn",
+              "jsdoc/require-template": "off",
+              "jsdoc/require-throws": "off",
+              "jsdoc/require-yields": "warn",
+              "jsdoc/require-yields-check": "warn",
+              "jsdoc/sort-tags": "off",
+              "jsdoc/tag-lines": "warn",
+              "jsdoc/text-escaping": "off",
+              "jsdoc/valid-types": "warn",
+            },
+          },
+          "flat/recommended-typescript-flavor-error": {
+            "name": "jsdoc/flat/recommended-typescript-flavor-error",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/check-access": "error",
+              "jsdoc/check-alignment": "error",
+              "jsdoc/check-examples": "off",
+              "jsdoc/check-indentation": "off",
+              "jsdoc/check-line-alignment": "off",
+              "jsdoc/check-param-names": "error",
+              "jsdoc/check-property-names": "error",
+              "jsdoc/check-syntax": "off",
+              "jsdoc/check-tag-names": "error",
+              "jsdoc/check-template-names": "off",
+              "jsdoc/check-types": "error",
+              "jsdoc/check-values": "error",
+              "jsdoc/convert-to-jsdoc-comments": "off",
+              "jsdoc/empty-tags": "error",
+              "jsdoc/implements-on-classes": "error",
+              "jsdoc/imports-as-dependencies": "off",
+              "jsdoc/informative-docs": "off",
+              "jsdoc/lines-before-block": "off",
+              "jsdoc/match-description": "off",
+              "jsdoc/match-name": "off",
+              "jsdoc/multiline-blocks": "error",
+              "jsdoc/no-bad-blocks": "off",
+              "jsdoc/no-blank-block-descriptions": "off",
+              "jsdoc/no-blank-blocks": "off",
+              "jsdoc/no-defaults": "error",
+              "jsdoc/no-missing-syntax": "off",
+              "jsdoc/no-multi-asterisks": "error",
+              "jsdoc/no-restricted-syntax": "off",
+              "jsdoc/no-types": "off",
+              "jsdoc/no-undefined-types": "off",
+              "jsdoc/require-asterisk-prefix": "off",
+              "jsdoc/require-description": "off",
+              "jsdoc/require-description-complete-sentence": "off",
+              "jsdoc/require-example": "off",
+              "jsdoc/require-file-overview": "off",
+              "jsdoc/require-hyphen-before-param-description": "off",
+              "jsdoc/require-jsdoc": "error",
+              "jsdoc/require-param": "error",
+              "jsdoc/require-param-description": "error",
+              "jsdoc/require-param-name": "error",
+              "jsdoc/require-param-type": "error",
+              "jsdoc/require-property": "error",
+              "jsdoc/require-property-description": "error",
+              "jsdoc/require-property-name": "error",
+              "jsdoc/require-property-type": "error",
+              "jsdoc/require-returns": "error",
+              "jsdoc/require-returns-check": "error",
+              "jsdoc/require-returns-description": "error",
+              "jsdoc/require-returns-type": "error",
+              "jsdoc/require-template": "off",
+              "jsdoc/require-throws": "off",
+              "jsdoc/require-yields": "error",
+              "jsdoc/require-yields-check": "error",
+              "jsdoc/sort-tags": "off",
+              "jsdoc/tag-lines": "error",
+              "jsdoc/text-escaping": "off",
+              "jsdoc/valid-types": "error",
+            },
+          },
+          "flat/requirements-typescript": {
+            "name": "jsdoc/flat/requirements-typescript",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/require-example": "warn",
+              "jsdoc/require-jsdoc": "warn",
+              "jsdoc/require-param": "warn",
+              "jsdoc/require-param-description": "warn",
+              "jsdoc/require-param-name": "warn",
+              "jsdoc/require-property": "warn",
+              "jsdoc/require-property-description": "warn",
+              "jsdoc/require-property-name": "warn",
+              "jsdoc/require-returns": "warn",
+              "jsdoc/require-returns-description": "warn",
+              "jsdoc/require-yields": "warn",
+            },
+          },
+          "flat/requirements-typescript-error": {
+            "name": "jsdoc/flat/requirements-typescript-error",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/require-example": "error",
+              "jsdoc/require-jsdoc": "error",
+              "jsdoc/require-param": "error",
+              "jsdoc/require-param-description": "error",
+              "jsdoc/require-param-name": "error",
+              "jsdoc/require-property": "error",
+              "jsdoc/require-property-description": "error",
+              "jsdoc/require-property-name": "error",
+              "jsdoc/require-returns": "error",
+              "jsdoc/require-returns-description": "error",
+              "jsdoc/require-yields": "error",
+            },
+          },
+          "flat/requirements-typescript-flavor": {
+            "name": "jsdoc/flat/requirements-typescript-flavor",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/require-example": "warn",
+              "jsdoc/require-jsdoc": "warn",
+              "jsdoc/require-param": "warn",
+              "jsdoc/require-param-description": "warn",
+              "jsdoc/require-param-name": "warn",
+              "jsdoc/require-param-type": "warn",
+              "jsdoc/require-property": "warn",
+              "jsdoc/require-property-description": "warn",
+              "jsdoc/require-property-name": "warn",
+              "jsdoc/require-property-type": "warn",
+              "jsdoc/require-returns": "warn",
+              "jsdoc/require-returns-description": "warn",
+              "jsdoc/require-returns-type": "warn",
+              "jsdoc/require-template": "warn",
+              "jsdoc/require-yields": "warn",
+            },
+          },
+          "flat/requirements-typescript-flavor-error": {
+            "name": "jsdoc/flat/requirements-typescript-error-flavor",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/require-example": "error",
+              "jsdoc/require-jsdoc": "error",
+              "jsdoc/require-param": "error",
+              "jsdoc/require-param-description": "error",
+              "jsdoc/require-param-name": "error",
+              "jsdoc/require-param-type": "error",
+              "jsdoc/require-property": "error",
+              "jsdoc/require-property-description": "error",
+              "jsdoc/require-property-name": "error",
+              "jsdoc/require-property-type": "error",
+              "jsdoc/require-returns": "error",
+              "jsdoc/require-returns-description": "error",
+              "jsdoc/require-returns-type": "error",
+              "jsdoc/require-template": "error",
+              "jsdoc/require-yields": "error",
+            },
+          },
+          "flat/stylistic-typescript": {
+            "name": "jsdoc/flat/stylistic-typescript",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/check-alignment": "warn",
+              "jsdoc/check-line-alignment": "warn",
+              "jsdoc/lines-before-block": "warn",
+              "jsdoc/multiline-blocks": "warn",
+              "jsdoc/no-multi-asterisks": "warn",
+              "jsdoc/require-asterisk-prefix": "warn",
+              "jsdoc/require-hyphen-before-param-description": [
+                "warn",
+                "never",
+              ],
+              "jsdoc/tag-lines": "warn",
+            },
+          },
+          "flat/stylistic-typescript-error": {
+            "name": "jsdoc/flat/stylistic-typescript-error",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/check-alignment": "error",
+              "jsdoc/check-line-alignment": "error",
+              "jsdoc/lines-before-block": "error",
+              "jsdoc/multiline-blocks": "error",
+              "jsdoc/no-multi-asterisks": "error",
+              "jsdoc/require-asterisk-prefix": "error",
+              "jsdoc/require-hyphen-before-param-description": [
+                "error",
+                "never",
+              ],
+              "jsdoc/tag-lines": "error",
+            },
+          },
+          "flat/stylistic-typescript-flavor": {
+            "name": "jsdoc/flat/stylistic-typescript-flavor",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/check-alignment": "warn",
+              "jsdoc/check-line-alignment": "warn",
+              "jsdoc/lines-before-block": "warn",
+              "jsdoc/multiline-blocks": "warn",
+              "jsdoc/no-multi-asterisks": "warn",
+              "jsdoc/require-asterisk-prefix": "warn",
+              "jsdoc/require-hyphen-before-param-description": [
+                "warn",
+                "never",
+              ],
+              "jsdoc/tag-lines": "warn",
+            },
+          },
+          "flat/stylistic-typescript-flavor-error": {
+            "name": "jsdoc/flat/stylistic-typescript-error-flavor",
+            "plugins": {
+              "jsdoc": [Circular],
+            },
+            "rules": {
+              "jsdoc/check-alignment": "error",
+              "jsdoc/check-line-alignment": "error",
+              "jsdoc/lines-before-block": "error",
+              "jsdoc/multiline-blocks": "error",
+              "jsdoc/no-multi-asterisks": "error",
+              "jsdoc/require-asterisk-prefix": "error",
+              "jsdoc/require-hyphen-before-param-description": [
+                "error",
+                "never",
+              ],
+              "jsdoc/tag-lines": "error",
+            },
+          },
+          "recommended": {
+            "plugins": [
+              "jsdoc",
+            ],
+            "rules": {
+              "jsdoc/check-access": "warn",
+              "jsdoc/check-alignment": "warn",
+              "jsdoc/check-examples": "off",
+              "jsdoc/check-indentation": "off",
+              "jsdoc/check-line-alignment": "off",
+              "jsdoc/check-param-names": "warn",
+              "jsdoc/check-property-names": "warn",
+              "jsdoc/check-syntax": "off",
+              "jsdoc/check-tag-names": "warn",
+              "jsdoc/check-template-names": "off",
+              "jsdoc/check-types": "warn",
+              "jsdoc/check-values": "warn",
+              "jsdoc/convert-to-jsdoc-comments": "off",
+              "jsdoc/empty-tags": "warn",
+              "jsdoc/implements-on-classes": "warn",
+              "jsdoc/imports-as-dependencies": "off",
+              "jsdoc/informative-docs": "off",
+              "jsdoc/lines-before-block": "off",
+              "jsdoc/match-description": "off",
+              "jsdoc/match-name": "off",
+              "jsdoc/multiline-blocks": "warn",
+              "jsdoc/no-bad-blocks": "off",
+              "jsdoc/no-blank-block-descriptions": "off",
+              "jsdoc/no-blank-blocks": "off",
+              "jsdoc/no-defaults": "warn",
+              "jsdoc/no-missing-syntax": "off",
+              "jsdoc/no-multi-asterisks": "warn",
+              "jsdoc/no-restricted-syntax": "off",
+              "jsdoc/no-types": "off",
+              "jsdoc/no-undefined-types": "warn",
+              "jsdoc/require-asterisk-prefix": "off",
+              "jsdoc/require-description": "off",
+              "jsdoc/require-description-complete-sentence": "off",
+              "jsdoc/require-example": "off",
+              "jsdoc/require-file-overview": "off",
+              "jsdoc/require-hyphen-before-param-description": "off",
+              "jsdoc/require-jsdoc": "warn",
+              "jsdoc/require-param": "warn",
+              "jsdoc/require-param-description": "warn",
+              "jsdoc/require-param-name": "warn",
+              "jsdoc/require-param-type": "warn",
+              "jsdoc/require-property": "warn",
+              "jsdoc/require-property-description": "warn",
+              "jsdoc/require-property-name": "warn",
+              "jsdoc/require-property-type": "warn",
+              "jsdoc/require-returns": "warn",
+              "jsdoc/require-returns-check": "warn",
+              "jsdoc/require-returns-description": "warn",
+              "jsdoc/require-returns-type": "warn",
+              "jsdoc/require-template": "off",
+              "jsdoc/require-throws": "off",
+              "jsdoc/require-yields": "warn",
+              "jsdoc/require-yields-check": "warn",
+              "jsdoc/sort-tags": "off",
+              "jsdoc/tag-lines": "warn",
+              "jsdoc/text-escaping": "off",
+              "jsdoc/valid-types": "warn",
+            },
+          },
+          "recommended-error": {
+            "plugins": [
+              "jsdoc",
+            ],
+            "rules": {
+              "jsdoc/check-access": "error",
+              "jsdoc/check-alignment": "error",
+              "jsdoc/check-examples": "off",
+              "jsdoc/check-indentation": "off",
+              "jsdoc/check-line-alignment": "off",
+              "jsdoc/check-param-names": "error",
+              "jsdoc/check-property-names": "error",
+              "jsdoc/check-syntax": "off",
+              "jsdoc/check-tag-names": "error",
+              "jsdoc/check-template-names": "off",
+              "jsdoc/check-types": "error",
+              "jsdoc/check-values": "error",
+              "jsdoc/convert-to-jsdoc-comments": "off",
+              "jsdoc/empty-tags": "error",
+              "jsdoc/implements-on-classes": "error",
+              "jsdoc/imports-as-dependencies": "off",
+              "jsdoc/informative-docs": "off",
+              "jsdoc/lines-before-block": "off",
+              "jsdoc/match-description": "off",
+              "jsdoc/match-name": "off",
+              "jsdoc/multiline-blocks": "error",
+              "jsdoc/no-bad-blocks": "off",
+              "jsdoc/no-blank-block-descriptions": "off",
+              "jsdoc/no-blank-blocks": "off",
+              "jsdoc/no-defaults": "error",
+              "jsdoc/no-missing-syntax": "off",
+              "jsdoc/no-multi-asterisks": "error",
+              "jsdoc/no-restricted-syntax": "off",
+              "jsdoc/no-types": "off",
+              "jsdoc/no-undefined-types": "error",
+              "jsdoc/require-asterisk-prefix": "off",
+              "jsdoc/require-description": "off",
+              "jsdoc/require-description-complete-sentence": "off",
+              "jsdoc/require-example": "off",
+              "jsdoc/require-file-overview": "off",
+              "jsdoc/require-hyphen-before-param-description": "off",
+              "jsdoc/require-jsdoc": "error",
+              "jsdoc/require-param": "error",
+              "jsdoc/require-param-description": "error",
+              "jsdoc/require-param-name": "error",
+              "jsdoc/require-param-type": "error",
+              "jsdoc/require-property": "error",
+              "jsdoc/require-property-description": "error",
+              "jsdoc/require-property-name": "error",
+              "jsdoc/require-property-type": "error",
+              "jsdoc/require-returns": "error",
+              "jsdoc/require-returns-check": "error",
+              "jsdoc/require-returns-description": "error",
+              "jsdoc/require-returns-type": "error",
+              "jsdoc/require-template": "off",
+              "jsdoc/require-throws": "off",
+              "jsdoc/require-yields": "error",
+              "jsdoc/require-yields-check": "error",
+              "jsdoc/sort-tags": "off",
+              "jsdoc/tag-lines": "error",
+              "jsdoc/text-escaping": "off",
+              "jsdoc/valid-types": "error",
+            },
+          },
+          "recommended-typescript": {
+            "plugins": [
+              "jsdoc",
+            ],
+            "rules": {
+              "jsdoc/check-access": "warn",
+              "jsdoc/check-alignment": "warn",
+              "jsdoc/check-examples": "off",
+              "jsdoc/check-indentation": "off",
+              "jsdoc/check-line-alignment": "off",
+              "jsdoc/check-param-names": "warn",
+              "jsdoc/check-property-names": "warn",
+              "jsdoc/check-syntax": "off",
+              "jsdoc/check-tag-names": [
+                "warn",
+                {
+                  "typed": true,
+                },
+              ],
+              "jsdoc/check-template-names": "off",
+              "jsdoc/check-types": "warn",
+              "jsdoc/check-values": "warn",
+              "jsdoc/convert-to-jsdoc-comments": "off",
+              "jsdoc/empty-tags": "warn",
+              "jsdoc/implements-on-classes": "warn",
+              "jsdoc/imports-as-dependencies": "off",
+              "jsdoc/informative-docs": "off",
+              "jsdoc/lines-before-block": "off",
+              "jsdoc/match-description": "off",
+              "jsdoc/match-name": "off",
+              "jsdoc/multiline-blocks": "warn",
+              "jsdoc/no-bad-blocks": "off",
+              "jsdoc/no-blank-block-descriptions": "off",
+              "jsdoc/no-blank-blocks": "off",
+              "jsdoc/no-defaults": "warn",
+              "jsdoc/no-missing-syntax": "off",
+              "jsdoc/no-multi-asterisks": "warn",
+              "jsdoc/no-restricted-syntax": "off",
+              "jsdoc/no-types": "warn",
+              "jsdoc/no-undefined-types": "off",
+              "jsdoc/require-asterisk-prefix": "off",
+              "jsdoc/require-description": "off",
+              "jsdoc/require-description-complete-sentence": "off",
+              "jsdoc/require-example": "off",
+              "jsdoc/require-file-overview": "off",
+              "jsdoc/require-hyphen-before-param-description": "off",
+              "jsdoc/require-jsdoc": "warn",
+              "jsdoc/require-param": "warn",
+              "jsdoc/require-param-description": "warn",
+              "jsdoc/require-param-name": "warn",
+              "jsdoc/require-param-type": "off",
+              "jsdoc/require-property": "warn",
+              "jsdoc/require-property-description": "warn",
+              "jsdoc/require-property-name": "warn",
+              "jsdoc/require-property-type": "off",
+              "jsdoc/require-returns": "warn",
+              "jsdoc/require-returns-check": "warn",
+              "jsdoc/require-returns-description": "warn",
+              "jsdoc/require-returns-type": "off",
+              "jsdoc/require-template": "off",
+              "jsdoc/require-throws": "off",
+              "jsdoc/require-yields": "warn",
+              "jsdoc/require-yields-check": "warn",
+              "jsdoc/sort-tags": "off",
+              "jsdoc/tag-lines": "warn",
+              "jsdoc/text-escaping": "off",
+              "jsdoc/valid-types": "warn",
+            },
+          },
+          "recommended-typescript-error": {
+            "plugins": [
+              "jsdoc",
+            ],
+            "rules": {
+              "jsdoc/check-access": "error",
+              "jsdoc/check-alignment": "error",
+              "jsdoc/check-examples": "off",
+              "jsdoc/check-indentation": "off",
+              "jsdoc/check-line-alignment": "off",
+              "jsdoc/check-param-names": "error",
+              "jsdoc/check-property-names": "error",
+              "jsdoc/check-syntax": "off",
+              "jsdoc/check-tag-names": [
+                "error",
+                {
+                  "typed": true,
+                },
+              ],
+              "jsdoc/check-template-names": "off",
+              "jsdoc/check-types": "error",
+              "jsdoc/check-values": "error",
+              "jsdoc/convert-to-jsdoc-comments": "off",
+              "jsdoc/empty-tags": "error",
+              "jsdoc/implements-on-classes": "error",
+              "jsdoc/imports-as-dependencies": "off",
+              "jsdoc/informative-docs": "off",
+              "jsdoc/lines-before-block": "off",
+              "jsdoc/match-description": "off",
+              "jsdoc/match-name": "off",
+              "jsdoc/multiline-blocks": "error",
+              "jsdoc/no-bad-blocks": "off",
+              "jsdoc/no-blank-block-descriptions": "off",
+              "jsdoc/no-blank-blocks": "off",
+              "jsdoc/no-defaults": "error",
+              "jsdoc/no-missing-syntax": "off",
+              "jsdoc/no-multi-asterisks": "error",
+              "jsdoc/no-restricted-syntax": "off",
+              "jsdoc/no-types": "error",
+              "jsdoc/no-undefined-types": "off",
+              "jsdoc/require-asterisk-prefix": "off",
+              "jsdoc/require-description": "off",
+              "jsdoc/require-description-complete-sentence": "off",
+              "jsdoc/require-example": "off",
+              "jsdoc/require-file-overview": "off",
+              "jsdoc/require-hyphen-before-param-description": "off",
+              "jsdoc/require-jsdoc": "error",
+              "jsdoc/require-param": "error",
+              "jsdoc/require-param-description": "error",
+              "jsdoc/require-param-name": "error",
+              "jsdoc/require-param-type": "off",
+              "jsdoc/require-property": "error",
+              "jsdoc/require-property-description": "error",
+              "jsdoc/require-property-name": "error",
+              "jsdoc/require-property-type": "off",
+              "jsdoc/require-returns": "error",
+              "jsdoc/require-returns-check": "error",
+              "jsdoc/require-returns-description": "error",
+              "jsdoc/require-returns-type": "off",
+              "jsdoc/require-template": "off",
+              "jsdoc/require-throws": "off",
+              "jsdoc/require-yields": "error",
+              "jsdoc/require-yields-check": "error",
+              "jsdoc/sort-tags": "off",
+              "jsdoc/tag-lines": "error",
+              "jsdoc/text-escaping": "off",
+              "jsdoc/valid-types": "error",
+            },
+          },
+          "recommended-typescript-flavor": {
+            "plugins": [
+              "jsdoc",
+            ],
+            "rules": {
+              "jsdoc/check-access": "warn",
+              "jsdoc/check-alignment": "warn",
+              "jsdoc/check-examples": "off",
+              "jsdoc/check-indentation": "off",
+              "jsdoc/check-line-alignment": "off",
+              "jsdoc/check-param-names": "warn",
+              "jsdoc/check-property-names": "warn",
+              "jsdoc/check-syntax": "off",
+              "jsdoc/check-tag-names": "warn",
+              "jsdoc/check-template-names": "off",
+              "jsdoc/check-types": "warn",
+              "jsdoc/check-values": "warn",
+              "jsdoc/convert-to-jsdoc-comments": "off",
+              "jsdoc/empty-tags": "warn",
+              "jsdoc/implements-on-classes": "warn",
+              "jsdoc/imports-as-dependencies": "off",
+              "jsdoc/informative-docs": "off",
+              "jsdoc/lines-before-block": "off",
+              "jsdoc/match-description": "off",
+              "jsdoc/match-name": "off",
+              "jsdoc/multiline-blocks": "warn",
+              "jsdoc/no-bad-blocks": "off",
+              "jsdoc/no-blank-block-descriptions": "off",
+              "jsdoc/no-blank-blocks": "off",
+              "jsdoc/no-defaults": "warn",
+              "jsdoc/no-missing-syntax": "off",
+              "jsdoc/no-multi-asterisks": "warn",
+              "jsdoc/no-restricted-syntax": "off",
+              "jsdoc/no-types": "off",
+              "jsdoc/no-undefined-types": "off",
+              "jsdoc/require-asterisk-prefix": "off",
+              "jsdoc/require-description": "off",
+              "jsdoc/require-description-complete-sentence": "off",
+              "jsdoc/require-example": "off",
+              "jsdoc/require-file-overview": "off",
+              "jsdoc/require-hyphen-before-param-description": "off",
+              "jsdoc/require-jsdoc": "warn",
+              "jsdoc/require-param": "warn",
+              "jsdoc/require-param-description": "warn",
+              "jsdoc/require-param-name": "warn",
+              "jsdoc/require-param-type": "warn",
+              "jsdoc/require-property": "warn",
+              "jsdoc/require-property-description": "warn",
+              "jsdoc/require-property-name": "warn",
+              "jsdoc/require-property-type": "warn",
+              "jsdoc/require-returns": "warn",
+              "jsdoc/require-returns-check": "warn",
+              "jsdoc/require-returns-description": "warn",
+              "jsdoc/require-returns-type": "warn",
+              "jsdoc/require-template": "off",
+              "jsdoc/require-throws": "off",
+              "jsdoc/require-yields": "warn",
+              "jsdoc/require-yields-check": "warn",
+              "jsdoc/sort-tags": "off",
+              "jsdoc/tag-lines": "warn",
+              "jsdoc/text-escaping": "off",
+              "jsdoc/valid-types": "warn",
+            },
+          },
+          "recommended-typescript-flavor-error": {
+            "plugins": [
+              "jsdoc",
+            ],
+            "rules": {
+              "jsdoc/check-access": "error",
+              "jsdoc/check-alignment": "error",
+              "jsdoc/check-examples": "off",
+              "jsdoc/check-indentation": "off",
+              "jsdoc/check-line-alignment": "off",
+              "jsdoc/check-param-names": "error",
+              "jsdoc/check-property-names": "error",
+              "jsdoc/check-syntax": "off",
+              "jsdoc/check-tag-names": "error",
+              "jsdoc/check-template-names": "off",
+              "jsdoc/check-types": "error",
+              "jsdoc/check-values": "error",
+              "jsdoc/convert-to-jsdoc-comments": "off",
+              "jsdoc/empty-tags": "error",
+              "jsdoc/implements-on-classes": "error",
+              "jsdoc/imports-as-dependencies": "off",
+              "jsdoc/informative-docs": "off",
+              "jsdoc/lines-before-block": "off",
+              "jsdoc/match-description": "off",
+              "jsdoc/match-name": "off",
+              "jsdoc/multiline-blocks": "error",
+              "jsdoc/no-bad-blocks": "off",
+              "jsdoc/no-blank-block-descriptions": "off",
+              "jsdoc/no-blank-blocks": "off",
+              "jsdoc/no-defaults": "error",
+              "jsdoc/no-missing-syntax": "off",
+              "jsdoc/no-multi-asterisks": "error",
+              "jsdoc/no-restricted-syntax": "off",
+              "jsdoc/no-types": "off",
+              "jsdoc/no-undefined-types": "off",
+              "jsdoc/require-asterisk-prefix": "off",
+              "jsdoc/require-description": "off",
+              "jsdoc/require-description-complete-sentence": "off",
+              "jsdoc/require-example": "off",
+              "jsdoc/require-file-overview": "off",
+              "jsdoc/require-hyphen-before-param-description": "off",
+              "jsdoc/require-jsdoc": "error",
+              "jsdoc/require-param": "error",
+              "jsdoc/require-param-description": "error",
+              "jsdoc/require-param-name": "error",
+              "jsdoc/require-param-type": "error",
+              "jsdoc/require-property": "error",
+              "jsdoc/require-property-description": "error",
+              "jsdoc/require-property-name": "error",
+              "jsdoc/require-property-type": "error",
+              "jsdoc/require-returns": "error",
+              "jsdoc/require-returns-check": "error",
+              "jsdoc/require-returns-description": "error",
+              "jsdoc/require-returns-type": "error",
+              "jsdoc/require-template": "off",
+              "jsdoc/require-throws": "off",
+              "jsdoc/require-yields": "error",
+              "jsdoc/require-yields-check": "error",
+              "jsdoc/sort-tags": "off",
+              "jsdoc/tag-lines": "error",
+              "jsdoc/text-escaping": "off",
+              "jsdoc/valid-types": "error",
+            },
+          },
+        },
+        "rules": {
+          "check-access": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Checks that \`@access\` tags have a valid value.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/check-access.md#repos-sticky-header",
+              },
+              "type": "suggestion",
+            },
+          },
+          "check-alignment": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Reports invalid alignment of JSDoc block asterisks.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/check-alignment.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "type": "layout",
+            },
+          },
+          "check-examples": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Ensures that (JavaScript) examples within JSDoc adhere to ESLint rules.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/check-examples.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "allowInlineConfig": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "baseConfig": {
+                      "type": "object",
+                    },
+                    "captionRequired": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "checkDefaults": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "checkEslintrc": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "checkParams": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "checkProperties": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "configFile": {
+                      "type": "string",
+                    },
+                    "exampleCodeRegex": {
+                      "type": "string",
+                    },
+                    "matchingFileName": {
+                      "type": "string",
+                    },
+                    "matchingFileNameDefaults": {
+                      "type": "string",
+                    },
+                    "matchingFileNameParams": {
+                      "type": "string",
+                    },
+                    "matchingFileNameProperties": {
+                      "type": "string",
+                    },
+                    "noDefaultExampleRules": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "paddedIndent": {
+                      "default": 0,
+                      "type": "integer",
+                    },
+                    "rejectExampleCodeRegex": {
+                      "type": "string",
+                    },
+                    "reportUnusedDisableDirectives": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "check-indentation": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Reports invalid padding inside JSDoc blocks.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/check-indentation.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "excludeTags": {
+                      "items": {
+                        "pattern": "^\\S+$",
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "layout",
+            },
+          },
+          "check-line-alignment": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Reports invalid alignment of JSDoc block lines.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/check-line-alignment.md#repos-sticky-header",
+              },
+              "fixable": "whitespace",
+              "schema": [
+                {
+                  "enum": [
+                    "always",
+                    "never",
+                    "any",
+                  ],
+                  "type": "string",
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "customSpacings": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "postDelimiter": {
+                          "type": "integer",
+                        },
+                        "postHyphen": {
+                          "type": "integer",
+                        },
+                        "postName": {
+                          "type": "integer",
+                        },
+                        "postTag": {
+                          "type": "integer",
+                        },
+                        "postType": {
+                          "type": "integer",
+                        },
+                      },
+                    },
+                    "disableWrapIndent": {
+                      "type": "boolean",
+                    },
+                    "preserveMainDescriptionPostDelimiter": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "tags": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "wrapIndent": {
+                      "type": "string",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "layout",
+            },
+          },
+          "check-param-names": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Ensures that parameter names in JSDoc match those in the function declaration.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/check-param-names.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "allowExtraTrailingParamDocs": {
+                      "type": "boolean",
+                    },
+                    "checkDestructured": {
+                      "type": "boolean",
+                    },
+                    "checkRestProperty": {
+                      "type": "boolean",
+                    },
+                    "checkTypesPattern": {
+                      "type": "string",
+                    },
+                    "disableExtraPropertyReporting": {
+                      "type": "boolean",
+                    },
+                    "disableMissingParamChecks": {
+                      "type": "boolean",
+                    },
+                    "enableFixer": {
+                      "type": "boolean",
+                    },
+                    "useDefaultObjectProperties": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "check-property-names": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Ensures that property names in JSDoc are not duplicated on the same block and that nested properties have defined roots.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/check-property-names.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "enableFixer": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "check-syntax": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Reports against syntax not valid for the mode (e.g., Google Closure Compiler in non-Closure mode).",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/check-syntax.md#repos-sticky-header",
+              },
+              "type": "suggestion",
+            },
+          },
+          "check-tag-names": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Reports invalid block tag names.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/check-tag-names.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "definedTags": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "enableFixer": {
+                      "type": "boolean",
+                    },
+                    "jsxTags": {
+                      "type": "boolean",
+                    },
+                    "typed": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "check-template-names": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Checks that any \`@template\` names are actually used in the connected \`@typedef\` or type alias.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/check-template-names.md#repos-sticky-header",
+              },
+              "schema": [],
+              "type": "suggestion",
+            },
+          },
+          "check-types": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Reports invalid types.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/check-types.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "exemptTagContexts": {
+                      "items": {
+                        "additionalProperties": false,
+                        "properties": {
+                          "tag": {
+                            "type": "string",
+                          },
+                          "types": {
+                            "oneOf": [
+                              {
+                                "type": "boolean",
+                              },
+                              {
+                                "items": {
+                                  "type": "string",
+                                },
+                                "type": "array",
+                              },
+                            ],
+                          },
+                        },
+                        "type": "object",
+                      },
+                      "type": "array",
+                    },
+                    "noDefaults": {
+                      "type": "boolean",
+                    },
+                    "unifyParentAndChildTypeChecks": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "check-values": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "This rule checks the values for a handful of tags: \`@version\`, \`@since\`, \`@license\` and \`@author\`.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/check-values.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "allowedAuthors": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "allowedLicenses": {
+                      "anyOf": [
+                        {
+                          "items": {
+                            "type": "string",
+                          },
+                          "type": "array",
+                        },
+                        {
+                          "type": "boolean",
+                        },
+                      ],
+                    },
+                    "licensePattern": {
+                      "type": "string",
+                    },
+                    "numericOnlyVariation": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "convert-to-jsdoc-comments": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Converts non-JSDoc comments preceding or following nodes into JSDoc ones",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/convert-to-jsdoc-comments.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "messages": {
+                "blockCommentsJsdocStyle": "Block comments should be JSDoc-style.",
+                "lineCommentsJsdocStyle": "Line comments should be JSDoc-style.",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "allowedPrefixes": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "context": {
+                                "type": "string",
+                              },
+                              "inlineCommentBlock": {
+                                "type": "boolean",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "contextsAfter": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "context": {
+                                "type": "string",
+                              },
+                              "inlineCommentBlock": {
+                                "type": "boolean",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "contextsBeforeAndAfter": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "context": {
+                                "type": "string",
+                              },
+                              "inlineCommentBlock": {
+                                "type": "boolean",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "enableFixer": {
+                      "type": "boolean",
+                    },
+                    "enforceJsdocLineStyle": {
+                      "enum": [
+                        "multi",
+                        "single",
+                      ],
+                      "type": "string",
+                    },
+                    "lineOrBlockStyle": {
+                      "enum": [
+                        "block",
+                        "line",
+                        "both",
+                      ],
+                      "type": "string",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "empty-tags": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Expects specific tags to be empty of any content.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/empty-tags.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "tags": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "implements-on-classes": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Reports an issue with any non-constructor function using \`@implements\`.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/implements-on-classes.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "imports-as-dependencies": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Reports if JSDoc \`import()\` statements point to a package which is not listed in \`dependencies\` or \`devDependencies\`",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/imports-as-dependencies.md#repos-sticky-header",
+              },
+              "type": "suggestion",
+            },
+          },
+          "informative-docs": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "This rule reports doc comments that only restate their attached name.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/informative-docs.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "aliases": {
+                      "patternProperties": {
+                        ".*": {
+                          "items": {
+                            "type": "string",
+                          },
+                          "type": "array",
+                        },
+                      },
+                    },
+                    "excludedTags": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "uselessWords": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "lines-before-block": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Enforces minimum number of newlines before JSDoc comment blocks",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/lines-before-block.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "checkBlockStarts": {
+                      "type": "boolean",
+                    },
+                    "excludedTags": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "ignoreSameLine": {
+                      "type": "boolean",
+                    },
+                    "ignoreSingleLines": {
+                      "type": "boolean",
+                    },
+                    "lines": {
+                      "type": "integer",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "match-description": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Enforces a regular expression pattern on descriptions.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/match-description.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "mainDescription": {
+                      "oneOf": [
+                        {
+                          "format": "regex",
+                          "type": "string",
+                        },
+                        {
+                          "type": "boolean",
+                        },
+                        {
+                          "additionalProperties": false,
+                          "properties": {
+                            "match": {
+                              "oneOf": [
+                                {
+                                  "format": "regex",
+                                  "type": "string",
+                                },
+                                {
+                                  "type": "boolean",
+                                },
+                              ],
+                            },
+                            "message": {
+                              "type": "string",
+                            },
+                          },
+                          "type": "object",
+                        },
+                      ],
+                    },
+                    "matchDescription": {
+                      "format": "regex",
+                      "type": "string",
+                    },
+                    "message": {
+                      "type": "string",
+                    },
+                    "nonemptyTags": {
+                      "type": "boolean",
+                    },
+                    "tags": {
+                      "patternProperties": {
+                        ".*": {
+                          "oneOf": [
+                            {
+                              "format": "regex",
+                              "type": "string",
+                            },
+                            {
+                              "enum": [
+                                true,
+                              ],
+                              "type": "boolean",
+                            },
+                            {
+                              "additionalProperties": false,
+                              "properties": {
+                                "match": {
+                                  "oneOf": [
+                                    {
+                                      "format": "regex",
+                                      "type": "string",
+                                    },
+                                    {
+                                      "enum": [
+                                        true,
+                                      ],
+                                      "type": "boolean",
+                                    },
+                                  ],
+                                },
+                                "message": {
+                                  "type": "string",
+                                },
+                              },
+                              "type": "object",
+                            },
+                          ],
+                        },
+                      },
+                      "type": "object",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "match-name": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Reports the name portion of a JSDoc tag if matching or not matching a given regular expression.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/match-name.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "match": {
+                      "additionalProperties": false,
+                      "items": {
+                        "properties": {
+                          "allowName": {
+                            "type": "string",
+                          },
+                          "comment": {
+                            "type": "string",
+                          },
+                          "context": {
+                            "type": "string",
+                          },
+                          "disallowName": {
+                            "type": "string",
+                          },
+                          "message": {
+                            "type": "string",
+                          },
+                          "tags": {
+                            "items": {
+                              "type": "string",
+                            },
+                            "type": "array",
+                          },
+                        },
+                        "type": "object",
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "required": [
+                    "match",
+                  ],
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "multiline-blocks": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Controls how and whether jsdoc blocks can be expressed as single or multiple line blocks.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/multiline-blocks.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "allowMultipleTags": {
+                      "type": "boolean",
+                    },
+                    "minimumLengthForMultiline": {
+                      "type": "integer",
+                    },
+                    "multilineTags": {
+                      "anyOf": [
+                        {
+                          "enum": [
+                            "*",
+                          ],
+                          "type": "string",
+                        },
+                        {
+                          "items": {
+                            "type": "string",
+                          },
+                          "type": "array",
+                        },
+                      ],
+                    },
+                    "noFinalLineText": {
+                      "type": "boolean",
+                    },
+                    "noMultilineBlocks": {
+                      "type": "boolean",
+                    },
+                    "noSingleLineBlocks": {
+                      "type": "boolean",
+                    },
+                    "noZeroLineText": {
+                      "type": "boolean",
+                    },
+                    "requireSingleLineUnderCount": {
+                      "type": "number",
+                    },
+                    "singleLineTags": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "no-bad-blocks": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "This rule checks for multi-line-style comments which fail to meet the criteria of a jsdoc block.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/no-bad-blocks.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "ignore": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "preventAllMultiAsteriskBlocks": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "layout",
+            },
+          },
+          "no-blank-block-descriptions": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Detects and removes extra lines of a blank block description",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/no-blank-block-descriptions.md#repos-sticky-header",
+              },
+              "fixable": "whitespace",
+              "schema": [],
+              "type": "layout",
+            },
+          },
+          "no-blank-blocks": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Removes empty blocks with nothing but possibly line breaks",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/no-blank-blocks.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "enableFixer": {
+                      "type": "boolean",
+                    },
+                  },
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "no-defaults": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "This rule reports defaults being used on the relevant portion of \`@param\` or \`@default\`.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/no-defaults.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "noOptionalParamNames": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "no-missing-syntax": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Reports when certain comment structures are always expected.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/no-missing-syntax.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                              "message": {
+                                "type": "string",
+                              },
+                              "minimum": {
+                                "type": "integer",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "no-multi-asterisks": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Prevents use of multiple asterisks at the beginning of lines.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/no-multi-asterisks.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "allowWhitespace": {
+                      "type": "boolean",
+                    },
+                    "preventAtEnd": {
+                      "type": "boolean",
+                    },
+                    "preventAtMiddleLines": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "no-restricted-syntax": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Reports when certain comment structures are present.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/no-restricted-syntax.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                              "message": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "required": [
+                    "contexts",
+                  ],
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "no-types": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "This rule reports types being used on \`@param\` or \`@returns\`.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/no-types.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "no-undefined-types": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Checks that types in jsdoc comments are defined.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/no-undefined-types.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "definedTypes": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "disableReporting": {
+                      "type": "boolean",
+                    },
+                    "markVariablesAsUsed": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-asterisk-prefix": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that each JSDoc line starts with an \`*\`.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-asterisk-prefix.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "enum": [
+                    "always",
+                    "never",
+                    "any",
+                  ],
+                  "type": "string",
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "tags": {
+                      "properties": {
+                        "always": {
+                          "items": {
+                            "type": "string",
+                          },
+                          "type": "array",
+                        },
+                        "any": {
+                          "items": {
+                            "type": "string",
+                          },
+                          "type": "array",
+                        },
+                        "never": {
+                          "items": {
+                            "type": "string",
+                          },
+                          "type": "array",
+                        },
+                      },
+                      "type": "object",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "layout",
+            },
+          },
+          "require-description": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that all functions have a description.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-description.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "checkConstructors": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "checkGetters": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "checkSetters": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "descriptionStyle": {
+                      "enum": [
+                        "body",
+                        "tag",
+                        "any",
+                      ],
+                      "type": "string",
+                    },
+                    "exemptedBy": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-description-complete-sentence": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that block description, explicit \`@description\`, and \`@param\`/\`@returns\` tag descriptions are written in complete sentences.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-description-complete-sentence.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "abbreviations": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "newlineBeforeCapsAssumesBadSentenceEnd": {
+                      "type": "boolean",
+                    },
+                    "tags": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-example": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that all functions have examples.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-example.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "checkConstructors": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "checkGetters": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "checkSetters": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "enableFixer": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "exemptNoArguments": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "exemptedBy": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-file-overview": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Checks that all files have one \`@file\`, \`@fileoverview\`, or \`@overview\` tag at the beginning of the file.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-file-overview.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "tags": {
+                      "patternProperties": {
+                        ".*": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "initialCommentsOnly": {
+                              "type": "boolean",
+                            },
+                            "mustExist": {
+                              "type": "boolean",
+                            },
+                            "preventDuplicates": {
+                              "type": "boolean",
+                            },
+                          },
+                          "type": "object",
+                        },
+                      },
+                      "type": "object",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-hyphen-before-param-description": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires a hyphen before the \`@param\` description.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-hyphen-before-param-description.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "enum": [
+                    "always",
+                    "never",
+                  ],
+                  "type": "string",
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "tags": {
+                      "anyOf": [
+                        {
+                          "patternProperties": {
+                            ".*": {
+                              "enum": [
+                                "always",
+                                "never",
+                              ],
+                              "type": "string",
+                            },
+                          },
+                          "type": "object",
+                        },
+                        {
+                          "enum": [
+                            "any",
+                          ],
+                          "type": "string",
+                        },
+                      ],
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "layout",
+            },
+          },
+          "require-jsdoc": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "category": "Stylistic Issues",
+                "description": "Require JSDoc comments",
+                "recommended": true,
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-jsdoc.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "messages": {
+                "missingJsDoc": "Missing JSDoc comment.",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "checkConstructors": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "checkGetters": {
+                      "anyOf": [
+                        {
+                          "type": "boolean",
+                        },
+                        {
+                          "enum": [
+                            "no-setter",
+                          ],
+                          "type": "string",
+                        },
+                      ],
+                      "default": true,
+                    },
+                    "checkSetters": {
+                      "anyOf": [
+                        {
+                          "type": "boolean",
+                        },
+                        {
+                          "enum": [
+                            "no-getter",
+                          ],
+                          "type": "string",
+                        },
+                      ],
+                      "default": true,
+                    },
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "context": {
+                                "type": "string",
+                              },
+                              "inlineCommentBlock": {
+                                "type": "boolean",
+                              },
+                              "minLineCount": {
+                                "type": "integer",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "enableFixer": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "exemptEmptyConstructors": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "exemptEmptyFunctions": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "fixerMessage": {
+                      "default": "",
+                      "type": "string",
+                    },
+                    "minLineCount": {
+                      "type": "integer",
+                    },
+                    "publicOnly": {
+                      "oneOf": [
+                        {
+                          "default": false,
+                          "type": "boolean",
+                        },
+                        {
+                          "additionalProperties": false,
+                          "default": {},
+                          "properties": {
+                            "ancestorsOnly": {
+                              "type": "boolean",
+                            },
+                            "cjs": {
+                              "type": "boolean",
+                            },
+                            "esm": {
+                              "type": "boolean",
+                            },
+                            "window": {
+                              "type": "boolean",
+                            },
+                          },
+                          "type": "object",
+                        },
+                      ],
+                    },
+                    "require": {
+                      "additionalProperties": false,
+                      "default": {},
+                      "properties": {
+                        "ArrowFunctionExpression": {
+                          "default": false,
+                          "type": "boolean",
+                        },
+                        "ClassDeclaration": {
+                          "default": false,
+                          "type": "boolean",
+                        },
+                        "ClassExpression": {
+                          "default": false,
+                          "type": "boolean",
+                        },
+                        "FunctionDeclaration": {
+                          "default": true,
+                          "type": "boolean",
+                        },
+                        "FunctionExpression": {
+                          "default": false,
+                          "type": "boolean",
+                        },
+                        "MethodDefinition": {
+                          "default": false,
+                          "type": "boolean",
+                        },
+                      },
+                      "type": "object",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-param": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that all function parameters are documented.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-param.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "autoIncrementBase": {
+                      "default": 0,
+                      "type": "integer",
+                    },
+                    "checkConstructors": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "checkDestructured": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "checkDestructuredRoots": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "checkGetters": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "checkRestProperty": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "checkSetters": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "checkTypesPattern": {
+                      "type": "string",
+                    },
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "enableFixer": {
+                      "type": "boolean",
+                    },
+                    "enableRestElementFixer": {
+                      "type": "boolean",
+                    },
+                    "enableRootFixer": {
+                      "type": "boolean",
+                    },
+                    "exemptedBy": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "ignoreWhenAllParamsMissing": {
+                      "type": "boolean",
+                    },
+                    "unnamedRootBase": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "useDefaultObjectProperties": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-param-description": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that each \`@param\` tag has a \`description\` value.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-param-description.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "defaultDestructuredRootDescription": {
+                      "type": "string",
+                    },
+                    "setDefaultDestructuredRootDescription": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-param-name": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that all function parameters have names.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-param-name.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-param-type": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that each \`@param\` tag has a \`type\` value.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-param-type.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "defaultDestructuredRootType": {
+                      "type": "string",
+                    },
+                    "setDefaultDestructuredRootType": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-property": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that all \`@typedef\` and \`@namespace\` tags have \`@property\` when their type is a plain \`object\`, \`Object\`, or \`PlainObject\`.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-property.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "type": "suggestion",
+            },
+          },
+          "require-property-description": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that each \`@property\` tag has a \`description\` value.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-property-description.md#repos-sticky-header",
+              },
+              "type": "suggestion",
+            },
+          },
+          "require-property-name": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that all function \`@property\` tags have names.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-property-name.md#repos-sticky-header",
+              },
+              "type": "suggestion",
+            },
+          },
+          "require-property-type": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that each \`@property\` tag has a \`type\` value.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-property-type.md#repos-sticky-header",
+              },
+              "type": "suggestion",
+            },
+          },
+          "require-returns": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that returns are documented.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-returns.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "checkConstructors": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "checkGetters": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                              "forceRequireReturn": {
+                                "type": "boolean",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "enableFixer": {
+                      "type": "boolean",
+                    },
+                    "exemptedBy": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "forceRequireReturn": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "forceReturnsWithAsync": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "publicOnly": {
+                      "oneOf": [
+                        {
+                          "default": false,
+                          "type": "boolean",
+                        },
+                        {
+                          "additionalProperties": false,
+                          "default": {},
+                          "properties": {
+                            "ancestorsOnly": {
+                              "type": "boolean",
+                            },
+                            "cjs": {
+                              "type": "boolean",
+                            },
+                            "esm": {
+                              "type": "boolean",
+                            },
+                            "window": {
+                              "type": "boolean",
+                            },
+                          },
+                          "type": "object",
+                        },
+                      ],
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-returns-check": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires a return statement in function body if a \`@returns\` tag is specified in jsdoc comment.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-returns-check.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "exemptAsync": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                    "exemptGenerators": {
+                      "type": "boolean",
+                    },
+                    "reportMissingReturnForUndefinedTypes": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-returns-description": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that the \`@returns\` tag has a \`description\` value.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-returns-description.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-returns-type": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that \`@returns\` tag has \`type\` value.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-returns-type.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-template": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires template tags for each generic type parameter",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-template.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "requireSeparateTemplates": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-throws": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires that throw statements are documented.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-throws.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "exemptedBy": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-yields": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires yields are documented.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-yields.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "exemptedBy": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "forceRequireNext": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "forceRequireYields": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "next": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "nextWithGeneratorTag": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "withGeneratorTag": {
+                      "default": true,
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "require-yields-check": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires a yield statement in function body if a \`@yields\` tag is specified in jsdoc comment.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/require-yields-check.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "checkGeneratorsOnly": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                    "contexts": {
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                          },
+                          {
+                            "additionalProperties": false,
+                            "properties": {
+                              "comment": {
+                                "type": "string",
+                              },
+                              "context": {
+                                "type": "string",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        ],
+                      },
+                      "type": "array",
+                    },
+                    "exemptedBy": {
+                      "items": {
+                        "type": "string",
+                      },
+                      "type": "array",
+                    },
+                    "next": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "sort-tags": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Sorts tags by a specified sequence according to tag name.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/sort-tags.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "alphabetizeExtras": {
+                      "type": "boolean",
+                    },
+                    "linesBetween": {
+                      "type": "integer",
+                    },
+                    "reportIntraTagGroupSpacing": {
+                      "type": "boolean",
+                    },
+                    "reportTagGroupSpacing": {
+                      "type": "boolean",
+                    },
+                    "tagSequence": {
+                      "items": {
+                        "properties": {
+                          "tags": {
+                            "items": {
+                              "type": "string",
+                            },
+                            "type": "array",
+                          },
+                        },
+                        "type": "object",
+                      },
+                      "type": "array",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "tag-lines": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Enforces lines (or no lines) between tags.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/tag-lines.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "enum": [
+                    "always",
+                    "any",
+                    "never",
+                  ],
+                  "type": "string",
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "applyToEndTag": {
+                      "type": "boolean",
+                    },
+                    "count": {
+                      "type": "integer",
+                    },
+                    "endLines": {
+                      "anyOf": [
+                        {
+                          "type": "integer",
+                        },
+                        {
+                          "type": "null",
+                        },
+                      ],
+                    },
+                    "startLines": {
+                      "anyOf": [
+                        {
+                          "type": "integer",
+                        },
+                        {
+                          "type": "null",
+                        },
+                      ],
+                    },
+                    "tags": {
+                      "patternProperties": {
+                        ".*": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "count": {
+                              "type": "integer",
+                            },
+                            "lines": {
+                              "enum": [
+                                "always",
+                                "never",
+                                "any",
+                              ],
+                              "type": "string",
+                            },
+                          },
+                        },
+                      },
+                      "type": "object",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "text-escaping": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Auto-escape certain characters that are input within block and tag descriptions.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/text-escaping.md#repos-sticky-header",
+              },
+              "fixable": "code",
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "escapeHTML": {
+                      "type": "boolean",
+                    },
+                    "escapeMarkdown": {
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+          "valid-types": {
+            "create": [Function],
+            "meta": {
+              "docs": {
+                "description": "Requires all types to be valid JSDoc or Closure compiler types without syntax errors.",
+                "url": "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/valid-types.md#repos-sticky-header",
+              },
+              "schema": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "allowEmptyNamepaths": {
+                      "default": false,
+                      "type": "boolean",
+                    },
+                  },
+                  "type": "object",
+                },
+              ],
+              "type": "suggestion",
+            },
+          },
+        },
+      },
+    },
+    "rules": {
+      "jsdoc/check-access": "warn",
+      "jsdoc/check-alignment": "warn",
+      "jsdoc/check-examples": "off",
+      "jsdoc/check-indentation": "off",
+      "jsdoc/check-line-alignment": "off",
+      "jsdoc/check-param-names": "warn",
+      "jsdoc/check-property-names": "warn",
+      "jsdoc/check-syntax": "off",
+      "jsdoc/check-tag-names": "warn",
+      "jsdoc/check-template-names": "off",
+      "jsdoc/check-types": "warn",
+      "jsdoc/check-values": "warn",
+      "jsdoc/convert-to-jsdoc-comments": "off",
+      "jsdoc/empty-tags": "warn",
+      "jsdoc/implements-on-classes": "warn",
+      "jsdoc/imports-as-dependencies": "off",
+      "jsdoc/informative-docs": "off",
+      "jsdoc/lines-before-block": "off",
+      "jsdoc/match-description": "off",
+      "jsdoc/match-name": "off",
+      "jsdoc/multiline-blocks": "warn",
+      "jsdoc/no-bad-blocks": "off",
+      "jsdoc/no-blank-block-descriptions": "off",
+      "jsdoc/no-blank-blocks": "off",
+      "jsdoc/no-defaults": "warn",
+      "jsdoc/no-missing-syntax": "off",
+      "jsdoc/no-multi-asterisks": "warn",
+      "jsdoc/no-restricted-syntax": "off",
+      "jsdoc/no-types": "off",
+      "jsdoc/no-undefined-types": "warn",
+      "jsdoc/require-asterisk-prefix": "off",
+      "jsdoc/require-description": "off",
+      "jsdoc/require-description-complete-sentence": "off",
+      "jsdoc/require-example": "off",
+      "jsdoc/require-file-overview": "off",
+      "jsdoc/require-hyphen-before-param-description": "off",
+      "jsdoc/require-jsdoc": "warn",
+      "jsdoc/require-param": "warn",
+      "jsdoc/require-param-description": "warn",
+      "jsdoc/require-param-name": "warn",
+      "jsdoc/require-param-type": "warn",
+      "jsdoc/require-property": "warn",
+      "jsdoc/require-property-description": "warn",
+      "jsdoc/require-property-name": "warn",
+      "jsdoc/require-property-type": "warn",
+      "jsdoc/require-returns": "warn",
+      "jsdoc/require-returns-check": "warn",
+      "jsdoc/require-returns-description": "warn",
+      "jsdoc/require-returns-type": "warn",
+      "jsdoc/require-template": "off",
+      "jsdoc/require-throws": "off",
+      "jsdoc/require-yields": "warn",
+      "jsdoc/require-yields-check": "warn",
+      "jsdoc/sort-tags": "off",
+      "jsdoc/tag-lines": "warn",
+      "jsdoc/text-escaping": "off",
+      "jsdoc/valid-types": "warn",
+    },
+  },
+  {
+    "name": "jsdoc/base",
+    "rules": {
+      "jsdoc/check-indentation": "warn",
+      "jsdoc/require-param-type": "off",
+      "jsdoc/require-returns-type": "off",
+      "jsdoc/require-template": "warn",
+      "jsdoc/sort-tags": "warn",
+      "jsdoc/tag-lines": [
+        "warn",
+        "any",
+        {
+          "startLines": 1,
+        },
+      ],
+    },
+  },
+]
+`;

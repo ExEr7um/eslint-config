@@ -1,0 +1,30 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Конфиг ignore > Имеет все параметры 1`] = `
+[
+  {
+    "ignores": [
+      "**/node_modules",
+      "**/*.log*",
+      "**/.nuxt",
+      "**/.nitro",
+      "**/.cache",
+      "**/.output",
+      "**/.env",
+      "**/dist",
+      "**/.idea/",
+      "**/.eslintcache",
+    ],
+    "name": "gitignore",
+  },
+  {
+    "ignores": [
+      "**/package-lock.json",
+      "**/pnpm-lock.yaml",
+      "**/yarn.lock",
+      "**/bun.lock",
+    ],
+    "name": "general/ignore",
+  },
+]
+`;
