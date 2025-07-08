@@ -83,5 +83,10 @@ export default async function createESLintConfig(
     }
   }
 
+  // Переопределение правил ESLint
+  if (mergedOptions.rules) {
+    eslintConfig.push({ rules: mergedOptions.rules })
+  }
+
   return createConfigForNuxt(createNuxtOptions(nuxtOptions), eslintConfig)
 }
