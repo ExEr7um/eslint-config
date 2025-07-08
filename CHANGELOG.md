@@ -1,4 +1,24 @@
 
+## v2.2.0
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.1.6...v2.2.0)
+
+### 🚀 Улучшения
+
+- Переопределение правил ESLint ([#24](https://github.com/ExEr7um/eslint-config/pull/24))
+
+### 📖 Документация
+
+- Обновление раздела «Конфигурация» ([11d66fb](https://github.com/ExEr7um/eslint-config/commit/11d66fb))
+
+### ✅ Тестирование
+
+- Настройка тестирования на Vitest ([#23](https://github.com/ExEr7um/eslint-config/pull/23))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.1.6
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.1.5...v2.1.6)
