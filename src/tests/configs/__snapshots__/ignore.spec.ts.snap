@@ -14,6 +14,7 @@ exports[`Конфиг ignore > Имеет все параметры 1`] = `
       "**/dist",
       "**/.idea/",
       "**/.eslintcache",
+      "**/coverage",
     ],
     "name": "gitignore",
   },
