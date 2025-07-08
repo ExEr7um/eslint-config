@@ -1,4 +1,5 @@
 import type { NuxtESLintConfigOptions } from "@nuxt/eslint-config"
+import type { Linter } from "eslint"
 
 import createConfigForNuxt from "@nuxt/eslint-config"
 import eslintConfigPrettier from "eslint-config-prettier"
@@ -8,7 +9,6 @@ import { describe, expect, test, vi } from "vitest"
 
 import createESLintConfig from "../index"
 import createNuxtOptions from "../nuxtOptions"
-import type { Linter } from "eslint"
 
 vi.mock("@nuxt/eslint-config", { spy: true })
 
