@@ -8,6 +8,7 @@ import { describe, expect, test, vi } from "vitest"
 
 import createESLintConfig from "../index"
 import createNuxtOptions from "../nuxtOptions"
+import type { Linter } from "eslint"
 
 vi.mock("@nuxt/eslint-config", { spy: true })
 
@@ -66,5 +67,12 @@ describe("Функция createESLintConfig", () => {
         expect.arrayContaining([eslintConfigPrettier]),
       )
     })
+  })
+
+  test("Переопределение правил ESLint", async () => {
+    const rules = { "no-console": "off" } as const satisfies Linter.RulesRecord
+    const config = await createESLintConfig({ rules })
+
+    expect(config).toStrictEqual(expect.arrayContaining([{ rules }]))
   })
 })
