@@ -15,3 +15,5 @@ jobs:
     uses: ExEr7um/workflows/.github/workflows/frontend-lint.yml@v0.8.0
   typecheck:
     uses: ExEr7um/workflows/.github/workflows/frontend-typecheck.yml@v0.8.0
+  test:
+    uses: ExEr7um/workflows/.github/workflows/frontend-test.yml@v0.8.0
