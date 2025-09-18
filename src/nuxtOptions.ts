@@ -11,7 +11,7 @@ import { defu } from "defu"
 export default function createNuxtOptions(options?: NuxtESLintConfigOptions) {
   /** Параметры по умолчанию для `@nuxt/eslint-config` */
   const nuxtDefaultOptions = {
-    features: { tooling: { unicorn: false } },
+    features: { tooling: { jsdoc: false, unicorn: false } },
   } as const satisfies NuxtESLintConfigOptions
 
   return defu(options, nuxtDefaultOptions)
