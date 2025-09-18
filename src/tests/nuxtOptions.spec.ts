@@ -10,6 +10,7 @@ describe("Функция createNuxtOptions", () => {
       {
         "features": {
           "tooling": {
+            "jsdoc": false,
             "unicorn": false,
           },
         },
@@ -26,6 +27,7 @@ describe("Функция createNuxtOptions", () => {
       {
         "features": {
           "tooling": {
+            "jsdoc": false,
             "unicorn": true,
           },
         },
@@ -42,6 +44,7 @@ describe("Функция createNuxtOptions", () => {
       {
         "features": {
           "tooling": {
+            "jsdoc": false,
             "regexp": false,
             "unicorn": false,
           },
