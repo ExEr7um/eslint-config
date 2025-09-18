@@ -9,12 +9,10 @@ import perfectionist from "eslint-plugin-perfectionist"
 
 import type { ESLintConfigOptions } from "./types"
 
-import base from "./configs/base"
-import ignore from "./configs/ignore"
-import createNuxtOptions from "./nuxtOptions"
-
 import accessibility from "./configs/accessibility"
+import base from "./configs/base"
 import depend from "./configs/depend"
+import ignore from "./configs/ignore"
 import jsdoc from "./configs/jsdoc"
 import jsonc from "./configs/jsonc"
 import sonar from "./configs/sonar"
@@ -23,6 +21,7 @@ import unicorn from "./configs/unicorn"
 import vitest from "./configs/vitest"
 import vue from "./configs/vue"
 import yaml from "./configs/yaml"
+import createNuxtOptions from "./nuxtOptions"
 
 /**
  * Функция для создания конфигурации ESLint
