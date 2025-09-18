@@ -1,11 +1,10 @@
 import type { Linter } from "eslint"
 
-import jsdoc from "eslint-plugin-jsdoc"
+import { jsdoc } from "eslint-plugin-jsdoc"
 
 export default [
-  jsdoc.configs["flat/recommended"],
-
-  {
+  jsdoc({
+    config: "flat/recommended",
     name: "jsdoc/base",
     rules: {
       "jsdoc/check-indentation": "warn",
@@ -15,5 +14,5 @@ export default [
       "jsdoc/sort-tags": "warn",
       "jsdoc/tag-lines": ["warn", "any", { startLines: 1 }],
     },
-  },
+  }),
 ] as const satisfies Linter.Config[]
