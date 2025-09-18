@@ -1,4 +1,25 @@
 
+## v2.2.1
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.0...v2.2.1)
+
+### 🐞 Исправления
+
+- Отключение JSDoc из `@nuxt/eslint-config` ([#26](https://github.com/ExEr7um/eslint-config/pull/26))
+
+### 💅 Рефактор кода
+
+- Обновление активации конфига JSDoc ([#27](https://github.com/ExEr7um/eslint-config/pull/27))
+- Удаление динамических импортов ([#28](https://github.com/ExEr7um/eslint-config/pull/28))
+
+### 🏡 Другие изменения
+
+- Сборка с помощью `tsdown` ([#29](https://github.com/ExEr7um/eslint-config/pull/29))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.2.0
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.1.6...v2.2.0)
