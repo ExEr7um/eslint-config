@@ -1,4 +1,16 @@
 
+## v2.2.2
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.1...v2.2.2)
+
+### 🐞 Исправления
+
+- Возвращение сборки на `tsup` ([#30](https://github.com/ExEr7um/eslint-config/pull/30))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.2.1
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.0...v2.2.1)
