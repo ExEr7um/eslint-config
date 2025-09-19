@@ -9,18 +9,8 @@ import perfectionist from "eslint-plugin-perfectionist"
 
 import type { ESLintConfigOptions } from "./types"
 
-import accessibility from "./configs/accessibility"
 import base from "./configs/base"
-import depend from "./configs/depend"
 import ignore from "./configs/ignore"
-import jsdoc from "./configs/jsdoc"
-import jsonc from "./configs/jsonc"
-import sonar from "./configs/sonar"
-import tailwindcss from "./configs/tailwindcss"
-import unicorn from "./configs/unicorn"
-import vitest from "./configs/vitest"
-import vue from "./configs/vue"
-import yaml from "./configs/yaml"
 import createNuxtOptions from "./nuxtOptions"
 
 /**
@@ -61,20 +51,19 @@ export default async function createESLintConfig(
 
   /** Список плагинов */
   const plugins = {
-    accessibility,
+    accessibility: "accessibility",
     deMorgan: [deMorgan.configs.recommended],
-    depend,
-    jsdoc,
-    jsonc,
+    depend: "depend",
+    jsdoc: "jsdoc",
+    jsonc: "jsonc",
     perfectionist: [perfectionist.configs["recommended-natural"]],
     prettier: [eslintConfigPrettier],
-    sonar,
-    tailwindcss,
-    unicorn,
-    // @ts-expect-error Несовпадение типов в библиотеке
-    vitest,
-    vue,
-    yaml,
+    sonar: "sonar",
+    tailwindcss: "tailwindcss",
+    unicorn: "unicorn",
+    vitest: "vitest",
+    vue: "vue",
+    yaml: "yaml",
   } as const satisfies Record<
     keyof typeof mergedOptions.plugins,
     Linter.Config<Linter.RulesRecord>[] | string
@@ -82,10 +71,15 @@ export default async function createESLintConfig(
 
   // Динамический импорт локальных плагинов
   for (const [plugin, config] of Object.entries(plugins)) {
-    // Если плагин включен в конфигурации
     if (mergedOptions.plugins[plugin as keyof typeof plugins]) {
-      // Добавляем конфигурацию плагина в конфигурацию ESLint
-      eslintConfig.push(...config)
+      if (typeof config === "string") {
+        // Если плагин является строкой, то он импортируется локально
+        const module = await import(`./configs/${config}.ts`)
+        eslintConfig.push(...module.default)
+      } else {
+        // Если плагин является массивом, то он импортируется из внешней зависимости
+        eslintConfig.push(...config)
+      }
     }
   }
 
