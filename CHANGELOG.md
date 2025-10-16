@@ -1,4 +1,16 @@
 
+## v2.2.3
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.2...v2.2.3)
+
+### 📦 Сборка
+
+- Настройка Trusted Publishing ([33d4dcf](https://github.com/ExEr7um/eslint-config/commit/33d4dcf))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.2.2
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.1...v2.2.2)
