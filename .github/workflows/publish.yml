@@ -7,6 +7,6 @@ on:
 
 jobs:
   publish:
-    uses: ExEr7um/workflows/.github/workflows/publish-npm.yml@feat/trusted-publishing
+    uses: ExEr7um/workflows/.github/workflows/publish-npm.yml@v0.9.0
     with:
       build: true

@@ -8,12 +8,12 @@ on:
 
 jobs:
   build:
-    uses: ExEr7um/workflows/.github/workflows/frontend-build.yml@v0.8.0
+    uses: ExEr7um/workflows/.github/workflows/frontend-build.yml@v0.9.0
     with:
       installDevDependencies: true
   lint:
-    uses: ExEr7um/workflows/.github/workflows/frontend-lint.yml@v0.8.0
+    uses: ExEr7um/workflows/.github/workflows/frontend-lint.yml@v0.9.0
   typecheck:
-    uses: ExEr7um/workflows/.github/workflows/frontend-typecheck.yml@v0.8.0
+    uses: ExEr7um/workflows/.github/workflows/frontend-typecheck.yml@v0.9.0
   test:
-    uses: ExEr7um/workflows/.github/workflows/frontend-test.yml@v0.8.0
+    uses: ExEr7um/workflows/.github/workflows/frontend-test.yml@v0.9.0
