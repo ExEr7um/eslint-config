@@ -2,10 +2,9 @@ import type { Linter } from "eslint"
 
 import { configs as ymlConfigs } from "eslint-plugin-yml"
 
-/** @type {import('eslint').Linter.FlatConfig} */
 export default [
-  ...ymlConfigs["flat/standard"],
-  ...ymlConfigs["flat/prettier"],
+  ...ymlConfigs.standard,
+  ...ymlConfigs.prettier,
 
   {
     files: ["*.yaml", "**/*.yaml", "*.yml", "**/*.yml", "**/*.vue"],
