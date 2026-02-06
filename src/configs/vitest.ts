@@ -6,7 +6,6 @@ export default [
   {
     files: ["**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts}"],
     name: "vitest/base",
-    // @ts-expect-error Несовпадение типов в библиотеке
     plugins: { vitest },
     rules: {
       ...vitest.configs.recommended.rules,

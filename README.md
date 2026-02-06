@@ -34,7 +34,16 @@ export default createESLintConfig()
 Добавить в файл `.vscode/settings.json`:
 
 ```json
-{ "eslint.validate": ["javascript", "json", "vue", "typescript", "yaml"] }
+{
+  "eslint.validate": [
+    "javascript",
+    "json",
+    "vue",
+    "typescript",
+    "yaml",
+    "github-actions-workflow"
+  ]
+}
 ```
 
 Добавить команды для запуска в `package.json`:
