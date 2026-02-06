@@ -1,4 +1,25 @@
 
+## v2.2.4
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.3...v2.2.4)
+
+### 🐞 Исправления
+
+- Изменение паттернов `globalIgnores` ([0d39435](https://github.com/ExEr7um/eslint-config/commit/0d39435))
+
+### 🏡 Другие изменения
+
+- Настройка `husky` ([a3e6251](https://github.com/ExEr7um/eslint-config/commit/a3e6251))
+
+### 🤖 CI
+
+- Проверка семантического заголовка PR ([597afd9](https://github.com/ExEr7um/eslint-config/commit/597afd9))
+- Обновление версии `ExEr7um/workflows` ([bc2438a](https://github.com/ExEr7um/eslint-config/commit/bc2438a))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.2.3
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.2...v2.2.3)
