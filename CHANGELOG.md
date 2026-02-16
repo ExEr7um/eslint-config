@@ -1,4 +1,16 @@
 
+## v2.2.5
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.4...v2.2.5)
+
+### 🏡 Другие изменения
+
+- Добавление скрипта `postinstall` ([423f3ff](https://github.com/ExEr7um/eslint-config/commit/423f3ff))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.2.4
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.3...v2.2.4)
