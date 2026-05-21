@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "allowImportingTsExtensions": true,
+    "ignoreDeprecations": "6.0",
     "lib": ["ESNext", "DOM"],
     "module": "ESNext",
     "moduleDetection": "force",

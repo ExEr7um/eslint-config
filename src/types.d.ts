@@ -59,12 +59,6 @@ export interface ESLintConfigOptions {
      */
     sonar?: boolean
     /**
-     * Включить плагин `eslint-plugin-tailwindcss`
-     *
-     * @default true
-     */
-    tailwindcss?: boolean
-    /**
      * Включить плагин `eslint-plugin-unicorn`
      *
      * @default true

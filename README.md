@@ -64,7 +64,7 @@ export default createESLintConfig()
 ```ts
 import createESLintConfig from "@exer7um/eslint-config"
 
-export default createESLintConfig({ plugins: { tailwindcss: false } })
+export default createESLintConfig({ plugins: { vitest: false } })
 ```
 
 ### Правила
