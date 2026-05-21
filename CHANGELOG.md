@@ -1,4 +1,17 @@
 
+## v2.2.6
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.5...v2.2.6)
+
+### 🐞 Исправления
+
+- Обновление `eslint-plugin-jsonc` до `v3` ([bf27d41](https://github.com/ExEr7um/eslint-config/commit/bf27d41))
+- Удаление плагина `eslint-plugin-tailwindcss` ([918afbd](https://github.com/ExEr7um/eslint-config/commit/918afbd))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.2.5
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.4...v2.2.5)
