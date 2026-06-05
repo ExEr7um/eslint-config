@@ -23,11 +23,11 @@ export interface ESLintConfigOptions {
      */
     deMorgan?: boolean
     /**
-     * Включить плагин `eslint-plugin-depend`
+     * Включить плагин `@e18e/eslint-plugin`
      *
      * @default true
      */
-    depend?: boolean
+    e18e?: boolean
     /**
      * Включить плагин `eslint-plugin-jsdoc`
      *

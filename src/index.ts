@@ -1,6 +1,7 @@
 import type { NuxtESLintConfigOptions } from "@nuxt/eslint-config"
 import type { Linter } from "eslint"
 
+import e18e from "@e18e/eslint-plugin"
 import { createConfigForNuxt } from "@nuxt/eslint-config"
 import { defu } from "defu"
 import eslintConfigPrettier from "eslint-config-prettier"
@@ -29,7 +30,7 @@ export default async function createESLintConfig(
     plugins: {
       accessibility: true,
       deMorgan: true,
-      depend: true,
+      e18e: true,
       jsdoc: true,
       jsonc: true,
       perfectionist: true,
@@ -52,7 +53,7 @@ export default async function createESLintConfig(
   const plugins = {
     accessibility: "accessibility",
     deMorgan: [deMorgan.configs.recommended],
-    depend: "depend",
+    e18e: [e18e.configs.recommended],
     jsdoc: "jsdoc",
     jsonc: "jsonc",
     perfectionist: [perfectionist.configs["recommended-natural"]],
