@@ -74,3 +74,13 @@ import createESLintConfig from "@exer7um/eslint-config"
 
 export default createESLintConfig({ rules: { "no-console": "off" } })
 ```
+
+### React
+
+При использовании React необходимо явно включить соответствующий плагин в конфигурации:
+
+```ts
+import createESLintConfig from "@exer7um/eslint-config"
+
+export default createESLintConfig({ plugins: { react: true } })
+```
