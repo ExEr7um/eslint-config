@@ -1,6 +1,7 @@
 import type { NuxtESLintConfigOptions } from "@nuxt/eslint-config"
 import type { Linter } from "eslint"
 
+import e18e from "@e18e/eslint-plugin"
 import createConfigForNuxt from "@nuxt/eslint-config"
 import eslintConfigPrettier from "eslint-config-prettier"
 import deMorgan from "eslint-plugin-de-morgan"
@@ -35,6 +36,9 @@ describe("Функция createESLintConfig", () => {
         expect.arrayContaining([deMorgan.configs.recommended]),
       )
       expect(config).toStrictEqual(
+        expect.arrayContaining([e18e.configs.recommended]),
+      )
+      expect(config).toStrictEqual(
         expect.arrayContaining([perfectionist.configs["recommended-natural"]]),
       )
       expect(config).toStrictEqual(
@@ -47,6 +51,14 @@ describe("Функция createESLintConfig", () => {
 
       expect(config).not.toStrictEqual(
         expect.arrayContaining([deMorgan.configs.recommended]),
+      )
+    })
+
+    test("Плагин e18e можно отключить", async () => {
+      const config = await createESLintConfig({ plugins: { e18e: false } })
+
+      expect(config).not.toStrictEqual(
+        expect.arrayContaining([e18e.configs.recommended]),
       )
     })
 
