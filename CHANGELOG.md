@@ -1,4 +1,25 @@
 
+## v2.3.0
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.6...v2.3.0)
+
+### 🚀 Улучшения
+
+- Замена `eslint-plugin-depend` на `@e18e/eslint-plugin` ([0ee335f](https://github.com/ExEr7um/eslint-config/commit/0ee335f))
+- Плагин `@eslint-react/eslint-plugin` ([#34](https://github.com/ExEr7um/eslint-config/pull/34))
+
+### 📖 Документация
+
+- Замена бейджей на npmx ([0d4605b](https://github.com/ExEr7um/eslint-config/commit/0d4605b))
+
+### ✅ Тестирование
+
+- Обновление тестов для `@e18e/eslint-plugin` ([41ab483](https://github.com/ExEr7um/eslint-config/commit/41ab483))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.2.6
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.5...v2.2.6)
