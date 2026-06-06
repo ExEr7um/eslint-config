@@ -1,7 +1,8 @@
 # Конфигурация ESLint
 
-![NPM Version](https://img.shields.io/npm/v/%40exer7um%2Feslint-config?color=%232563EB)
-![NPM Downloads](https://img.shields.io/npm/dt/%40exer7um%2Feslint-config?color=%232563EB)
+[![Open on npmx.dev](https://npmx.dev/api/registry/badge/version/@exer7um/eslint-config)](https://npmx.dev/package/@exer7um/eslint-config)
+[![Open on npmx.dev](https://npmx.dev/api/registry/badge/downloads/@exer7um/eslint-config)](https://npmx.dev/package/@exer7um/eslint-config)
+[![Open on npmx.dev](https://npmx.dev/api/registry/badge/license/@exer7um/eslint-config)](https://npmx.dev/package/@exer7um/eslint-config)
 
 ## Установка
 
