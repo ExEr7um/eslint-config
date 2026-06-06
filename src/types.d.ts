@@ -53,6 +53,12 @@ export interface ESLintConfigOptions {
      */
     prettier?: boolean
     /**
+     * Включить плагин `@eslint-react/eslint-plugin`
+     *
+     * @default false
+     */
+    react?: boolean
+    /**
      * Включить плагин `eslint-plugin-sonar`
      *
      * @default true
