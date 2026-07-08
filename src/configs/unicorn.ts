@@ -1,20 +1,18 @@
-import type { Linter } from "eslint"
+import type { ConfigWithExtendsArray } from "@eslint/config-helpers"
 
 import eslintPluginUnicorn from "eslint-plugin-unicorn"
 
 export default [
-  eslintPluginUnicorn.configs.recommended,
-
   {
+    extends: [eslintPluginUnicorn.configs.recommended],
+    files: ["**/*.{js,mjs,cjs,jsx,ts,mts,cts,tsx,vue}"],
     name: "unicorn/base",
     rules: {
       "unicorn/explicit-length-check": "off",
       "unicorn/filename-case": "off",
+      "unicorn/name-replacements": "off",
       "unicorn/no-anonymous-default-export": "off",
-      "unicorn/no-array-reduce": "off",
-      "unicorn/no-nested-ternary": "off",
-      "unicorn/prevent-abbreviations": "off",
       "unicorn/switch-case-braces": ["error", "avoid"],
     },
   },
-] as const satisfies Linter.Config[]
+] as const satisfies ConfigWithExtendsArray
