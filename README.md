@@ -76,7 +76,7 @@ import createESLintConfig from "@exer7um/eslint-config"
 export default createESLintConfig({ rules: { "no-console": "off" } })
 ```
 
-### Игнорирование
+### Игнорирование файлов и папок
 
 Дополнительные пути можно добавить в `globalIgnores` через параметр `ignores`:
 
