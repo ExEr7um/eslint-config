@@ -25,7 +25,7 @@ import createNuxtOptions from "./nuxtOptions"
 export default async function createESLintConfig(
   options?: ESLintConfigOptions,
   nuxtOptions?: NuxtESLintConfigOptions,
-) {
+): Promise<Linter.Config[]> {
   /** Конфигурация по умолчанию */
   const defaultOptions = {
     plugins: {
@@ -53,32 +53,32 @@ export default async function createESLintConfig(
 
   /** Список плагинов */
   const plugins = {
-    accessibility: "accessibility",
+    accessibility: () => import("./configs/accessibility.ts"),
     deMorgan: [deMorgan.configs.recommended],
     e18e: [e18e.configs.recommended],
-    jsdoc: "jsdoc",
-    jsonc: "jsonc",
+    jsdoc: () => import("./configs/jsdoc.ts"),
+    jsonc: () => import("./configs/jsonc.ts"),
     perfectionist: [perfectionist.configs["recommended-natural"]],
     prettier: [eslintConfigPrettier],
-    react: "react",
-    sonar: "sonar",
-    unicorn: "unicorn",
-    vitest: "vitest",
-    vue: "vue",
-    yaml: "yaml",
+    react: () => import("./configs/react.ts"),
+    sonar: () => import("./configs/sonar.ts"),
+    unicorn: () => import("./configs/unicorn.ts"),
+    vitest: () => import("./configs/vitest.ts"),
+    vue: () => import("./configs/vue.ts"),
+    yaml: () => import("./configs/yaml.ts"),
   } as const satisfies Record<
     keyof typeof mergedOptions.plugins,
-    Linter.Config<Linter.RulesRecord>[] | string
+    (() => Promise<{ default: unknown }>) | Linter.Config<Linter.RulesRecord>[]
   >
 
   // Динамический импорт локальных плагинов
   for (const [plugin, config] of Object.entries(plugins)) {
     // eslint-disable-next-line unicorn/no-computed-property-existence-check -- проверяем значение флага плагина, а не наличие свойства
     if (mergedOptions.plugins[plugin as keyof typeof plugins]) {
-      if (typeof config === "string") {
-        // Если плагин является строкой, то он импортируется локально
-        const module = await import(`./configs/${config}.ts`)
-        eslintConfig.push(...module.default)
+      if (typeof config === "function") {
+        // Если плагин является функцией, то он импортируется локально
+        const module = await config()
+        eslintConfig.push(...(module.default as Linter.Config[]))
       } else {
         // Если плагин является массивом, то он импортируется из внешней зависимости
         eslintConfig.push(...config)
