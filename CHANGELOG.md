@@ -1,4 +1,36 @@
 
+## v2.4.0
+
+[compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.3.0...v2.4.0)
+
+### 🚀 Улучшения
+
+- Параметр `ignores` для конфигурации ([#35](https://github.com/ExEr7um/eslint-config/pull/35))
+
+### 💅 Рефактор кода
+
+- Миграция `unicorn` на `ConfigWithExtendsArray` ([7a7d870](https://github.com/ExEr7um/eslint-config/commit/7a7d870))
+- Переход на конфиг с `extends` для Accessibility, Sonar и Vitest ([e7dfe4e](https://github.com/ExEr7um/eslint-config/commit/e7dfe4e))
+- Миграция на `tsdown` ([#36](https://github.com/ExEr7um/eslint-config/pull/36))
+
+### 📖 Документация
+
+- Обновление заголовка раздела игнорирование ([e6eb1d8](https://github.com/ExEr7um/eslint-config/commit/e6eb1d8))
+
+### 🏡 Другие изменения
+
+- Обновление `.gitignore` ([97b57c2](https://github.com/ExEr7um/eslint-config/commit/97b57c2))
+- Обновление паттерна Prettier ([7797b62](https://github.com/ExEr7um/eslint-config/commit/7797b62))
+
+### ✅ Тестирование
+
+- Тестирование итогового набора правил ([507e456](https://github.com/ExEr7um/eslint-config/commit/507e456))
+- Использование `hasConfigNamed` в тестах ([c7b6471](https://github.com/ExEr7um/eslint-config/commit/c7b6471))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](https://github.com/ExEr7um))
+
 ## v2.3.0
 
 [compare changes](https://github.com/ExEr7um/eslint-config/compare/v2.2.6...v2.3.0)
