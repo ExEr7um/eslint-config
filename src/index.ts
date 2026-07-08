@@ -72,7 +72,7 @@ export default async function createESLintConfig(
 
   // Динамический импорт локальных плагинов
   for (const [plugin, config] of Object.entries(plugins)) {
-    if (mergedOptions.plugins[plugin as keyof typeof plugins]) {
+    if (mergedOptions.plugins[plugin as keyof typeof plugins] != undefined) {
       if (typeof config === "string") {
         // Если плагин является строкой, то он импортируется локально
         const module = await import(`./configs/${config}.ts`)
