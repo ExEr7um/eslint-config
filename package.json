@@ -17,15 +17,15 @@
     "url": "https://github.com/ExEr7um/prettier-config"
   },
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.mts",
   "files": [
     "LICENSE",
     "README.md",
     "dist"
   ],
   "scripts": {
-    "build": "tsup",
+    "build": "tsdown",
     "eslint": "eslint --max-warnings=0",
     "eslint:fix": "eslint --max-warnings=0 --fix",
     "postinstall": "husky",
@@ -63,7 +63,7 @@
     "@vitest/coverage-v8": "4.1.10",
     "husky": "9.1.7",
     "nano-staged": "1.0.2",
-    "tsup": "8.5.1",
+    "tsdown": "0.22.4",
     "typescript": "6.0.3",
     "vitest": "4.1.10"
   }
