@@ -2,12 +2,16 @@ import { describe, expect, test } from "vitest"
 
 import createESLintConfig from "../.."
 import accessibility from "../../configs/accessibility"
+import { hasConfigNamed } from "../utils"
+
+/** Имя конфига accessibility */
+const [{ name }] = accessibility
 
 describe("Конфиг accessibility", () => {
   test("Включен по умолчанию", async () => {
     const config = await createESLintConfig()
 
-    expect(config).toStrictEqual(expect.arrayContaining(accessibility))
+    expect(hasConfigNamed(config, name)).toBeTruthy()
   })
 
   test("Отключается через параметры", async () => {
@@ -15,6 +19,6 @@ describe("Конфиг accessibility", () => {
       plugins: { accessibility: false },
     })
 
-    expect(config).not.toStrictEqual(expect.arrayContaining(accessibility))
+    expect(hasConfigNamed(config, name)).toBeFalsy()
   })
 })

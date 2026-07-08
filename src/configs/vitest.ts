@@ -1,14 +1,13 @@
-import type { Linter } from "eslint"
+import type { ConfigWithExtendsArray } from "@eslint/config-helpers"
 
 import vitest from "@vitest/eslint-plugin"
 
 export default [
   {
+    extends: [vitest.configs.recommended],
     files: ["**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts}"],
     name: "vitest/base",
-    plugins: { vitest },
     rules: {
-      ...vitest.configs.recommended.rules,
       "vitest/consistent-test-filename": [
         "error",
         { pattern: String.raw`.*\.spec\.ts` },
@@ -36,4 +35,4 @@ export default [
       "vitest/require-top-level-describe": "error",
     },
   },
-] as const satisfies Linter.Config[]
+] as const satisfies ConfigWithExtendsArray

@@ -1,11 +1,10 @@
-import type { Linter } from "eslint"
+import type { ConfigWithExtendsArray } from "@eslint/config-helpers"
 
 import pluginVueA11y from "eslint-plugin-vuejs-accessibility"
 
 export default [
-  ...pluginVueA11y.configs["flat/recommended"],
-
   {
+    extends: [pluginVueA11y.configs["flat/recommended"]],
     name: "accessibility/base",
     rules: {
       "vuejs-accessibility/alt-text": [
@@ -20,4 +19,4 @@ export default [
       "vuejs-accessibility/media-has-caption": "off",
     },
   },
-] as const satisfies Linter.Config[]
+] as const satisfies ConfigWithExtendsArray

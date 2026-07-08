@@ -1,11 +1,10 @@
-import type { Linter } from "eslint"
+import type { ConfigWithExtendsArray } from "@eslint/config-helpers"
 
 import { configs as sonarConfigs } from "eslint-plugin-sonarjs"
 
 export default [
-  sonarConfigs.recommended,
-
   {
+    extends: [sonarConfigs.recommended],
     name: "sonar/base",
     rules: {
       "sonarjs/fixme-tag": "off",
@@ -13,4 +12,4 @@ export default [
       "sonarjs/todo-tag": "off",
     },
   },
-] as const satisfies Linter.Config[]
+] as const satisfies ConfigWithExtendsArray
