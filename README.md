@@ -76,6 +76,16 @@ import createESLintConfig from "@exer7um/eslint-config"
 export default createESLintConfig({ rules: { "no-console": "off" } })
 ```
 
+### Игнорирование
+
+Дополнительные пути можно добавить в `globalIgnores` через параметр `ignores`:
+
+```ts
+import createESLintConfig from "@exer7um/eslint-config"
+
+export default createESLintConfig({ ignores: ["**/dist/**", "**/coverage/**"] })
+```
+
 ### React
 
 При использовании React необходимо явно включить соответствующий плагин в конфигурации:
