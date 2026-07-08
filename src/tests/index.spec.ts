@@ -10,6 +10,7 @@ import { describe, expect, test, vi } from "vitest"
 
 import createESLintConfig from "../index"
 import createNuxtOptions from "../nuxtOptions"
+import { hasConfigNamed } from "./utils"
 
 vi.mock("@nuxt/eslint-config", { spy: true })
 
@@ -86,5 +87,23 @@ describe("Функция createESLintConfig", () => {
     const config = await createESLintConfig({ rules })
 
     expect(config).toStrictEqual(expect.arrayContaining([{ rules }]))
+  })
+
+  describe("Дополнительные игнорируемые пути", () => {
+    test("Пути из ignores добавляются в globalIgnores", async () => {
+      const ignores = ["**/dist/**", "**/coverage/**"]
+      const config = await createESLintConfig({ ignores })
+
+      expect(hasConfigNamed(config, "general/user-ignore")).toBeTruthy()
+      expect(config).toStrictEqual(
+        expect.arrayContaining([expect.objectContaining({ ignores })]),
+      )
+    })
+
+    test("Пустой массив ignores не добавляет конфиг", async () => {
+      const config = await createESLintConfig({ ignores: [] })
+
+      expect(hasConfigNamed(config, "general/user-ignore")).toBeFalsy()
+    })
   })
 })

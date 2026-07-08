@@ -5,6 +5,12 @@ import type { Linter } from "eslint"
  */
 export interface ESLintConfigOptions {
   /**
+   * Дополнительные игнорируемые пути.
+   *
+   * Массив добавляется в `globalIgnores`.
+   */
+  ignores?: string[]
+  /**
    * Конфигурация плагинов ESLint.
    *
    * В ней можно отключить плагины, которые установлены в проекте.

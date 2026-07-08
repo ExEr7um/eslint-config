@@ -7,6 +7,7 @@ import { defu } from "defu"
 import eslintConfigPrettier from "eslint-config-prettier"
 import deMorgan from "eslint-plugin-de-morgan"
 import perfectionist from "eslint-plugin-perfectionist"
+import { globalIgnores } from "eslint/config"
 
 import type { ESLintConfigOptions } from "./types"
 
@@ -72,7 +73,8 @@ export default async function createESLintConfig(
 
   // Динамический импорт локальных плагинов
   for (const [plugin, config] of Object.entries(plugins)) {
-    if (mergedOptions.plugins[plugin as keyof typeof plugins] != undefined) {
+    // eslint-disable-next-line unicorn/no-computed-property-existence-check -- проверяем значение флага плагина, а не наличие свойства
+    if (mergedOptions.plugins[plugin as keyof typeof plugins]) {
       if (typeof config === "string") {
         // Если плагин является строкой, то он импортируется локально
         const module = await import(`./configs/${config}.ts`)
@@ -87,6 +89,13 @@ export default async function createESLintConfig(
   // Переопределение правил ESLint
   if (mergedOptions.rules) {
     eslintConfig.push({ rules: mergedOptions.rules })
+  }
+
+  // Добавление дополнительных игнорируемых путей
+  if (mergedOptions.ignores?.length) {
+    eslintConfig.push(
+      globalIgnores(mergedOptions.ignores, "general/user-ignore"),
+    )
   }
 
   return createConfigForNuxt(createNuxtOptions(nuxtOptions), eslintConfig)
