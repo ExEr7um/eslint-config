@@ -1,4 +1,4 @@
-import { describe, expect, test } from "vitest"
+import { describe, expect, test } from "vite-plus/test"
 
 import createESLintConfig from "../index"
 import { resolveRules } from "./utils"
@@ -10,7 +10,7 @@ import { resolveRules } from "./utils"
  * реально применяет к файлу после разворачивания всех конфигов. При рефакторинге
  * пропавшее или отключённое правило будет видно в diff'е снапшота.
  *
- * Если правила изменились намеренно — обновите снапшоты: `vitest -u`.
+ * Если правила изменились намеренно — обновите снапшоты: `vp test -u`.
  */
 describe("Снапшот итоговых правил", () => {
   test.each([

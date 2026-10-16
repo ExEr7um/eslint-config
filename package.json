@@ -31,8 +31,8 @@
     "postinstall": "husky",
     "prettier": "prettier --check --ignore-unknown --no-error-on-unmatched-pattern .",
     "prettier:write": "prettier --write --ignore-unknown --no-error-on-unmatched-pattern .",
-    "test": "vitest",
-    "test:coverage": "vitest run --coverage",
+    "test": "vp test",
+    "test:coverage": "vp test run --coverage",
     "typecheck": "tsc --noEmit"
   },
   "nano-staged": {
@@ -60,11 +60,11 @@
   },
   "devDependencies": {
     "@exer7um/prettier-config": "0.8.7",
-    "@vitest/coverage-v8": "4.1.10",
+    "@exer7um/vp-config": "0.1.0",
+    "@vitest/coverage-v8": "5.0.5",
     "husky": "9.1.7",
     "nano-staged": "1.0.2",
     "tsdown": "0.22.4",
-    "typescript": "6.0.3",
-    "vitest": "4.1.10"
+    "typescript": "6.0.3"
   }
 }
