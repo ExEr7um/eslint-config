@@ -25,7 +25,7 @@
   "main": "dist/index.mjs",
   "types": "dist/index.d.mts",
   "scripts": {
-    "build": "tsdown",
+    "build": "vp pack",
     "check": "vp check",
     "check:fix": "vp check --fix",
     "eslint": "eslint --max-warnings=0",
@@ -56,7 +56,6 @@
   "devDependencies": {
     "@exer7um/vp-config": "0.1.0",
     "@vitest/coverage-v8": "5.0.5",
-    "tsdown": "0.22.4",
     "typescript": "6.0.3"
   }
 }

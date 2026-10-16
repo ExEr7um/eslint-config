@@ -1,5 +1,5 @@
 {
-  "cSpell.words": ["defu", "oxfmt", "sonarjs", "tsdown", "vuejs"],
+  "cSpell.words": ["defu", "oxfmt", "sonarjs", "vuejs"],
   "editor.codeActionsOnSave": { "source.fixAll": "explicit" },
   "editor.defaultFormatter": "oxc.oxc-vscode",
   "editor.formatOnSave": true,
