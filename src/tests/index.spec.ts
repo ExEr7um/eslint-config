@@ -33,40 +33,28 @@ describe("Функция createESLintConfig", () => {
     test("Все плагины включены по умолчанию", async () => {
       const config = await createESLintConfig()
 
-      expect(config).toStrictEqual(
-        expect.arrayContaining([deMorgan.configs.recommended]),
-      )
-      expect(config).toStrictEqual(
-        expect.arrayContaining([e18e.configs.recommended]),
-      )
+      expect(config).toStrictEqual(expect.arrayContaining([deMorgan.configs.recommended]))
+      expect(config).toStrictEqual(expect.arrayContaining([e18e.configs.recommended]))
       expect(config).toStrictEqual(
         expect.arrayContaining([perfectionist.configs["recommended-natural"]]),
       )
-      expect(config).toStrictEqual(
-        expect.arrayContaining([eslintConfigPrettier]),
-      )
+      expect(config).toStrictEqual(expect.arrayContaining([eslintConfigPrettier]))
     })
 
     test("Плагин deMorgan можно отключить", async () => {
       const config = await createESLintConfig({ plugins: { deMorgan: false } })
 
-      expect(config).not.toStrictEqual(
-        expect.arrayContaining([deMorgan.configs.recommended]),
-      )
+      expect(config).not.toStrictEqual(expect.arrayContaining([deMorgan.configs.recommended]))
     })
 
     test("Плагин e18e можно отключить", async () => {
       const config = await createESLintConfig({ plugins: { e18e: false } })
 
-      expect(config).not.toStrictEqual(
-        expect.arrayContaining([e18e.configs.recommended]),
-      )
+      expect(config).not.toStrictEqual(expect.arrayContaining([e18e.configs.recommended]))
     })
 
     test("Плагин perfectionist можно отключить", async () => {
-      const config = await createESLintConfig({
-        plugins: { perfectionist: false },
-      })
+      const config = await createESLintConfig({ plugins: { perfectionist: false } })
 
       expect(config).not.toStrictEqual(
         expect.arrayContaining([perfectionist.configs["recommended-natural"]]),
@@ -76,9 +64,7 @@ describe("Функция createESLintConfig", () => {
     test("Плагин prettier можно отключить", async () => {
       const config = await createESLintConfig({ plugins: { prettier: false } })
 
-      expect(config).not.toStrictEqual(
-        expect.arrayContaining([eslintConfigPrettier]),
-      )
+      expect(config).not.toStrictEqual(expect.arrayContaining([eslintConfigPrettier]))
     })
   })
 
@@ -95,9 +81,7 @@ describe("Функция createESLintConfig", () => {
       const config = await createESLintConfig({ ignores })
 
       expect(hasConfigNamed(config, "general/user-ignore")).toBeTruthy()
-      expect(config).toStrictEqual(
-        expect.arrayContaining([expect.objectContaining({ ignores })]),
-      )
+      expect(config).toStrictEqual(expect.arrayContaining([expect.objectContaining({ ignores })]))
     })
 
     test("Пустой массив ignores не добавляет конфиг", async () => {

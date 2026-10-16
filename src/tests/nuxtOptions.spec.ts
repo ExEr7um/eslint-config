@@ -19,9 +19,7 @@ describe("Функция createNuxtOptions", () => {
   })
 
   test("Параметры по умолчанию можно переопределить", () => {
-    const nuxtOptions = createNuxtOptions({
-      features: { tooling: { unicorn: true } },
-    })
+    const nuxtOptions = createNuxtOptions({ features: { tooling: { unicorn: true } } })
 
     expect(nuxtOptions).toMatchInlineSnapshot(`
       {
@@ -36,9 +34,7 @@ describe("Функция createNuxtOptions", () => {
   })
 
   test("Новые параметры добавляются", () => {
-    const nuxtOptions = createNuxtOptions({
-      features: { tooling: { regexp: false } },
-    })
+    const nuxtOptions = createNuxtOptions({ features: { tooling: { regexp: false } } })
 
     expect(nuxtOptions).toMatchInlineSnapshot(`
       {

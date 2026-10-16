@@ -36,24 +36,14 @@ export default createESLintConfig()
 
 ```json
 {
-  "eslint.validate": [
-    "javascript",
-    "json",
-    "vue",
-    "typescript",
-    "yaml",
-    "github-actions-workflow"
-  ]
+  "eslint.validate": ["javascript", "json", "vue", "typescript", "yaml", "github-actions-workflow"]
 }
 ```
 
 Добавить команды для запуска в `package.json`:
 
 ```json
-{
-  "eslint": "eslint --max-warnings=0",
-  "eslint:fix": "eslint --max-warnings=0 --fix"
-}
+{ "eslint": "eslint --max-warnings=0", "eslint:fix": "eslint --max-warnings=0 --fix" }
 ```
 
 ## Конфигурация

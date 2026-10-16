@@ -33,14 +33,8 @@ export function hasConfigNamed(config: readonly Linter.Config[], name: string) {
  * @param filePath - Путь к файлу, для которого вычисляются правила
  * @returns Отсортированный объект `имя правила → уровень или [уровень, ...опции]`
  */
-export async function resolveRules(
-  config: readonly Linter.Config[],
-  filePath: string,
-) {
-  const eslint = new ESLint({
-    overrideConfig: config as Linter.Config[],
-    overrideConfigFile: true,
-  })
+export async function resolveRules(config: readonly Linter.Config[], filePath: string) {
+  const eslint = new ESLint({ overrideConfig: config as Linter.Config[], overrideConfigFile: true })
 
   const resolved = await eslint.calculateConfigForFile(filePath)
   const rules = (resolved.rules ?? {}) as Record<string, Linter.RuleEntry>

@@ -14,10 +14,7 @@ export default [
       "vue/define-emits-declaration": "error",
       "vue/define-macros-order": [
         "error",
-        {
-          defineExposeLast: true,
-          order: ["defineProps", "defineEmits", "defineModel"],
-        },
+        { defineExposeLast: true, order: ["defineProps", "defineEmits", "defineModel"] },
       ],
       "vue/define-props-declaration": "error",
       "vue/html-button-has-type": "error",
@@ -35,11 +32,7 @@ export default [
       "vue/require-default-prop": "off",
       "vue/require-prop-comment": ["error", { type: "JSDoc" }],
       "vue/require-typed-ref": "error",
-      "vue/v-bind-style": [
-        "error",
-        "shorthand",
-        { sameNameShorthand: "always" },
-      ],
+      "vue/v-bind-style": ["error", "shorthand", { sameNameShorthand: "always" }],
       "vue/v-for-delimiter-style": "error",
     },
   },

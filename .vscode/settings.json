@@ -1,8 +1,9 @@
 {
-  "cSpell.words": ["defu", "sonarjs", "tsdown", "vuejs"],
+  "cSpell.words": ["defu", "oxfmt", "sonarjs", "tsdown", "vuejs"],
   "editor.codeActionsOnSave": { "source.fixAll": "explicit" },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "oxc.oxc-vscode",
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
-  "eslint.validate": ["javascript", "json", "typescript", "yaml"]
+  "eslint.validate": ["javascript", "json", "typescript", "yaml"],
+  "oxc.fmt.disableNestedConfig": true
 }

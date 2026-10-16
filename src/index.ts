@@ -93,9 +93,7 @@ export default async function createESLintConfig(
 
   // Добавление дополнительных игнорируемых путей
   if (mergedOptions.ignores?.length) {
-    eslintConfig.push(
-      globalIgnores(mergedOptions.ignores, "general/user-ignore"),
-    )
+    eslintConfig.push(globalIgnores(mergedOptions.ignores, "general/user-ignore"))
   }
 
   return createConfigForNuxt(createNuxtOptions(nuxtOptions), eslintConfig)
