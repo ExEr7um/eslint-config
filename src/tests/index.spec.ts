@@ -6,7 +6,7 @@ import createConfigForNuxt from "@nuxt/eslint-config"
 import eslintConfigPrettier from "eslint-config-prettier"
 import deMorgan from "eslint-plugin-de-morgan"
 import perfectionist from "eslint-plugin-perfectionist"
-import { describe, expect, test, vi } from "vitest"
+import { describe, expect, test, vi } from "vite-plus/test"
 
 import createESLintConfig from "../index"
 import createNuxtOptions from "../nuxtOptions"
