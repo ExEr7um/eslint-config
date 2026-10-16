@@ -15,9 +15,7 @@ describe("Конфиг accessibility", () => {
   })
 
   test("Отключается через параметры", async () => {
-    const config = await createESLintConfig({
-      plugins: { accessibility: false },
-    })
+    const config = await createESLintConfig({ plugins: { accessibility: false } })
 
     expect(hasConfigNamed(config, name)).toBeFalsy()
   })

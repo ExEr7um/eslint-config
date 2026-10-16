@@ -7,10 +7,7 @@ export default [
     extends: [pluginVueA11y.configs["flat/recommended"]],
     name: "accessibility/base",
     rules: {
-      "vuejs-accessibility/alt-text": [
-        "error",
-        { img: ["NuxtImg", "LazyNuxtImg"] },
-      ],
+      "vuejs-accessibility/alt-text": ["error", { img: ["NuxtImg", "LazyNuxtImg"] }],
       "vuejs-accessibility/anchor-has-content": [
         "error",
         { components: ["NuxtLink", "LazyNuxtLink"] },
